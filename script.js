@@ -44,7 +44,6 @@ window.addEventListener('online', updateOnlineStatus);
 window.addEventListener('offline', updateOnlineStatus);
 
 // ==================== DATA STRUCTURES ====================
-// Each sentence has: en (English), pron (Arabic pronunciation), ar (Arabic translation)
 const coursesData = {
   courses: [
     {
@@ -65,15 +64,16 @@ const coursesData = {
       ],
       chapters: [
         {
-          name: "Asepsis",
+          name: "Asepsis - العقامة (الفصل الأول)",
           pdfUrl: "https://www.mediafire.com/file/3ngj0dww90i5i7f/Asepsis.pdf/file",
           pages: [
+            // ==================== PAGE 1: INTRODUCTION TO ASEPSIS ====================
             {
-              title: "مفهوم اللا إنتانية والكائنات الحية الدقيقة",
+              title: "مقدمة في العقامة (Asepsis) والكائنات الحية الدقيقة",
               sections: [
                 {
                   type: "heading",
-                  text: "🔬 أولاً: Asepsis — اللا إنتانية"
+                  text: "🩺 أولاً: Asepsis — العقامة (منع العدوى)"
                 },
                 {
                   type: "sentences",
@@ -86,7 +86,7 @@ const coursesData = {
                     {
                       en: "Asepsis means those practices that decrease or eliminate infectious agents, their reservoirs, and vehicles for transmission.",
                       pron: "أسيبسيس ميينز ذوز براكتسيز ذات ديكريس أور إليمينيت إنفيكشس إيجنتس، ذيير ريزيرڤوارز، آند ڤيهيكلز فور ترانسميشن.",
-                      ar: "اللا إنتانية (Asepsis) تعني الممارسات التي تقلل أو تقضي على العوامل المعدية ومستودعاتها ووسائل نقلها."
+                      ar: "العقامة (Asepsis) تعني الممارسات التي تقلل أو تقضي على العوامل المعدية ومستودعاتها ووسائل نقلها."
                     },
                     {
                       en: "It is the major method for controlling infection.",
@@ -98,12 +98,12 @@ const coursesData = {
                 {
                   type: "info",
                   style: "important",
-                  label: "💡 تحليل المصطلح",
-                  text: "\"A\" = بدون (Without) + \"Sepsis\" = إنتان / تعفن دم\n→ المعنى الكامل: بدون إنتان = منع العدوى\n\n⚠️ فرق مهم: Infection = عدوى | Sepsis = إنتان (حالة خطيرة)"
+                  label: "💡 تحليل المصطلح (Etymology)",
+                  text: "كلمة Asepsis تتكون من مقطعين:\n• \"A\" = بدون / نافية (Without)\n• \"Sepsis\" = إنتان / تعفن دم (Infection)\n\n→ المعنى الكامل: بدون إنتان = منع العدوى\n\n⚠️ فرق مهم: Infection = عدوى | Sepsis = إنتان (حالة خطيرة)"
                 },
                 {
                   type: "heading",
-                  text: "🦠 ثانياً: Microorganisms — الكائنات الحية الدقيقة"
+                  text: "🦠 ثانياً: Microorganisms — الكائنات الحية الدقيقة (الجراثيم)"
                 },
                 {
                   type: "sentences",
@@ -127,12 +127,13 @@ const coursesData = {
                 }
               ]
             },
+            // ==================== PAGE 2: TYPES OF MICROORGANISMS ====================
             {
-              title: "أنواع الكائنات الحية الدقيقة",
+              title: "أنواع الكائنات الحية الدقيقة (Types of Microorganisms)",
               sections: [
                 {
                   type: "heading",
-                  text: "🧫 Types of Microorganisms — أنواع الكائنات الحية الدقيقة"
+                  text: "🧫 تصنيف الكائنات الحية الدقيقة"
                 },
                 {
                   type: "sentences",
@@ -145,18 +146,18 @@ const coursesData = {
                     {
                       en: "Non-Pathogens are mutually beneficial, or neither harming nor helping the host.",
                       pron: "نون-باثوجنز آر ميوتشوالي بينيفيشل، أور نيذر هارمنج نور هيلبنج ذا هوست.",
-                      ar: "غير الممرضة: كائنات متعايشة أو نافعة أحياناً، ولا تسبب ضرراً للعائل."
+                      ar: "غير الممرضة: كائنات متعايشة أو نافعة أحياناً، ولا تسبب ضرراً للعائل (المضيف)."
                     },
                     {
-                      en: "Pathogens have high potential for causing infectious communicable diseases.",
-                      pron: "باثوجنز هاڤ هاي بوتنشل فور كوزنج إنفيكشس كوميونيكابل ديزيزز.",
-                      ar: "الممرضة: لديها إمكانية عالية للتسبب في أمراض معدية منقولة."
+                      en: "Pathogens have high potential for causing infectious communicable diseases, also called contagious diseases and community-acquired infections.",
+                      pron: "باثوجنز هاڤ هاي بوتنشل فور كوزنج إنفيكشس كوميونيكابل ديزيزز، أولسو كولد كونتايجس ديزيزز آند كوميونيتي-أكويرد إنفيكشنز.",
+                      ar: "الممرضة: لديها إمكانية عالية للتسبب في أمراض معدية منقولة، وتسمى أيضاً بالأمراض السارية (المعدية) والعدوى المكتسبة من المجتمع."
                     }
                   ]
                 },
                 {
                   type: "heading",
-                  text: "📋 أنواع الميكروبات المسببة للأمراض"
+                  text: "📋 أنواع الميكروبات المسببة للأمراض (Pathogenic Microorganisms)"
                 },
                 {
                   type: "terms",
@@ -164,10 +165,11 @@ const coursesData = {
                     { en: "Bacteria", pron: "باكتيريا", ar: "البكتيريا — كائنات حية دقيقة وحيدة الخلية" },
                     { en: "Viruses", pron: "ڤايرسز", ar: "الفيروسات — أصغر الكائنات الحية الدقيقة" },
                     { en: "Fungi", pron: "فانجاي", ar: "الفطريات — تشمل الخمائر والعفن" },
-                    { en: "Rickettsiae", pron: "ريكيتسيا", ar: "الريكتسيا — بكتيريا داخل خلوية، تنتقل عبر البراغيث والقمل" },
-                    { en: "Protozoans", pron: "بروتوزوانز", ar: "الأوليات — كائنات وحيدة الخلية مثل الأميبا" },
-                    { en: "Mycoplasmas", pron: "مايكوبلازمز", ar: "الميكوبلازما — تفتقر إلى جدار خلوي، متعددة الأشكال" },
-                    { en: "Helminths", pron: "هيلمينثس", ar: "الديدان الطفيلية — ديدان معدية" }
+                    { en: "Rickettsiae", pron: "ريكيتسيا", ar: "الريكتسيا — تشبه البكتيريا؛ توجد مثل الفيروسات في البراغيث والقمل" },
+                    { en: "Protozoans", pron: "بروتوزوانز", ar: "الأوليات (البروتوزوا) — كائنات وحيدة الخلية مثل الأميبا" },
+                    { en: "Mycoplasmas", pron: "مايكوبلازمز", ar: "الميكوبلازما — تفتقر إلى جدار خلوي، يشار إليها بأنها متعددة الأشكال (Pleomorphic)" },
+                    { en: "Helminths", pron: "هيلمينثس", ar: "الديدان الطفيلية — ديدان معدية" },
+                    { en: "Prions", pron: "برايونز", ar: "البريونات — بروتينات معدية تسبب أمراضاً تنكسية عصبية" }
                   ]
                 },
                 {
@@ -178,8 +180,9 @@ const coursesData = {
                 }
               ]
             },
+            // ==================== PAGE 3: SURVIVAL OF MICROORGANISMS & SPORES ====================
             {
-              title: "بقاء الميكروبات — Survival of Microorganisms",
+              title: "بقاء الميكروبات على قيد الحياة (Survival of Microorganisms) والأبواغ (Spores)",
               sections: [
                 {
                   type: "sentences",
@@ -198,7 +201,7 @@ const coursesData = {
                 },
                 {
                   type: "heading",
-                  text: "🔵 Spore — البوغة"
+                  text: "🔵 Spore — البوغة (الحويصلة)"
                 },
                 {
                   type: "sentences",
@@ -206,31 +209,32 @@ const coursesData = {
                     {
                       en: "A spore is a temporarily inactive microbial life form that can resist heat and destructive chemicals and survive without moisture.",
                       pron: "أ سبور إيز أ تمبورارلي إنآكتيڤ مايكروبيال لايف فورم ذات كان ريزيست هيت آند ديستراكتيڤ كيميكلز آند سيرڤايف ويذاوت مويستشر.",
-                      ar: "البوغة (Spore): هي شكل من أشكال الحياة الميكروبية غير النشطة مؤقتاً، والتي يمكنها مقاومة الحرارة والمواد الكيميائية المدمرة والبقاء دون رطوبة."
+                      ar: "البوغة (Spore): هي شكل من أشكال الحياة الميكروبية غير النشطة مؤقتاً، والتي يمكنها مقاومة الحرارة والمواد الكيميائية المدمرة والبقاء على قيد الحياة دون رطوبة."
                     }
                   ]
                 },
                 {
                   type: "list",
-                  label: "✅ خصائص البوغة",
+                  label: "✅ خصائص البوغة (Characteristics of Spores)",
                   items: [
                     "طور غير نشط مؤقتاً (Temporarily inactive)",
                     "تقاوم الحرارة العالية (Resist heat)",
                     "تقاوم المواد الكيميائية (Resist chemicals)",
                     "تعيش بدون رطوبة (Survive without moisture)",
-                    "تنشط مجدداً عند توفر الظروف المناسبة"
+                    "تنشط مجدداً عند توفر الظروف المناسبة (Reactivate when conditions become favorable)"
                   ]
                 },
                 {
                   type: "info",
                   style: "warning",
-                  label: "⚠️ الأهمية السريرية",
-                  text: "الأبواغ تجعل بعض البكتيريا مقاومة للتعقيم العادي وتتطلب التعقيم الجراحي (Sterilization).\nمثال: بكتيريا Clostridium difficile (C. diff)"
+                  label: "⚠️ الأهمية السريرية (Clinical Importance)",
+                  text: "الأبواغ تجعل بعض البكتيريا مقاومة للتعقيم العادي وتتطلب التعقيم الجراحي (Sterilization).\nمثال: بكتيريا Clostridium difficile (C. diff) المسببة للإسهال المرتبط بالمضادات الحيوية."
                 }
               ]
             },
+            // ==================== PAGE 4: CHAIN OF INFECTION ====================
             {
-              title: "سلسلة العدوى — Chain of Infection",
+              title: "سلسلة العدوى (Chain of Infection)",
               sections: [
                 {
                   type: "sentences",
@@ -239,6 +243,11 @@ const coursesData = {
                       en: "By interfering with the conditions that perpetuate the transmission of microorganisms, humans can avoid acquiring infectious diseases.",
                       pron: "باي إنترفيرنج ويذ ذا كوندشنز ذات بيربيتشويت ذا ترانسميشن أوف مايكرو-أورجانيزمز، هيومنز كان أڤويد أكواير'نج إنفيكشس ديزيزز.",
                       ar: "من خلال التدخل في الظروف التي تسمح باستمرار انتقال الكائنات الدقيقة، يمكن للبشر تجنب الإصابة بالأمراض المعدية."
+                    },
+                    {
+                      en: "The six essential components of the chain of infection must be in place if pathogens are to be transmitted from one location or person to another.",
+                      pron: "ذا سيكس إسينشل كومبوننتس أوف ذا تشين أوف إنفيكشن موست بي إن بليس إف باثوجنز آر تو بي ترانسميتد فروم ون لوكيشن أور بيرسن تو أناذر.",
+                      ar: "يجب أن تكتمل المكونات الستة الأساسية لسلسلة العدوى لكي تنتقل مسببات الأمراض من مكان أو شخص إلى آخر."
                     }
                   ]
                 },
@@ -249,28 +258,29 @@ const coursesData = {
                 {
                   type: "terms",
                   items: [
-                    { en: "1. Infectious Agent", pron: "إنفيكشس إيجنت", ar: "العامل المعدي — الميكروب المسبب للمرض" },
-                    { en: "2. Reservoir", pron: "ريزيرڤوار", ar: "المستودع — المكان الذي ينمو فيه الميكروب ويتكاثر" },
-                    { en: "3. Portal of Exit", pron: "بورتل أوف إكزيت", ar: "منفذ الخروج — كيف يخرج الميكروب من المستودع" },
-                    { en: "4. Mode of Transmission", pron: "مود أوف ترانسميشن", ar: "طريقة الانتقال — كيف ينتقل الميكروب" },
-                    { en: "5. Portal of Entry", pron: "بورتل أوف إنتري", ar: "منفذ الدخول — مكان دخول الميكروب للعائل" },
-                    { en: "6. Susceptible Host", pron: "سوسبتيبل هوست", ar: "العائل القابل للإصابة — شخص ضعيف المناعة" }
+                    { en: "1. Infectious Agent", pron: "إنفيكشس إيجنت", ar: "العامل المعدي — الميكروب المسبب للمرض (بكتيريا، فيروسات، فطريات، إلخ)" },
+                    { en: "2. Reservoir", pron: "ريزيرڤوار", ar: "المستودع — المكان الذي ينمو فيه الميكروب ويتكاثر (بيئة مناسبة للبقاء)" },
+                    { en: "3. Portal of Exit", pron: "بورتل أوف إكزيت", ar: "منفذ الخروج — كيف يخرج الميكروب من المستودع (الدم، الإفرازات، البول، البراز، الرذاذ)" },
+                    { en: "4. Mode of Transmission", pron: "مود أوف ترانسميشن", ar: "طريقة الانتقال — كيف ينتقل الميكروب إلى موقع آخر" },
+                    { en: "5. Portal of Entry", pron: "بورتل أوف إنتري", ar: "منفذ الدخول — مكان دخول الميكروب للعائل الجديد (الأغشية المخاطية، الجهاز التنفسي، الجروح)" },
+                    { en: "6. Susceptible Host", pron: "سوسبتيبل هوست", ar: "العائل القابل للإصابة — شخص لديه استعداد للمرض بسبب ضعف المناعة" }
                   ]
                 },
                 {
                   type: "info",
                   style: "important",
-                  label: "🎯 المبدأ الوقائي",
-                  text: "منع انتشار العدوى يعتمد على \"كسر\" حلقة واحدة على الأقل من الحلقات الست في سلسلة العدوى."
+                  label: "🎯 المبدأ الوقائي (The Preventive Principle)",
+                  text: "منع انتشار العدوى يعتمد على \"كسر\" حلقة واحدة على الأقل من الحلقات الست في سلسلة العدوى.\n\nأمثلة على المستودعات (Reservoirs):\n• الأشخاص (People) • المعدات (Equipment) • الماء (Water) • الجلد (Skin) • الدم (Blood) • جذوع الشعيرات (Shafts of hair) • الجروح المفتوحة (Open wounds) • السبيل الهضمي السفلي (Lower digestive tract) • الممرات الأنفية (Nasal passages)"
                 }
               ]
             },
+            // ==================== PAGE 5: METHODS OF TRANSMISSION ====================
             {
-              title: "طرق انتقال العدوى — Methods of Transmission",
+              title: "طرق انتقال العدوى (Methods of Transmission)",
               sections: [
                 {
                   type: "heading",
-                  text: "📡 طرق الانتقال الخمسة"
+                  text: "📡 طرق الانتقال (Methods of Transmission)"
                 },
                 {
                   type: "sentences",
@@ -283,34 +293,41 @@ const coursesData = {
                     {
                       en: "Indirect contact is contact between a susceptible person and a contaminated object.",
                       pron: "إيندايريكت كونتاكت إيز كونتاكت بيتوين أ سوسبتيبل بيرسن آند أ كونتامينيتد أوبجيكت.",
-                      ar: "التلامس غير المباشر: هو التماس بين شخص قابل للإصابة وجسم ملوث."
+                      ar: "التلامس غير المباشر: هو التماس بين شخص قابل للإصابة وجسم ملوث (Fomites)."
                     },
                     {
                       en: "Droplet transmission is the transfer of moist particles from an infected person who is within a radius of 3 feet.",
                       pron: "دروبليت ترانسميشن إيز ذا ترانسفر أوف مويست بارتيكلز فروم أن إنفيكتد بيرسن هو إيز ويذن أ رايدييس أوف ثري فيت.",
-                      ar: "انتقال القطيرات: نقل جزيئات رطبة من شخص مصاب ضمن نطاق 3 أقدام (90 سم)."
+                      ar: "انتقال القطيرات (الرذاذ): نقل جزيئات رطبة من شخص مصاب ضمن نطاق 3 أقدام (حوالي 90 سم). مثال: استنشاق القطيرات المنطلقة أثناء العطاس أو السعال أو التحدث."
                     },
                     {
                       en: "Airborne transmission is the movement of microorganisms attached to evaporated water droplets or dust particles carried over distances greater than 3 feet.",
                       pron: "إيربورن ترانسميشن إيز ذا موومنت أوف مايكرو-أورجانيزمز أتاتشد تو إيڤاپوريتد ووتر دروپليتس أور داست بارتيكلز.",
-                      ar: "الانتقال المحمول جواً: حركة الكائنات الدقيقة المرتبطة بقطيرات متبخرة أو جزيئات غبار تتجاوز مسافة 3 أقدام."
+                      ar: "الانتقال المحمول جواً: حركة الكائنات الدقيقة المرتبطة بقطيرات متبخرة أو جزيئات غبار تنتقل لمسافات تزيد عن 3 أقدام. مثال: استنشاق الأبواغ."
                     },
                     {
                       en: "Vehicle transmission is the transfer of microorganisms present in contaminated items such as food, water, medications, and equipment.",
                       pron: "ڤيهيكل ترانسميشن إيز ذا ترانسفر أوف مايكرو-أورجانيزمز بريزنت إن كونتامينيتد آيتمز.",
-                      ar: "الانتقال عبر وسائط: نقل الكائنات الدقيقة عبر مواد ملوثة كالطعام والماء والأدوية والمعدات."
+                      ar: "الانتقال عبر وسائط (ناقل غير حي): نقل الكائنات الدقيقة عبر مواد ملوثة كالطعام والماء والأدوية والمعدات. مثال: تناول ماء ملوث بالكائنات الدقيقة."
                     },
                     {
                       en: "Vector transmission is the transfer of microorganisms from an infected animal carrier.",
                       pron: "ڤيكتور ترانسميشن إيز ذا ترانسفر أوف مايكرو-أورجانيزمز فروم أن إنفيكتد أنيمل كاريير.",
-                      ar: "الانتقال بواسطة ناقل حيوي: نقل الكائنات الدقيقة من حيوان حامل مصاب (كالبعوض والبراغيث)."
+                      ar: "الانتقال بواسطة ناقل حيوي: نقل الكائنات الدقيقة من حيوان حامل مصاب. مثال: أمراض ينقلها البعوض، البراغيث، القراد، أو الجرذان."
                     }
                   ]
+                },
+                {
+                  type: "info",
+                  style: "tip",
+                  label: "📌 ملخص طرق الانتقال (Summary)",
+                  text: "• التلامس المباشر (Direct Contact) • التلامس غير المباشر (Indirect Contact)\n• القطيرات/الرذاذ (Droplet) • المحمول جواً (Airborne)\n• الوسيط/الناقل غير الحي (Vehicle) • الناقل الحي (Vector)"
                 }
               ]
             },
+            // ==================== PAGE 6: SUSCEPTIBLE HOST ====================
             {
-              title: "العائل القابل للإصابة — Susceptible Host",
+              title: "العائل القابل للإصابة (Susceptible Host)",
               sections: [
                 {
                   type: "sentences",
@@ -334,34 +351,41 @@ const coursesData = {
                 },
                 {
                   type: "list",
-                  label: "👥 الأشخاص الأكثر عرضة للإصابة",
+                  label: "👥 الأشخاص الأكثر عرضة للإصابة (High-Risk Groups)",
                   items: [
                     "كبار السن (Older adults) والرضع المبتسرون (Premature infants)",
                     "ضحايا الحروق (Burn victims)",
                     "من تعرضوا لرضوض كبيرة (Major trauma)",
+                    "مرضى السكري (Diabetes) والجراحة (Surgery)",
                     "من يحتاجون إجراءات تدخلية مثل التنظير (Endoscopy)",
-                    "من يحتاجون قسطرة بولية (Urinary catheter)",
-                    "متلقو الأجهزة الوريدية (Intravenous catheters)",
-                    "من يتلقون مضادات حيوية بطريقة غير مناسبة",
-                    "متلقو أدوية مثبطة للمناعة (Corticosteroids, Anticancer drugs)",
-                    "المصابون بفيروس نقص المناعة (HIV)"
+                    "من يحتاجون قسطرة بولية (Urinary catheter) أو أجهزة وريدية مقيمة (Indwelling IV catheters)",
+                    "من يتلقون مضادات حيوية بطريقة غير مناسبة (Inappropriate antibiotics) مما يعزز مقاومة الميكروبات",
+                    "متلقو أدوية مثبطة للمناعة (Immunosuppression) مثل الكورتيكوستيرويدات (Corticosteroids) والأدوية المضادة للسرطان (Anticancer drugs)",
+                    "المصابون بفيروس نقص المناعة البشرية (HIV)"
                   ]
+                },
+                {
+                  type: "info",
+                  style: "warning",
+                  label: "🏥 Nosocomial Infection (العدوى المكتسبة من المستشفى)",
+                  text: "تسمى أيضاً Hospital-acquired infection، وهي العدوى التي تصيب المريض أثناء تلقيه الرعاية داخل المستشفى. غالباً ما تنتج عن خلل في إجراءات التعقيم أو نظافة الطاقم الطبي. ميكروبات المستشفى غالباً مقاومة للمضادات الحيوية."
                 }
               ]
             },
+            // ==================== PAGE 7: TYPES OF ASEPSIS (MEDICAL VS SURGICAL) ====================
             {
-              title: "أنواع اللا إنتانية — Types of Asepsis",
+              title: "أنواع العقامة (Types of Asepsis): الطبي مقابل الجراحي",
               sections: [
                 {
                   type: "terms",
                   items: [
-                    { en: "Medical Asepsis", pron: "ميديكل أسيبسيس", ar: "اللا إنتانية الطبية (Clean Technique) — تقليل عدد الميكروبات ومنع انتشارها" },
-                    { en: "Surgical Asepsis", pron: "سيرجيكل أسيبسيس", ar: "اللا إنتانية الجراحية (Sterile Technique) — القضاء التام على جميع الميكروبات بما فيها الأبواغ" }
+                    { en: "Medical Asepsis", pron: "ميديكل أسيبسيس", ar: "العقامة الطبية (التقنية النظيفة - Clean Technique) — الممارسات التي تقلل عدد الميكروبات وتمنع انتشارها" },
+                    { en: "Surgical Asepsis", pron: "سيرجيكل أسيبسيس", ar: "العقامة الجراحية (التقنية المعقمة - Sterile Technique) — القضاء التام على جميع الميكروبات بما فيها الأبواغ" }
                   ]
                 },
                 {
                   type: "heading",
-                  text: "📜 قواعد اللا إنتانية الطبية"
+                  text: "📜 قواعد العقامة الطبية (Principles of Medical Asepsis)"
                 },
                 {
                   type: "sentences",
@@ -387,43 +411,67 @@ const coursesData = {
                       ar: "معدات الوقاية الشخصية (PPE) — القفازات، الأردية، الأقنعة، النظارات، أغطية الرأس والحذاء — تشكل حاجزاً ضد انتقال الميكروبات."
                     },
                     {
+                      en: "A clean environment reduces microorganisms.",
+                      pron: "أ كلين إنڤايرونمنت ريديوسز مايكرو-أورجانيزمز.",
+                      ar: "البيئة النظيفة تقلل من الكائنات الحية الدقيقة."
+                    },
+                    {
+                      en: "Certain areas—the floor, toilets, and insides of sinks—are more contaminated than others.",
+                      pron: "سيرتن إيرياز — ذا فلور، تويليتس، آند إنسايدز أوف سينكس — آر مور كونتامينيتد ذان أذرس.",
+                      ar: "بعض المناطق — الأرضية، المراحيض، وداخل الأحواض — أكثر تلوثاً من غيرها."
+                    },
+                    {
                       en: "Cleaning should be done from cleaner to dirtier areas.",
                       pron: "كليننج شود بي دان فروم كليينر تو ديرتيير إيريياز.",
                       ar: "يجب أن يتم التنظيف من المناطق النظيفة إلى المناطق المتسخة."
                     }
                   ]
+                },
+                {
+                  type: "list",
+                  label: "🧼 أمثلة على ممارسات العقامة الطبية (Examples of Medical Aseptic Practices)",
+                  items: [
+                    "استخدام العوامل المضادة للميكروبات (Using antimicrobial agents)",
+                    "غسل اليدين (Performing hand hygiene)",
+                    "ارتداء الملابس المستشفى (Wearing hospital garments)",
+                    "حصر المواد المتسخة بشكل مناسب (Confining and containing soiled materials appropriately)",
+                    "الحفاظ على البيئة نظيفة قدر الإمكان (Keeping the environment as clean as possible)"
+                  ]
                 }
               ]
             },
+            // ==================== PAGE 8: ANTIMICROBIAL AGENTS (TABLE 10-2) ====================
             {
-              title: "العوامل المضادة للميكروبات — Antimicrobial Agents",
+              title: "العوامل المضادة للميكروبات (Antimicrobial Agents) — جدول 10-2",
               sections: [
                 {
                   type: "heading",
-                  text: "🧪 جدول العوامل المضادة للميكروبات"
+                  text: "🧪 جدول العوامل المضادة للميكروبات (Antimicrobial Agents)"
                 },
                 {
                   type: "terms",
                   items: [
-                    { en: "Soap", pron: "سوب", ar: "الصابون — يخفض التوتر السطحي للزيت على الجلد، يسهل الإزالة أثناء الشطف. الاستخدام: النظافة الشخصية" },
-                    { en: "Detergent", pron: "ديترجنت", ar: "المنظف — يعمل مثل الصابون ولا يشكل راسباً مع الماء. الاستخدام: تعقيم أدوات الأكل والغسيل" },
-                    { en: "Alcohol 70%", pron: "ألكوهول سيڤنتي بيرسنت", ar: "الكحول 70% — يصيب البروتين والدهون في الغشاء الخلوي. الاستخدام: تنظيف الجلد والأدوات" },
+                    { en: "Soap", pron: "سوب", ar: "الصابون — يخفض التوتر السطحي للزيت على الجلد مما يسهل إزالة الميكروبات أثناء الشطف. الاستخدام: النظافة الشخصية. أمثلة: Dial, Safeguard" },
+                    { en: "Detergent", pron: "ديترجنت", ar: "المنظف — يعمل مثل الصابون لكنه لا يشكل راسباً مع الماء العسر. الاستخدام: تعقيم أدوات الأكل والغسيل. أمثلة: Dreft, Tide" },
+                    { en: "Alcohol (70%)", pron: "ألكوهول سيڤنتي بيرسنت", ar: "الكحول 70% — يصيب البروتين والدهون في الغشاء الخلوي. الاستخدام: تنظيف الجلد والأدوات. مثال: Isopropyl ethanol" },
                     { en: "Iodine (Betadine)", pron: "أيودين (بيتادين)", ar: "اليود — يتلف الغشاء الخلوي ويعطل الإنزيمات. غير فعال ضد Pseudomonas. الاستخدام: تنظيف الجلد" },
-                    { en: "Chlorine (Bleach)", pron: "كلورين (بليتش)", ar: "الكلور — يتداخل مع أنظمة الإنزيمات الميكروبية. الاستخدام: تطهير الماء والأسطح وبقع الدم" },
+                    { en: "Chlorine (Bleach)", pron: "كلورين (بليتش)", ar: "الكلور — يتداخل مع أنظمة الإنزيمات الميكروبية. الاستخدام: تطهير الماء والأسطح وبقع الدم. أمثلة: Bleach, Clorox" },
                     { en: "Chlorhexidine (Hibiclens)", pron: "كلوروهيكسيدين (هيبيكلينس)", ar: "الكلورهيكسيدين — يتلف الغشاء الخلوي. غير فعال ضد الأبواغ ومعظم الفيروسات. الاستخدام: الجلد والمعدات" },
-                    { en: "Glutaraldehyde (Cidex)", pron: "جلوتارالدهايد (سايدكس)", ar: "الغلوتارالدهيد — يعطل بروتينات البكتيريا والفيروسات والأبواغ. الاستخدام: تعقيم المعدات" }
+                    { en: "Mercury", pron: "ميركوري", ar: "الزئبق — يغير بروتينات الخلايا الميكروبية. الاستخدام: تطهير الجلد. أمثلة: Merthiolate, Mercurochrome" },
+                    { en: "Glutaraldehyde (Cidex)", pron: "جلوتارالدهايد (سايدكس)", ar: "الغلوتارالدهيد — يعطل بروتينات البكتيريا والفيروسات والميكروبات التي تشكل الأبواغ. الاستخدام: تعقيم المعدات" }
                   ]
                 },
                 {
                   type: "info",
                   style: "important",
-                  label: "🔑 فرق مهم",
-                  text: "Antiseptics (مطهرات) → تستخدم على الجلد، تمنع نمو الميكروبات\nDisinfectants (معقمات) → تستخدم للأسطح والجدران، تقتل الميكروبات النشطة\n\nAntibiotic → يؤثر على البكتيريا فقط، لا يعالج الفيروسات\nAntiviral → يتحكم في تكاثر الفيروسات"
+                  label: "🔑 فرق مهم: Antiseptics vs Disinfectants vs Antibiotics",
+                  text: "• Antiseptics (مطهرات) → تستخدم على الجلد، تمنع نمو الميكروبات. مثال: الكحول، اليود\n• Disinfectants (معقمات) → تستخدم للأسطح والجدران، تقتل الميكروبات النشطة (ليس بالضرورة الأبواغ). مثال: الكلور، الفورمالديهايد\n\n• Antibiotics (مضادات حيوية) → تؤثر على البكتيريا فقط، لا تعالج الفيروسات. تتلف جدار الخلية البكتيرية أو آليات التكاثر\n• Antivirals (مضادات فيروسية) → لا تدمر الفيروسات بل تتحكم في تكاثرها أو إطلاقها من الخلايا المصابة"
                 }
               ]
             },
+            // ==================== PAGE 9: HAND WASHING & SURGICAL SCRUB (TABLE 10-3) ====================
             {
-              title: "غسل اليدين والفرك الجراحي",
+              title: "غسل اليدين (Hand Washing) والتعقيم الجراحي (Surgical Scrub)",
               sections: [
                 {
                   type: "heading",
@@ -451,7 +499,36 @@ const coursesData = {
                 },
                 {
                   type: "heading",
-                  text: "🔬 Surgical Hand Antisepsis — الفرك الجراحي"
+                  text: "🧴 Alcohol-Based Hand Rubs — فرك اليدين بالكحول"
+                },
+                {
+                  type: "sentences",
+                  items: [
+                    {
+                      en: "Alcohol-based hand rubs remove microorganisms on the hands.",
+                      pron: "ألكوهول-بيزد هاند رابس ريموف مايكرو-أورجانيزمز أون ذا هاندز.",
+                      ar: "فرك اليدين بالكحول يزيل الكائنات الدقيقة من اليدين."
+                    },
+                    {
+                      en: "Alcohol formulations have a brief rather than sustained antiseptic effect, so nurses must reuse them over the course of a day.",
+                      pron: "ألكوهول فورموليشنز هاڤ أ بريف راذر ذان سستيند أنتيسيبتيك إفيكت، سو نيرسز موست رييوز ذيم أوفر ذا كورس أوف أ داي.",
+                      ar: "التركيبات الكحولية لها تأثير مطهر قصير وليس طويل الأمد، لذلك يجب على الممرضين إعادة استخدامها على مدار اليوم."
+                    }
+                  ]
+                },
+                {
+                  type: "list",
+                  label: "✅ مزايا فرك اليدين بالكحول (Advantages of Alcohol-Based Hand Rubs)",
+                  items: [
+                    "يستغرق وقتاً أقل (Takes less time)",
+                    "أكثر سهولة في الوصول (More accessible)",
+                    "يزيد الالتزام بممارسات النظافة (Increases compliance)",
+                    "يوفر الراحة كونه موجوداً في نقطة رعاية المريض (Provides convenience at point of care)"
+                  ]
+                },
+                {
+                  type: "heading",
+                  text: "🔬 Surgical Hand Antisepsis — التعقيم الجراحي لليدين (الفرك الجراحي)"
                 },
                 {
                   type: "sentences",
@@ -459,37 +536,55 @@ const coursesData = {
                     {
                       en: "A surgical scrub is performed before donning sterile gloves and garments when the nurse is actively involved in an operative or obstetric procedure.",
                       pron: "أ سيرجيكل سكراب إيز بيرفورمد بيفور دوننج ستيريل غلاڤز آند جارمنتس وين ذا نيرس إيز أكتيڤلي إنڤولڤد إن أن أوپيراتيڤ أور أوبستيتريك بروسيجر.",
-                      ar: "الفرك الجراحي يُؤدى قبل ارتداء القفازات والملابس المعقمة عند مشاركة الممرض في عملية جراحية أو توليدية."
+                      ar: "الفرك الجراحي يُؤدى قبل ارتداء القفازات والملابس المعقمة عندما يشارك الممرض بنشاط في إجراء عملية جراحية أو توليدية."
+                    },
+                    {
+                      en: "The purpose is to more extensively remove transient microorganisms from the nails, hands, and forearms.",
+                      pron: "ذا بَيربَوس إيز تو مور إكستنسیفلي ريموف ترانزنَت مايكرو-أورجانيزمز فروم ذا نيلز، هاندز، آند فورآرمز.",
+                      ar: "الهدف هو إزالة الكائنات الدقيقة العابرة بشكل أكثر شمولاً من الأظافر واليدين والساعدين."
                     }
                   ]
                 },
                 {
                   type: "heading",
-                  text: "📊 مقارنة: غسل اليدين مقابل الفرك الجراحي"
+                  text: "📊 مقارنة: غسل اليدين مقابل التعقيم الجراحي (جدول 10-3)"
                 },
                 {
                   type: "terms",
                   items: [
-                    { en: "Hand Washing — Duration", pron: "هاند ووشنج", ar: "15 ثانية كحد أدنى | اليدين تحت مستوى المرفقين | صابون عادي | قفازات نظيفة" },
-                    { en: "Surgical Scrub — Duration", pron: "سيرجيكل سكراب", ar: "2-6 دقائق | اليدين فوق مستوى المرفقين | صابون مضاد للبكتيريا | قفازات معقمة فوراً بعد التجفيف" }
-                  ]
-                },
-                {
-                  type: "list",
-                  label: "💊 Personal Protective Equipment (PPE) — معدات الوقاية الشخصية",
-                  items: [
-                    "Uniforms (الزي الرسمي)",
-                    "Scrub suits or gowns (البدلات الجراحية أو الأردية)",
-                    "Masks (الأقنعة)",
-                    "Gloves (القفازات) — نظيفة للفحص، معقمة للعمليات",
-                    "Protective eyewear (النظارات الواقية)"
+                    { en: "Hand Washing — Jewelry", pron: "هاند ووشنج", ar: "قد يُلبس خاتم زواج عادي (Plain wedding band may be worn)" },
+                    { en: "Surgical Scrub — Jewelry", pron: "سيرجيكل سكراب", ar: "تُخلع جميع حلي اليد بما فيها الساعات (All jewelry removed)" },
+                    { en: "Hand Washing — Duration", pron: "هاند ووشنج", ar: "15 ثانية كحد أدنى (Minimum 15 seconds)" },
+                    { en: "Surgical Scrub — Duration", pron: "سيرجيكل سكراب", ar: "2-6 دقائق حسب العامل المضاد (2-6 minutes)" },
+                    { en: "Hand Washing — Hand Position", pron: "هاند ووشنج", ar: "اليدين تحت مستوى المرفقين (Hands lower than elbows)" },
+                    { en: "Surgical Scrub — Hand Position", pron: "سيرجيكل سكراب", ar: "اليدين فوق مستوى المرفقين (Hands higher than elbows)" },
+                    { en: "Hand Washing — Product", pron: "هاند ووشنج", ar: "صابون عادي (Regular soap)" },
+                    { en: "Surgical Scrub — Product", pron: "سيرجيكل سكراب", ar: "صابون سائل مضاد للبكتيريا + فرشاة/إسفنجة (Antibacterial soap + brush/sponge)" },
+                    { en: "Hand Washing — Drying", pron: "هاند ووشنج", ar: "مناشف ورقية (Paper towels)" },
+                    { en: "Surgical Scrub — Drying", pron: "سيرجيكل سكراب", ar: "مناشف معقمة (Sterile towels)" },
+                    { en: "Hand Washing — Gloves", pron: "هاند ووشنج", ar: "قفازات نظيفة (Clean gloves)" },
+                    { en: "Surgical Scrub — Gloves", pron: "سيرجيكل سكراب", ar: "قفازات معقمة فوراً بعد التجفيف (Sterile gloves immediately)" }
                   ]
                 }
               ]
             },
+            // ==================== PAGE 10: PPE & ENVIRONMENTAL HYGIENE ====================
             {
-              title: "حصر المواد المتسخة ونظافة البيئة",
+              title: "معدات الوقاية الشخصية (PPE) ونظافة البيئة",
               sections: [
+                {
+                  type: "list",
+                  label: "🛡️ Personal Protective Equipment (PPE) — معدات الوقاية الشخصية",
+                  items: [
+                    "Uniforms (الزي الرسمي)",
+                    "Scrub suits or gowns (البدلات الجراحية أو الأردية)",
+                    "Masks (الأقنعة)",
+                    "Gloves (القفازات) — نظيفة للفحص (Clean/Examination)، معقمة للعمليات (Sterile)",
+                    "Protective eyewear / goggles (النظارات الواقية)",
+                    "Hair covers (أغطية الرأس)",
+                    "Shoe covers (أغطية الحذاء)"
+                  ]
+                },
                 {
                   type: "heading",
                   text: "🏥 Confining Soiled Articles — حصر المواد المتسخة"
@@ -516,18 +611,18 @@ const coursesData = {
                 },
                 {
                   type: "list",
-                  label: "🧹 ملاحظات نظافة البيئة",
+                  label: "🧹 ملاحظات نظافة البيئة (Environmental Hygiene Notes)",
                   items: [
                     "غرف الخدمات (Utility Rooms): نظيفة ومتسخة منفصلة",
                     "صناديق الأدوات الحادة (Sharps Containers): للتخلص من الإبر والشفرات",
-                    "التطهير النهائي (Terminal Disinfection): تنظيف شامل للغرفة والسرير والجدران بالكلور بعد خروج المريض"
+                    "التطهير النهائي (Terminal Disinfection): تنظيف شامل للغرفة والسرير والجدران بالكلور بعد خروج المريض (Discharge)"
                   ]
                 },
                 {
                   type: "info",
                   style: "tip",
                   label: "🎓 ملاحظة ختامية",
-                  text: "Nosocomial Infection = Hospital-acquired infection = العدوى المكتسبة من المستشفى\nغالباً تنتج عن خلل في إجراءات التعقيم أو نظافة الطاقم الطبي.\nميكروبات المستشفى غالباً مقاومة للمضادات الحيوية."
+                  text: "Nosocomial Infection = Hospital-acquired infection = العدوى المكتسبة من المستشفى\nغالباً تنتج عن خلل في إجراءات التعقيم أو نظافة الطاقم الطبي.\nميكروبات المستشفى غالباً مقاومة للمضادات الحيوية.\n\nتذكر: منع العدوى يبدأ بفهم سلسلة العدوى وكسر إحدى حلقاتها!"
                 }
               ]
             }
