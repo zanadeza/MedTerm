@@ -67,6 +67,42 @@ const coursesData = {
           name: "Asepsis - العقامة (الفصل الأول)",
           pdfUrl: "https://www.mediafire.com/file/3ngj0dww90i5i7f/Asepsis.pdf/file",
           pages: [
+            // ==================== PAGE 0: LEARNING OBJECTIVES (NEW) ====================
+            {
+              title: "📚 أهداف التعلم (Learning Objectives)",
+              sections: [
+                {
+                  type: "heading",
+                  text: "🎯 أهداف هذا الفصل"
+                },
+                {
+                  type: "list",
+                  label: "بعد دراسة هذا الفصل، يجب أن تكون قادراً على:",
+                  items: [
+                    "1. Describe microorganisms. (وصف الكائنات الحية الدقيقة)",
+                    "2. Name and describe eight specific types of microorganisms. (تسمية ووصف 8 أنواع محددة من الكائنات الدقيقة)",
+                    "3. Differentiate between nonpathogens and pathogens, resident and transient microorganisms, and aerobic and anaerobic microorganisms. (التفريق بين غير الممرضات والممرضات، والميكروبات المقيمة والعابرة، والهوائية واللاهوائية)",
+                    "4. Give two examples of the ways some microorganisms have adapted for their survival. (إعطاء مثالين على طرق تكيف الكائنات الدقيقة للبقاء)",
+                    "5. Name the six components in the chain of infection. (تسمية المكونات الستة لسلسلة العدوى)",
+                    "6. Cite examples of biologic defense mechanisms. (ذكر أمثلة على آليات الدفاع البيولوجي)",
+                    "7. Define health care-associated infection. (تعريف العدوى المرتبطة بالرعاية الصحية)",
+                    "8. Discuss the concept of asepsis. (مناقشة مفهوم العقامة)",
+                    "9. Differentiate between medical and surgical asepsis. (التفريق بين العقامة الطبية والجراحية)",
+                    "10. Identify at least three principles of medical asepsis. (تحديد 3 مبادئ على الأقل للعقامة الطبية)",
+                    "11. List five examples of medical aseptic practices. (سرد 5 أمثلة على ممارسات العقامة الطبية)",
+                    "12. Name at least three techniques for sterilizing equipment. (تسمية 3 تقنيات على الأقل لتعقيم المعدات)",
+                    "13. Identify at least three principles of surgical asepsis. (تحديد 3 مبادئ على الأقل للعقامة الجراحية)",
+                    "14. List at least three nursing activities that require application of the principles of surgical asepsis. (سرد 3 أنشطة تمريضية تتطلب تطبيق مبادئ العقامة الجراحية)"
+                  ]
+                },
+                {
+                  type: "info",
+                  style: "important",
+                  label: "📌 ملاحظة",
+                  text: "هذه الأهداف ستساعدك في التركيز على أهم النقاط أثناء دراسة هذا الفصل. تأكد من مراجعتها قبل وبعد الدراسة."
+                }
+              ]
+            },
             // ==================== PAGE 1: INTRODUCTION TO ASEPSIS ====================
             {
               title: "مقدمة في العقامة (Asepsis) والكائنات الحية الدقيقة",
@@ -157,6 +193,19 @@ const coursesData = {
                 },
                 {
                   type: "heading",
+                  text: "📋 التصنيفات الإضافية للميكروبات"
+                },
+                {
+                  type: "terms",
+                  items: [
+                    { en: "Resident Microorganisms", pron: "ريزيدنت مايكروأورغانيزمز", ar: "الميكروبات المقيمة — تعيش بشكل دائم على الجلد والأغشية المخاطية، عادة غير ضارة وقد تكون مفيدة" },
+                    { en: "Transient Microorganisms", pron: "ترانزنَت مايكروأورغانيزمز", ar: "الميكروبات العابرة — تلتقطها اليدين من الأسطح الملوثة، يمكن إزالتها بسهولة بغسل اليدين" },
+                    { en: "Aerobic Microorganisms", pron: "إيروبيك مايكروأورغانيزمز", ar: "الميكروبات الهوائية — تحتاج إلى الأكسجين للعيش والنمو" },
+                    { en: "Anaerobic Microorganisms", pron: "أنيروبيك مايكروأورغانيزمز", ar: "الميكروبات اللاهوائية — تعيش وتنمو في غياب الأكسجين" }
+                  ]
+                },
+                {
+                  type: "heading",
                   text: "📋 أنواع الميكروبات المسببة للأمراض (Pathogenic Microorganisms)"
                 },
                 {
@@ -176,7 +225,7 @@ const coursesData = {
                   type: "info",
                   style: "tip",
                   label: "💡 معلومة مهمة",
-                  text: "بعض الكائنات الدقيقة أقل خطورة من غيرها. مثال: البكتيريا المعوية تساعد في إنتاج فيتامين K الذي يساعد في السيطرة على النزيف."
+                  text: "بعض الكائنات الدقيقة أقل خطورة من غيرها. مثال: البكتيريا المعوية تساعد في إنتاج فيتامين K الذي يساعد في السيطرة على النزيف.\n\nمقارنة سريعة:\n• Resident vs Transient: المقيمة دائمة والعالقة سطحياً، العابرة مكتسبة من البيئة\n• Aerobic vs Anaerobic: الهوائية تحتاج أكسجين، اللاهوائية تعيش بدونه"
                 }
               ]
             },
@@ -228,7 +277,7 @@ const coursesData = {
                   type: "info",
                   style: "warning",
                   label: "⚠️ الأهمية السريرية (Clinical Importance)",
-                  text: "الأبواغ تجعل بعض البكتيريا مقاومة للتعقيم العادي وتتطلب التعقيم الجراحي (Sterilization).\nمثال: بكتيريا Clostridium difficile (C. diff) المسببة للإسهال المرتبط بالمضادات الحيوية."
+                  text: "الأبواغ تجعل بعض البكتيريا مقاومة للتعقيم العادي وتتطلب التعقيم الجراحي (Sterilization).\nمثال: بكتيريا Clostridium difficile (C. diff) المسببة للإسهال المرتبط بالمضادات الحيوية.\n\n📌 مثال آخر على تكيف الميكروبات: بعض البكتيريا تنتج إنزيمات تقاوم المضادات الحيوية (مقاومة المضادات الحيوية)."
                 }
               ]
             },
@@ -260,7 +309,7 @@ const coursesData = {
                   items: [
                     { en: "1. Infectious Agent", pron: "إنفيكشس إيجنت", ar: "العامل المعدي — الميكروب المسبب للمرض (بكتيريا، فيروسات، فطريات، إلخ)" },
                     { en: "2. Reservoir", pron: "ريزيرڤوار", ar: "المستودع — المكان الذي ينمو فيه الميكروب ويتكاثر (بيئة مناسبة للبقاء)" },
-                    { en: "3. Portal of Exit", pron: "بورتل أوف إكزيت", ar: "منفذ الخروج — كيف يخرج الميكروب من المستودع (الدم، الإفرازات، البول، البراز، الرذاذ)" },
+                    { en: "3. Portal of Exit (Exit Route)", pron: "بورتل أوف إكزيت", ar: "منفذ الخروج — كيف يخرج الميكروب من المستودع. The exit route is how microorganisms escape from their original reservoir and move about." },
                     { en: "4. Mode of Transmission", pron: "مود أوف ترانسميشن", ar: "طريقة الانتقال — كيف ينتقل الميكروب إلى موقع آخر" },
                     { en: "5. Portal of Entry", pron: "بورتل أوف إنتري", ar: "منفذ الدخول — مكان دخول الميكروب للعائل الجديد (الأغشية المخاطية، الجهاز التنفسي، الجروح)" },
                     { en: "6. Susceptible Host", pron: "سوسبتيبل هوست", ar: "العائل القابل للإصابة — شخص لديه استعداد للمرض بسبب ضعف المناعة" }
@@ -270,7 +319,7 @@ const coursesData = {
                   type: "info",
                   style: "important",
                   label: "🎯 المبدأ الوقائي (The Preventive Principle)",
-                  text: "منع انتشار العدوى يعتمد على \"كسر\" حلقة واحدة على الأقل من الحلقات الست في سلسلة العدوى.\n\nأمثلة على المستودعات (Reservoirs):\n• الأشخاص (People) • المعدات (Equipment) • الماء (Water) • الجلد (Skin) • الدم (Blood) • جذوع الشعيرات (Shafts of hair) • الجروح المفتوحة (Open wounds) • السبيل الهضمي السفلي (Lower digestive tract) • الممرات الأنفية (Nasal passages)"
+                  text: "منع انتشار العدوى يعتمد على \"كسر\" حلقة واحدة على الأقل من الحلقات الست في سلسلة العدوى.\n\nأمثلة على المستودعات (Reservoirs):\n• الأشخاص (People) • المعدات (Equipment) • الماء (Water) • الجلد (Skin) • الدم (Blood) • جذوع الشعيرات (Shafts of hair) • الجروح المفتوحة (Open wounds) • السبيل الهضمي السفلي (Lower digestive tract) • الممرات الأنفية (Nasal passages)\n\n🧬 أمثلة على آليات الدفاع البيولوجي (Biologic Defense Mechanisms):\n• الجلد السليم (Intact skin)\n• الأغشية المخاطية (Mucous membranes)\n• حمض المعدة (Stomach acid)\n• خلايا الدم البيضاء (White blood cells)\n• الجهاز المناعي (Immune system)"
                 }
               ]
             },
@@ -288,12 +337,12 @@ const coursesData = {
                     {
                       en: "Direct contact transmission is the actual physical transfer from one infected person to another (body surface to body surface contact).",
                       pron: "دايريكت كونتاكت ترانسميشن إيز ذا آكتشوال فيزيكل ترانسفر فروم ون إنفيكتد بيرسن تو أناذر.",
-                      ar: "انتقال التلامس المباشر: هو النقل الفيزيائي الفعلي من شخص مصاب إلى آخر (تلامس سطح الجسم مع سطح الجسم)."
+                      ar: "انتقال التلامس المباشر: هو النقل الفيزيائي الفعلي من شخص مصاب إلى آخر (تلامس سطح الجسم مع سطح الجسم). مثال: الجماع مع شخص مصاب."
                     },
                     {
                       en: "Indirect contact is contact between a susceptible person and a contaminated object.",
                       pron: "إيندايريكت كونتاكت إيز كونتاكت بيتوين أ سوسبتيبل بيرسن آند أ كونتامينيتد أوبجيكت.",
-                      ar: "التلامس غير المباشر: هو التماس بين شخص قابل للإصابة وجسم ملوث (Fomites)."
+                      ar: "التلامس غير المباشر: هو التماس بين شخص قابل للإصابة وجسم ملوث (Fomites). مثال: استخدام أداة جراحية ملوثة."
                     },
                     {
                       en: "Droplet transmission is the transfer of moist particles from an infected person who is within a radius of 3 feet.",
@@ -325,9 +374,9 @@ const coursesData = {
                 }
               ]
             },
-            // ==================== PAGE 6: SUSCEPTIBLE HOST ====================
+            // ==================== PAGE 6: SUSCEPTIBLE HOST & NOSOCOMIAL INFECTION ====================
             {
-              title: "العائل القابل للإصابة (Susceptible Host)",
+              title: "العائل القابل للإصابة (Susceptible Host) والعدوى المكتسبة من المستشفى",
               sections: [
                 {
                   type: "sentences",
@@ -345,7 +394,7 @@ const coursesData = {
                     {
                       en: "Nurses must understand and practice methods to prevent nosocomial infections (infections acquired while a person is receiving care in a health care agency).",
                       pron: "نيرسز موست أندرستاند آند براكتس ميثودز تو بريڤنت نوزوكوميال إنفيكشنز.",
-                      ar: "يجب على الممرضين فهم وممارسة أساليب الوقاية من العدوى المكتسبة في المستشفى (Nosocomial Infections)."
+                      ar: "يجب على الممرضين فهم وممارسة أساليب الوقاية من العدوى المكتسبة في المستشفى (Nosocomial Infections / Health care-associated infections)."
                     }
                   ]
                 },
@@ -367,8 +416,8 @@ const coursesData = {
                 {
                   type: "info",
                   style: "warning",
-                  label: "🏥 Nosocomial Infection (العدوى المكتسبة من المستشفى)",
-                  text: "تسمى أيضاً Hospital-acquired infection، وهي العدوى التي تصيب المريض أثناء تلقيه الرعاية داخل المستشفى. غالباً ما تنتج عن خلل في إجراءات التعقيم أو نظافة الطاقم الطبي. ميكروبات المستشفى غالباً مقاومة للمضادات الحيوية."
+                  label: "🏥 Health care-associated Infection (العدوى المرتبطة بالرعاية الصحية)",
+                  text: "تسمى أيضاً Nosocomial Infection أو Hospital-acquired infection، وهي العدوى التي تصيب المريض أثناء تلقيه الرعاية داخل المستشفى أو أي منشأة صحية. غالباً ما تنتج عن خلل في إجراءات التعقيم أو نظافة الطاقم الطبي. ميكروبات المستشفى غالباً مقاومة للمضادات الحيوية."
                 }
               ]
             },
@@ -379,7 +428,7 @@ const coursesData = {
                 {
                   type: "terms",
                   items: [
-                    { en: "Medical Asepsis", pron: "ميديكل أسيبسيس", ar: "العقامة الطبية (التقنية النظيفة - Clean Technique) — الممارسات التي تقلل عدد الميكروبات وتمنع انتشارها" },
+                    { en: "Medical Asepsis", pron: "ميديكل أسيبسيس", ar: "العقامة الطبية (التقنية النظيفة - Clean Technique) — الممارسات التي تقلل أو تحصر (confine or reduce) عدد الميكروبات وتمنع انتشارها" },
                     { en: "Surgical Asepsis", pron: "سيرجيكل أسيبسيس", ar: "العقامة الجراحية (التقنية المعقمة - Sterile Technique) — القضاء التام على جميع الميكروبات بما فيها الأبواغ" }
                   ]
                 },
@@ -440,36 +489,79 @@ const coursesData = {
                 }
               ]
             },
-            // ==================== PAGE 8: ANTIMICROBIAL AGENTS (TABLE 10-2) ====================
+            // ==================== PAGE 8: ANTIMICROBIAL AGENTS ====================
             {
-              title: "العوامل المضادة للميكروبات (Antimicrobial Agents) — جدول 10-2",
+              title: "العوامل المضادة للميكروبات (Antimicrobial Agents)",
               sections: [
                 {
                   type: "heading",
-                  text: "🧪 جدول العوامل المضادة للميكروبات (Antimicrobial Agents)"
+                  text: "🧪 تعريف العوامل المضادة للميكروبات"
+                },
+                {
+                  type: "sentences",
+                  items: [
+                    {
+                      en: "Antimicrobial agents are chemicals that destroy or suppress the growth of infectious microorganisms.",
+                      pron: "أنتيمايكروبيال إيجنتس آر كيميكلز ذات ديستروي أور سابريس ذا غروث أوف إنفيكشس مايكروأورغانيزمز.",
+                      ar: "العوامل المضادة للميكروبات هي مواد كيميائية تدمر أو تثبط نمو الكائنات الدقيقة المعدية."
+                    }
+                  ]
+                },
+                {
+                  type: "heading",
+                  text: "🧴 Antiseptics vs Disinfectants — المطهرات مقابل المعقمات"
                 },
                 {
                   type: "terms",
                   items: [
-                    { en: "Soap", pron: "سوب", ar: "الصابون — يخفض التوتر السطحي للزيت على الجلد مما يسهل إزالة الميكروبات أثناء الشطف. الاستخدام: النظافة الشخصية. أمثلة: Dial, Safeguard" },
-                    { en: "Detergent", pron: "ديترجنت", ar: "المنظف — يعمل مثل الصابون لكنه لا يشكل راسباً مع الماء العسر. الاستخدام: تعقيم أدوات الأكل والغسيل. أمثلة: Dreft, Tide" },
-                    { en: "Alcohol (70%)", pron: "ألكوهول سيڤنتي بيرسنت", ar: "الكحول 70% — يصيب البروتين والدهون في الغشاء الخلوي. الاستخدام: تنظيف الجلد والأدوات. مثال: Isopropyl ethanol" },
-                    { en: "Iodine (Betadine)", pron: "أيودين (بيتادين)", ar: "اليود — يتلف الغشاء الخلوي ويعطل الإنزيمات. غير فعال ضد Pseudomonas. الاستخدام: تنظيف الجلد" },
-                    { en: "Chlorine (Bleach)", pron: "كلورين (بليتش)", ar: "الكلور — يتداخل مع أنظمة الإنزيمات الميكروبية. الاستخدام: تطهير الماء والأسطح وبقع الدم. أمثلة: Bleach, Clorox" },
-                    { en: "Chlorhexidine (Hibiclens)", pron: "كلوروهيكسيدين (هيبيكلينس)", ar: "الكلورهيكسيدين — يتلف الغشاء الخلوي. غير فعال ضد الأبواغ ومعظم الفيروسات. الاستخدام: الجلد والمعدات" },
-                    { en: "Mercury", pron: "ميركوري", ar: "الزئبق — يغير بروتينات الخلايا الميكروبية. الاستخدام: تطهير الجلد. أمثلة: Merthiolate, Mercurochrome" },
-                    { en: "Glutaraldehyde (Cidex)", pron: "جلوتارالدهايد (سايدكس)", ar: "الغلوتارالدهيد — يعطل بروتينات البكتيريا والفيروسات والميكروبات التي تشكل الأبواغ. الاستخدام: تعقيم المعدات" }
+                    { en: "Antiseptics", pron: "أنتيسيبتيكس", ar: "المطهرات — تمنع نمو (ولكن لا تقتل) الكائنات الدقيقة. تستخدم على الجلد. مثال: الكحول" },
+                    { en: "Disinfectants", pron: "ديسإنفيكتنتس", ar: "المعقمات — تدمر الكائنات الدقيقة النشطة ولكن ليس الأبواغ. تستخدم للأسطح والجدران لأنها قوية جداً على الجلد. مثال: الفينول، الكلور، الفورمالديهايد" }
+                  ]
+                },
+                {
+                  type: "heading",
+                  text: "💊 Anti-Infective Drugs — الأدوية المضادة للعدوى"
+                },
+                {
+                  type: "sentences",
+                  items: [
+                    {
+                      en: "Antibiotics alter the metabolic processes of bacteria but not viruses. They damage or destroy bacterial cell walls or the mechanisms that bacteria need to reproduce.",
+                      pron: "أنتيبيوتيكس ألتر ذا ميتابوليك بروسسز أوف باكتيريا بوت نوت ڤايرسز.",
+                      ar: "المضادات الحيوية تغير العمليات الأيضية للبكتيريا وليس الفيروسات. تتلف جدار الخلية البكتيرية أو آليات التكاثر."
+                    },
+                    {
+                      en: "Antivirals do not destroy the infecting viruses; rather, they control viral replication or their release from the infected cells.",
+                      pron: "أنتيڤايرالز دو نوت ديستروي ذا إنفيكتينگ ڤايرسز.",
+                      ar: "مضادات الفيروسات لا تدمر الفيروسات بل تتحكم في تكاثرها أو إطلاقها من الخلايا المصابة."
+                    }
+                  ]
+                },
+                {
+                  type: "heading",
+                  text: "📊 جدول العوامل المضادة للميكروبات"
+                },
+                {
+                  type: "terms",
+                  items: [
+                    { en: "Soap", pron: "سوب", ar: "الصابون — يخفض التوتر السطحي للزيت على الجلد. الاستخدام: النظافة الشخصية" },
+                    { en: "Detergent", pron: "ديترجنت", ar: "المنظف — يعمل مثل الصابون. الاستخدام: تعقيم أدوات الأكل والغسيل" },
+                    { en: "Alcohol (70%)", pron: "ألكوهول", ar: "الكحول 70% — يصيب الغشاء الخلوي. الاستخدام: تنظيف الجلد والأدوات" },
+                    { en: "Iodine (Betadine)", pron: "أيودين", ar: "اليود — يتلف الغشاء الخلوي. الاستخدام: تنظيف الجلد" },
+                    { en: "Chlorine (Bleach)", pron: "كلورين", ar: "الكلور — يتداخل مع أنظمة الإنزيمات. الاستخدام: تطهير الماء والأسطح" },
+                    { en: "Chlorhexidine (Hibiclens)", pron: "كلوروهيكسيدين", ar: "الكلورهيكسيدين — يتلف الغشاء الخلوي. الاستخدام: الجلد والمعدات" },
+                    { en: "Glutaraldehyde (Cidex)", pron: "جلوتارالدهايد", ar: "الغلوتارالدهيد — يعطل بروتينات البكتيريا والأبواغ. الاستخدام: تعقيم المعدات" }
                   ]
                 },
                 {
                   type: "info",
                   style: "important",
                   label: "🔑 فرق مهم: Antiseptics vs Disinfectants vs Antibiotics",
-                  text: "• Antiseptics (مطهرات) → تستخدم على الجلد، تمنع نمو الميكروبات. مثال: الكحول، اليود\n• Disinfectants (معقمات) → تستخدم للأسطح والجدران، تقتل الميكروبات النشطة (ليس بالضرورة الأبواغ). مثال: الكلور، الفورمالديهايد\n\n• Antibiotics (مضادات حيوية) → تؤثر على البكتيريا فقط، لا تعالج الفيروسات. تتلف جدار الخلية البكتيرية أو آليات التكاثر\n• Antivirals (مضادات فيروسية) → لا تدمر الفيروسات بل تتحكم في تكاثرها أو إطلاقها من الخلايا المصابة"
+                  text: "• Antiseptics (مطهرات) → تمنع نمو الميكروبات، تستخدم على الجلد\n• Disinfectants (معقمات) → تقتل الميكروبات النشطة، تستخدم للأسطح\n• Antibiotics (مضادات حيوية) → تؤثر على البكتيريا فقط\n• Antivirals (مضادات فيروسية) → تتحكم في تكاثر الفيروسات"
                 }
               ]
             },
-            // ==================== PAGE 9: HAND WASHING & SURGICAL SCRUB (TABLE 10-3) ====================
+            // ==================== PAGE 9: HAND WASHING & SURGICAL SCRUB ====================
             {
               title: "غسل اليدين (Hand Washing) والتعقيم الجراحي (Surgical Scrub)",
               sections: [
@@ -558,8 +650,10 @@ const coursesData = {
                     { en: "Surgical Scrub — Duration", pron: "سيرجيكل سكراب", ar: "2-6 دقائق حسب العامل المضاد (2-6 minutes)" },
                     { en: "Hand Washing — Hand Position", pron: "هاند ووشنج", ar: "اليدين تحت مستوى المرفقين (Hands lower than elbows)" },
                     { en: "Surgical Scrub — Hand Position", pron: "سيرجيكل سكراب", ar: "اليدين فوق مستوى المرفقين (Hands higher than elbows)" },
-                    { en: "Hand Washing — Product", pron: "هاند ووشنج", ar: "صابون عادي (Regular soap)" },
+                    { en: "Hand Washing — Product", pron: "هاند ووشنج", ar: "صابون عادي أو منظف (Regular soap or detergent)" },
                     { en: "Surgical Scrub — Product", pron: "سيرجيكل سكراب", ar: "صابون سائل مضاد للبكتيريا + فرشاة/إسفنجة (Antibacterial soap + brush/sponge)" },
+                    { en: "Hand Washing — Nail Cleaning", pron: "هاند ووشنج", ar: "غسل المناطق تحت الأظافر (Areas beneath fingernails are washed)" },
+                    { en: "Surgical Scrub — Nail Cleaning", pron: "سيرجيكل سكراب", ar: "تنظيف الأظافر بعود برتقالي (Cleaned with orange stick)" },
                     { en: "Hand Washing — Drying", pron: "هاند ووشنج", ar: "مناشف ورقية (Paper towels)" },
                     { en: "Surgical Scrub — Drying", pron: "سيرجيكل سكراب", ar: "مناشف معقمة (Sterile towels)" },
                     { en: "Hand Washing — Gloves", pron: "هاند ووشنج", ar: "قفازات نظيفة (Clean gloves)" },
@@ -568,9 +662,9 @@ const coursesData = {
                 }
               ]
             },
-            // ==================== PAGE 10: PPE & ENVIRONMENTAL HYGIENE ====================
+            // ==================== PAGE 10: PPE, GLOVES & ENVIRONMENTAL HYGIENE ====================
             {
-              title: "معدات الوقاية الشخصية (PPE) ونظافة البيئة",
+              title: "معدات الوقاية الشخصية (PPE)، القفازات، ونظافة البيئة",
               sections: [
                 {
                   type: "list",
@@ -583,6 +677,35 @@ const coursesData = {
                     "Protective eyewear / goggles (النظارات الواقية)",
                     "Hair covers (أغطية الرأس)",
                     "Shoe covers (أغطية الحذاء)"
+                  ]
+                },
+                {
+                  type: "heading",
+                  text: "🧤 Gloves — القفازات"
+                },
+                {
+                  type: "sentences",
+                  items: [
+                    {
+                      en: "Nurses wear clean gloves, sometimes called examination gloves, in the following circumstances: As a barrier to prevent direct hand contact with blood, body fluids, secretions, excretions, mucous membranes, and nonintact skin.",
+                      pron: "نيرسِز وير كلين غلافز، سامتايمز كولد إكزامينيشن غلافز، إن ذا فولوينغ سيركومستانسيز.",
+                      ar: "ترتدي الممرضات القفازات النظيفة (وتسمى أحياناً قفازات الفحص) في الحالات التالية: كحاجز لمنع التلامس المباشر مع الدم، سوائل الجسم، الإفرازات، المفرزات، الأغشية المخاطية، والجلد غير السليم."
+                    },
+                    {
+                      en: "As a barrier to protect clients from microorganisms transmitted from nursing personnel when performing procedures or care involving contact with the client's mucous membranes or nonintact skin.",
+                      pron: "أز أ باريير تو بروتيكت كلاينتس فروم مايكروأورغانيزمز ترانسميتد فروم نيرسينغ بيرسونيل.",
+                      ar: "كحاجز لحماية المرضى من الكائنات الدقيقة التي تنتقل من الممرضين عند إجراء إجراءات أو رعاية تتضمن ملامسة الأغشية المخاطية أو الجلد غير السليم للمريض."
+                    },
+                    {
+                      en: "When there is a potential transfer of microorganisms from one client or object to another client during subsequent nursing care.",
+                      pron: "وين ذير إز أ بوتنشل ترانسفر أوف مايكروأورغانيزمز فروم ون كلاينت أور أوبجيكت تو أناذر كلاينت.",
+                      ar: "عند وجود احتمال لانتقال الكائنات الدقيقة من مريض أو جسم إلى مريض آخر أثناء الرعاية التمريضية اللاحقة."
+                    },
+                    {
+                      en: "Examination gloves are generally made of latex. Unfortunately, some nurses and clients are allergic to latex.",
+                      pron: "إكزامينيشن غلافز آر جنرالي ميد أوف لاتِكس. أنفورتونيتلي، سَم نيرسِز أند كلاينتس آر أليرجِك تو لاتِكس.",
+                      ar: "قفازات الفحص غالباً مصنوعة من اللاتكس. للأسف، بعض الممرضين والمرضى لديهم حساسية من اللاتكس."
+                    }
                   ]
                 },
                 {
@@ -615,7 +738,7 @@ const coursesData = {
                     {
                       en: "Terminal disinfection is more thorough than concurrent disinfection and consists of measures used to clean the client environment after discharge.",
                       pron: "تيرمينال دِسإنفِكشن إز مور ثورو ذان كونكارِنت دِسإنفِكشن.",
-                      ar: "التطهير النهائي أكثر شمولاً من التطهير المتزامن، ويتضمن إجراءات تنظيف بيئة المريض بعد الخروج."
+                      ar: "التطهير النهائي (Terminal disinfection) أكثر شمولاً من التطهير المتزامن (Concurrent disinfection)، ويتضمن إجراءات تنظيف بيئة المريض بعد الخروج."
                     },
                     {
                       en: "Nurses who work in home health can teach the client and family simple aseptic practices for cleaning contaminated articles.",
@@ -681,9 +804,9 @@ const coursesData = {
                   type: "sentences",
                   items: [
                     {
-                      en: "Microorganisms and spores are destroyed physically through radiation or heat.",
+                      en: "Microorganisms and spores are destroyed physically through radiation or heat (boiling water, free-flowing steam, dry heat, and steam under pressure).",
                       pron: "مايكروأورغانيزمز أند سبورز آر ديسترويد فيزيكلي ثرو ريدييشن أور هيت.",
-                      ar: "تُدمّر الكائنات الدقيقة والأبواغ فيزيائياً بواسطة الإشعاع أو الحرارة."
+                      ar: "تُدمّر الكائنات الدقيقة والأبواغ فيزيائياً بواسطة الإشعاع أو الحرارة (الماء المغلي، البخار الحر، الحرارة الجافة، والبخار تحت الضغط)."
                     }
                   ]
                 },
@@ -728,9 +851,9 @@ const coursesData = {
                   type: "sentences",
                   items: [
                     {
-                      en: "Free-flowing steam is a method in which items are exposed to vapor from boiling water.",
-                      pron: "فري فلوينغ ستيم إز أ ميثود إن وِتش آيتِمز آر إكسبوزد تو ڤيبر فروم بويْلينغ ووتر.",
-                      ar: "البخار الحر هو طريقة تُعرض فيها الأدوات لبخار الماء المغلي."
+                      en: "Free-flowing steam is a method in which items are exposed to the heated vapor that escapes from boiling water.",
+                      pron: "فري فلوينغ ستيم إز أ ميثود إن وِتش آيتِمز آر إكسبوزد تو ذا هيتيد ڤيبر ذات إسكايبس فروم بويْلينغ ووتر.",
+                      ar: "البخار الحر هو طريقة تُعرض فيها الأدوات للبخار الساخن المتصاعد من الماء المغلي."
                     }
                   ]
                 },
@@ -742,14 +865,14 @@ const coursesData = {
                   type: "sentences",
                   items: [
                     {
-                      en: "Dry heat sterilization is similar to baking items in an oven.",
-                      pron: "دراي هيت ستيرلايزيشن إز سيميلار تو بيكينغ آيتِمز إن أن أڤن.",
-                      ar: "التعقيم بالحرارة الجافة يشبه خبز الأدوات في الفرن."
+                      en: "Dry heat, or hot air sterilization, is similar to baking items in an oven.",
+                      pron: "دراي هيت، أور هوت إير ستيرلايزيشن، إز سيميلار تو بيكينغ آيتِمز إن أن أڤن.",
+                      ar: "الحرارة الجافة (أو التعقيم بالهواء الساخن) تشبه خبز الأدوات في الفرن."
                     },
                     {
-                      en: "Temperatures of 165° to 170°C are maintained for at least 3 hours.",
-                      pron: "تِمبراتشرز أوف 165 تو 170 سيلسيوس آر مينتيند فور أت لِيست ثري آورز.",
-                      ar: "تُحفظ الحرارة بين 165 و170 درجة مئوية لمدة 3 ساعات على الأقل."
+                      en: "To destroy microorganisms with dry heat, temperatures of 330° to 340°F (165° to 170°C) are maintained for at least 3 hours.",
+                      pron: "تو ديستروي مايكروأورغانيزمز وِث دراي هيت، تِمبراتشرز أوف 330 تو 340 فهرنهايت (165 تو 170 سيلسيوس) آر مينتيند فور أت لِيست ثري آورز.",
+                      ar: "لقتل الكائنات الدقيقة بالحرارة الجافة، تُحفظ الحرارة بين 330-340°فهرنهايت (165-170°مئوية) لمدة 3 ساعات على الأقل."
                     }
                   ]
                 },
@@ -761,9 +884,9 @@ const coursesData = {
                   type: "sentences",
                   items: [
                     {
-                      en: "Steam under pressure is the most dependable method for destroying all organisms and spores.",
-                      pron: "ستيم أندر بريسشر إز ذا موست دِبندبل ميثود فور ديستروينغ أول أورغانيزمز أند سبورز.",
-                      ar: "البخار تحت الضغط هو أكثر الطرق موثوقية للقضاء على جميع الكائنات الدقيقة والأبواغ."
+                      en: "Steam under pressure is the most dependable method for destroying all forms of organisms and spores.",
+                      pron: "ستيم أندر بريسشر إز ذا موست دِبندبل ميثود فور ديستروينغ أول فورمز أوف أورغانيزمز أند سبورز.",
+                      ar: "البخار تحت الضغط هو أكثر الطرق موثوقية للقضاء على جميع أشكال الكائنات الدقيقة والأبواغ."
                     },
                     {
                       en: "The autoclave is an example.",
@@ -789,8 +912,15 @@ const coursesData = {
                 {
                   type: "info",
                   style: "important",
-                  label: "📌 ملخص طرق التعقيم",
-                  text: "• الإشعاع (Radiation) — يستخدم للأشعة فوق البنفسجية\n• الماء المغلي (Boiling Water) — 15 دقيقة عند 100°C\n• البخار الحر (Free-Flowing Steam)\n• الحرارة الجافة (Dry Heat) — 165-170°C لمدة 3 ساعات\n• الأوتوكلاف (Autoclave) — البخار تحت الضغط، أكثر الطرق موثوقية\n• التعقيم الكيميائي (Chemical Sterilization) — غازات وسوائل"
+                  label: "📌 ملخص طرق التعقيم (تقنيات التعقيم — Sterilization Techniques)",
+                  items: [
+                    "1. الإشعاع (Radiation) — يستخدم للأشعة فوق البنفسجية",
+                    "2. الماء المغلي (Boiling Water) — 15 دقيقة عند 100°C",
+                    "3. البخار الحر (Free-Flowing Steam)",
+                    "4. الحرارة الجافة (Dry Heat) — 165-170°C لمدة 3 ساعات",
+                    "5. الأوتوكلاف (Autoclave) — البخار تحت الضغط، أكثر الطرق موثوقية",
+                    "6. التعقيم الكيميائي (Chemical Sterilization) — غازات وسوائل"
+                  ]
                 }
               ]
             },
@@ -887,6 +1017,18 @@ const coursesData = {
                   ]
                 },
                 {
+                  type: "list",
+                  label: "📋 الأنشطة التمريضية التي تتطلب العقامة الجراحية (Nursing Activities Requiring Surgical Asepsis)",
+                  items: [
+                    "تغيير الضمادات للجروح المفتوحة (Dressing changes for open wounds)",
+                    "إدخال القسطرة البولية (Urinary catheter insertion)",
+                    "إعطاء الحقن الوريدية (IV therapy and injections)",
+                    "العمليات الجراحية (Surgical procedures)",
+                    "الولادة (Childbirth)",
+                    "تنظير المثانة (Cystoscopy)"
+                  ]
+                },
+                {
                   type: "info",
                   style: "important",
                   label: "🎯 تذكير: مبادئ الحقل المعقم",
@@ -894,7 +1036,7 @@ const coursesData = {
                 }
               ]
             },
-            // ==================== PAGE 13: NURSING IMPLICATIONS & CRITICAL THINKING ====================
+            // ==================== PAGE 13: NURSING IMPLICATIONS & CRITICAL THINKING & NCLEX ====================
             {
               title: "تطبيقات تمريضية، أسئلة تفكير نقدي، وأسئلة اختبار (NCLEX)",
               sections: [
@@ -954,84 +1096,25 @@ const coursesData = {
                   type: "info",
                   style: "important",
                   label: "❓ السؤال الثاني (Mask Question - Select All That Apply)",
-                  text: "A nurse needs to wear a mask while caring for a client. Which nursing actions are appropriate? Select all that apply.\n\nالممرضة تحتاج لارتداء كمامة أثناء الرعاية، أي الإجراءات صحيحة؟ (اختر كل ما ينطبق)\n\n✅ 1. The mask is positioned to cover the nurse's nose and mouth. (توضع الكمامة لتغطية الأنف والفم)\n✅ 2. The nurse secures the ties at the back of the head and neck. (تربط الممرضة الأربطة خلف الرأس والرقبة)\n❌ 3. The nurse adjusts the mask during the course of client care. (تقوم الممرضة بتعديل الكمامة أثناء الرعاية — خطأ، يسبب تلوثاً)\n❌ 4. The nurse avoids wearing the mask longer than 30 minutes. (تتجنب ارتداء الكمامة أكثر من 30 دقيقة — خطأ، يمكن ارتداؤها لفترة أطول)\n❌ 5. The nurse lowers the mask to her chest area during removal. (تُخفض الكمامة إلى الصدر عند نزعها — خطأ، يسبب تلوثاً)\n✅ 6. The nurse discards the mask within a waterproof receptacle. (تتخلص من الكمامة في حاوية مقاومة للماء)"
+                  text: "A nurse needs to wear a mask while caring for a client. Which nursing actions are appropriate? Select all that apply.\n\nالممرضة تحتاج لارتداء كمامة أثناء الرعاية، أي الإجراءات صحيحة؟ (اختر كل ما ينطبق)\n\n✅ 1. The mask is positioned to cover the nurse's nose and mouth.\n✅ 2. The nurse secures the ties at the back of the head and neck.\n❌ 3. The nurse adjusts the mask during the course of client care.\n❌ 4. The nurse avoids wearing the mask longer than 30 minutes.\n❌ 5. The nurse lowers the mask to her chest area during removal.\n✅ 6. The nurse discards the mask within a waterproof receptacle."
                 },
                 {
                   type: "info",
                   style: "important",
                   label: "❓ السؤال الثالث (Eye Infection)",
-                  text: "When caring for a client with an eye infection, what is the most important health teaching?\n\nأهم تعليم صحي لمريض التهاب العين:\n\nA) Eat a well-balanced, nutritious diet.\nB) Wear sunglasses in bright light.\nC) Cease sharing towels and washcloths. ✓ (التوقف عن مشاركة المناشف)\nD) Avoid products containing aspirin."
+                  text: "When caring for a client with an eye infection, what is the most important health teaching the nurse can provide to the client?\n\nأهم تعليم صحي لمريض التهاب العين:\n\nA) Eat a well-balanced, nutritious diet.\nB) Wear sunglasses in bright light.\nC) Cease sharing towels and washcloths. ✓\nD) Avoid products containing aspirin.\n\n📌 Test Taking Strategy: Consider an action that interrupts the Chain of Infection."
                 },
                 {
                   type: "info",
                   style: "important",
                   label: "❓ السؤال الرابع (Hand Washing - Select All That Apply)",
-                  text: "Which actions require more teaching? Select all that apply.\n\nأي تصرفات تحتاج تعليم إضافي؟ (اختر كل ما ينطبق)\n\n❌ 1. The nursing assistant is wearing an engagement ring. (يرتدي خاتم خطوبة — يحتاج تعليماً)\n✅ 2. The nursing assistant works a teaspoon of soap into a lather. (يحول الصابون إلى رغوة — صحيح)\n❌ 3. The nursing assistant holds the hands downward during rinsing. (يبقي اليدين للأسفل أثناء الشطف — يحتاج تعليماً)\n✅ 4. The nursing assistant uses a paper towel to dry her hands. (يستخدم منشفة ورقية للتجفيف — صحيح)\n❌ 5. The nursing assistant turns the faucet off with her bare hands. (يقفل الحنفية بيديه العاريتين — يحتاج تعليماً)\n✅ 6. The nursing assistant applies hand lotion to her dried hands. (يضع لوشن لليدين بعد التجفيف — صحيح إذا كان اللوشن من نوعية لا تؤثر على القفازات)"
+                  text: "A nurse observes a newly employed nursing assistant perform hand washing. Which of the following actions require more teaching? Select all that apply.\n\nأي تصرفات تحتاج تعليم إضافي؟ (اختر كل ما ينطبق)\n\n❌ 1. The nursing assistant is wearing an engagement ring.\n✅ 2. The nursing assistant works a teaspoon of soap into a lather.\n❌ 3. The nursing assistant holds the hands downward during rinsing.\n✅ 4. The nursing assistant uses a paper towel to dry her hands.\n❌ 5. The nursing assistant turns the faucet off with her bare hands.\n✅ 6. The nursing assistant applies hand lotion to her dried hands."
                 },
                 {
                   type: "info",
                   style: "important",
                   label: "❓ السؤال الخامس (Sterile Field)",
-                  text: "Which action is correct when setting up a sterile field?\n\nأي إجراء صحيح عند إعداد حقل معقم؟\n\nA) Opens sterile pack toward herself. (يفتح العبوة المعقمة باتجاه نفسه — خطأ، يفتحها باتجاه الخارج)\n✅ B) Avoids placing items in outer 1-inch margin. (يتجنب وضع الأدوات في الحافة الخارجية 1 إنش — صحيح)\nC) Places wrapped basin in center. (يضع الحوض المغلف في المنتصف — خطأ، الحوض المغلف يوضع دون لمس الحواف)\nD) Pours sterile solution from 8-10 inches above. (يصيب المحلول المعقم من ارتفاع 8-10 بوصات — خطأ، من ارتفاع أقل لتجنب التلوث)"
-                },
-                {
-                  type: "heading",
-                  text: "🧤 Gloves — القفازات"
-                },
-                {
-                  type: "sentences",
-                  items: [
-                    {
-                      en: "Nurses wear clean gloves in the following circumstances: as a barrier to blood and body fluids, to protect clients from microorganisms, during transfer of microorganisms between clients.",
-                      pron: "نيرسِز وير غلافز إن ذا فولوينغ سيركومستانسيز: آز أ باريير تو بلاد أند بودي فلويدز، تو بروتيكت كلاينتس فروم مايكروأورغانيزمز، ديرينغ ترانسفر أوف مايكروأورغانيزمز بيتوين كلاينتس.",
-                      ar: "ترتدي الممرضات القفازات النظيفة في الحالات التالية: كحاجز ضد الدم وسوائل الجسم، لحماية المرضى من الميكروبات، وأثناء احتمال انتقال الميكروبات بين المرضى."
-                    },
-                    {
-                      en: "Gloves are generally made of latex. Some nurses and clients are allergic to latex.",
-                      pron: "غلافز آر جنرالي ميد أوف لاتِكس. سَم نيرسِز أند كلاينتس آر أليرجِك تو لاتِكس.",
-                      ar: "القفازات غالباً مصنوعة من اللاتكس. بعض الممرضين والمرضى لديهم حساسية من اللاتكس."
-                    },
-                    {
-                      en: "Examination gloves are generally made of latex.",
-                      pron: "إكزامينيشن غلافز آر جنرالي ميد أوف لاتِكس.",
-                      ar: "قفازات الفحص غالباً مصنوعة من اللاتكس."
-                    },
-                    {
-                      en: "Gloves also protect clients from microorganisms transmitted from nursing personnel.",
-                      pron: "غلافز أولسو بروتيكت كلاينتس فروم مايكروأورغانيزمز ترانسميتد فروم نيرسينغ بيرسونيل.",
-                      ar: "القفازات تحمي المرضى أيضاً من انتقال الميكروبات من الممرضين."
-                    }
-                  ]
-                },
-                {
-                  type: "heading",
-                  text: "🏥 Confining Soiled Articles — حصر المواد المتسخة (ملخص)"
-                },
-                {
-                  type: "sentences",
-                  items: [
-                    {
-                      en: "Health care agencies have clean and dirty utility rooms. Personnel must not place soiled articles in the clean utility room.",
-                      pron: "هيلث كير إيجنسيز هاف كلين أند ديرتي يوتيليتي رومز. بيرسونيل موست نوت بليس سويلد أرتيكلز إن ذا كلين يوتيليتي روم.",
-                      ar: "مؤسسات الرعاية الصحية لديها غرف خدمات نظيفة وأخرى ملوثة. يُمنع وضع الأدوات الملوثة في الغرفة النظيفة."
-                    },
-                    {
-                      en: "Waste receptacles are used to contain soiled articles until disposal.",
-                      pron: "وست ريسِبتِكلز آر يوزد تو كونتين سويلد أرتيكلز أنتل دِسبوزَل.",
-                      ar: "تُستخدم حاويات النفايات لتجميع المواد الملوثة حتى التخلص منها."
-                    },
-                    {
-                      en: "Most client rooms have puncture-resistant containers for sharps.",
-                      pron: "موست كلاينت رومز هاف بانكتشر-ريزيستنت كونتينرز فور شاربس.",
-                      ar: "معظم غرف المرضى تحتوي على حاويات مقاومة للثقب للأدوات الحادة (Sharps Containers)."
-                    }
-                  ]
-                },
-                {
-                  type: "info",
-                  style: "tip",
-                  label: "🎓 ملخص نهائي للفصل",
-                  text: "• العقامة (Asepsis) هي أساس منع العدوى\n• سلسلة العدوى تتكون من 6 حلقات، كسر أي حلقة يمنع العدوى\n• العقامة الطبية (Medical Asepsis) تقلل الميكروبات\n• العقامة الجراحية (Surgical Asepsis) تقضي على جميع الميكروبات والأبواغ\n• غسل اليدين هو أهم إجراء للوقاية من العدوى\n• الفرك الجراحي يستغرق 2-6 دقائق مع رفع اليدين فوق المرفقين\n• الأوتوكلاف هو أكثر طرق التعقيم موثوقية\n• الحافة الخارجية 1 إنش من الحقل المعقم تعتبر ملوثة\n• أي شك في التعقيم يعني عدم التعقيم"
+                  text: "A nurse sets up a sterile field prior to changing a client's dressing. Which of the following actions is correct?\n\nأي الإجراءات صحيحة عند إعداد حقل معقم؟\n\nA) The nurse first opens the sterile pack by unfolding the wrapper toward herself.\nB) The nurse avoids adding supplies in the outer 1-inch margin of the exposed field. ✓\nC) The nurse sets a wrapped basin in the center of the sterile field.\nD) The nurse pours a sterile solution from 8 to 10 inches above a sterile basin.\n\n📌 Test Taking Strategy: Eliminate options that have the potential for contamination. The outer 1-inch margin is considered contaminated, so supplies should not be placed there."
                 }
               ]
             }
@@ -1464,6 +1547,17 @@ function renderSection(sec) {
     `).join('');
   }
   if (sec.type === 'info') {
+    if (sec.items) {
+      // Handle info with items array (like the sterilization techniques list)
+      return `
+        <div class="info-box ${sec.style || ''}">
+          <div class="info-box-label">${sec.label}</div>
+          <div style="margin-top:8px">
+            ${sec.items.map(item => `<div style="margin-bottom:4px">${item}</div>`).join('')}
+          </div>
+        </div>
+      `;
+    }
     return `
       <div class="info-box ${sec.style || ''}">
         <div class="info-box-label">${sec.label}</div>
