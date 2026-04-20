@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#0f172a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="تلخيصات تمريض">
+  <meta name="description" content="منصة تعليمية لطلاب التمريض - ملخصات، شروحات، واختبارات تفاعلية">
+  <title>تلخيصات تمريض</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="icon" type="image/png" href="icons/icon-192.png">
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;900&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+
+  <!-- Install Banner -->
+  <div class="install-banner" id="installBanner">
+    <span>📲 ثبّت التطبيق على هاتفك للعمل بدون إنترنت</span>
+    <button id="installBtn">تثبيت</button>
+    <button id="dismissBanner">✕</button>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-inner">
+      <button class="theme-toggle" id="themeToggle" aria-label="تبديل الوضع">🌙</button>
+      <div class="header-title">
+        <span class="header-icon">🏥</span>
+        <div>
+          <h1>تلخيصات تمريض</h1>
+          <p>شروحات · ملخصات · اختبارات</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main" id="mainContent">
+    <div class="loading-screen">
+      <div class="pulse-ring"></div>
+      <p>جاري التحميل...</p>
+    </div>
+  </main>
+
+  <!-- Bottom Nav -->
+  <nav class="bottom-nav" id="bottomNav">
+    <button class="nav-item active" data-page="home" onclick="navigateTo('home')">
+      <span class="nav-icon">🏠</span>
+      <span>الرئيسية</span>
+    </button>
+    <button class="nav-item" data-page="search" onclick="showSearch()">
+      <span class="nav-icon">🔍</span>
+      <span>بحث</span>
+    </button>
+    <button class="nav-item" data-page="progress" onclick="showProgress()">
+      <span class="nav-icon">📊</span>
+      <span>تقدمي</span>
+    </button>
+  </nav>
+
+  <script src="script.js"></script>
+</body>
+</html>
