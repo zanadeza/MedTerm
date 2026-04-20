@@ -606,6 +606,21 @@ const coursesData = {
                       en: "Most client rooms have a wall-mounted puncture-resistant container for needles or other sharp objects.",
                       pron: "موست كلاينت رومز هاڤ أ وول-مونتد بانكتشر-ريزيستنت كونتينر فور نيدلز أور أذر شارب أوبجيكتس.",
                       ar: "تحتوي معظم غرف المرضى على حاوية مثبتة على الحائط مقاومة للثقب للإبر والأشياء الحادة (Sharps Container)."
+                    },
+                    {
+                      en: "Health agencies employ laundry staff and housekeeping personnel to assist with cleaning.",
+                      pron: "هيلث إيجنسيز إمبلوي لاندرِي ستاف أند هاوسكيبِنغ بيرسونيل تو أسيست وِذ كلينينغ.",
+                      ar: "توظّف مؤسسات الرعاية الصحية عمال الغسيل وموظفي التدبير المنزلي للمساعدة في التنظيف."
+                    },
+                    {
+                      en: "Terminal disinfection is more thorough than concurrent disinfection and consists of measures used to clean the client environment after discharge.",
+                      pron: "تيرمينال دِسإنفِكشن إز مور ثورو ذان كونكارِنت دِسإنفِكشن.",
+                      ar: "التطهير النهائي أكثر شمولاً من التطهير المتزامن، ويتضمن إجراءات تنظيف بيئة المريض بعد الخروج."
+                    },
+                    {
+                      en: "Nurses who work in home health can teach the client and family simple aseptic practices for cleaning contaminated articles.",
+                      pron: "نيرسِز هو وورك إن هوم هيلث كان تييتش ذا كلاينت أند فاميلي سيمبل أسيبتك براكتسِز.",
+                      ar: "يمكن لممرضي الرعاية المنزلية تعليم المريض وعائلته ممارسات تعقيم بسيطة لتنظيف الأدوات الملوثة."
                     }
                   ]
                 },
@@ -615,14 +630,408 @@ const coursesData = {
                   items: [
                     "غرف الخدمات (Utility Rooms): نظيفة ومتسخة منفصلة",
                     "صناديق الأدوات الحادة (Sharps Containers): للتخلص من الإبر والشفرات",
-                    "التطهير النهائي (Terminal Disinfection): تنظيف شامل للغرفة والسرير والجدران بالكلور بعد خروج المريض (Discharge)"
+                    "التطهير النهائي (Terminal Disinfection): تنظيف شامل للغرفة والسرير والجدران بعد خروج المريض",
+                    "التطهير المتزامن (Concurrent Disinfection): تنظيف مستمر أثناء إقامة المريض"
+                  ]
+                }
+              ]
+            },
+            // ==================== PAGE 11: SURGICAL ASEPSIS & STERILIZATION ====================
+            {
+              title: "العقامة الجراحية (Surgical Asepsis) والتعقيم (Sterilization)",
+              sections: [
+                {
+                  type: "heading",
+                  text: "🩺 Surgical Asepsis — العقامة الجراحية"
+                },
+                {
+                  type: "sentences",
+                  items: [
+                    {
+                      en: "Surgical asepsis means those measures that render supplies and equipment totally free of microorganisms.",
+                      pron: "سيرجِكل أسيبسِس مينز ذوز ميجرز ذات ريندر سبلايز أند إكويبمنت توتالي فري أوف مايكروأورغانيزمز.",
+                      ar: "العقامة الجراحية تعني إجراءات تجعل الأدوات والمعدات خالية تماماً من الكائنات الدقيقة."
+                    },
+                    {
+                      en: "Sterile technique is those practices that avoid contaminating microbe-free items.",
+                      pron: "ستيرايل تيكنيك إز ذوز براكتسِز ذات أفويد كونتامينييتِنغ مايكروب فري آيتِمز.",
+                      ar: "التقنية المعقمة هي ممارسات تتجنب تلويث الأدوات الخالية من الجراثيم."
+                    }
+                  ]
+                },
+                {
+                  type: "heading",
+                  text: "🧪 Sterilization — التعقيم"
+                },
+                {
+                  type: "sentences",
+                  items: [
+                    {
+                      en: "Sterilization consists of physical and chemical techniques that destroy all microorganisms including spores.",
+                      pron: "ستيرلايزيشن كونسِستس أوف فيزيكال أند كِمِكل تيكنيكز ذات ديستروي أول مايكروأورغانيزمز إنكلودينغ سبورز.",
+                      ar: "التعقيم هو تقنيات فيزيائية وكيميائية تدمر جميع الكائنات الدقيقة بما فيها الأبواغ."
+                    }
+                  ]
+                },
+                {
+                  type: "heading",
+                  text: "🔥 Physical Sterilization — التعقيم الفيزيائي"
+                },
+                {
+                  type: "sentences",
+                  items: [
+                    {
+                      en: "Microorganisms and spores are destroyed physically through radiation or heat.",
+                      pron: "مايكروأورغانيزمز أند سبورز آر ديسترويد فيزيكلي ثرو ريدييشن أور هيت.",
+                      ar: "تُدمّر الكائنات الدقيقة والأبواغ فيزيائياً بواسطة الإشعاع أو الحرارة."
+                    }
+                  ]
+                },
+                {
+                  type: "heading",
+                  text: "☢️ Radiation — الإشعاع"
+                },
+                {
+                  type: "sentences",
+                  items: [
+                    {
+                      en: "Ultraviolet radiation can kill bacteria, especially the organism that transmits TB.",
+                      pron: "ألترافايلِت ريدييشن كان كِل باكتيريا، إسبيشيلي ذي أورغانيزم ذات ترانسميتس تي بي.",
+                      ar: "الأشعة فوق البنفسجية يمكنها قتل البكتيريا، خصوصاً الميكروب المسبب لمرض السل."
+                    }
+                  ]
+                },
+                {
+                  type: "heading",
+                  text: "💧 Boiling Water — الماء المغلي"
+                },
+                {
+                  type: "sentences",
+                  items: [
+                    {
+                      en: "Boiling water is a convenient way to sterilize items used in the home.",
+                      pron: "بويْلينغ ووتر إز أ كونفينيِنت وي تو ستيرلايز آيتِمز يوزد إن ذا هوم.",
+                      ar: "الماء المغلي طريقة مناسبة لتعقيم الأدوات المستخدمة في المنزل."
+                    },
+                    {
+                      en: "To be effective, contaminated equipment needs to be boiled for 15 minutes at 212°F (100°C).",
+                      pron: "تو بي إفِكتِف، كونتامينييتد إكويبمنت نيدز تو بي بويلد فور فيفْتين مينتس.",
+                      ar: "لكي يكون فعالاً، يجب غلي المعدات الملوثة لمدة 15 دقيقة عند 100 درجة مئوية."
+                    }
+                  ]
+                },
+                {
+                  type: "heading",
+                  text: "💨 Free-Flowing Steam — البخار الحر"
+                },
+                {
+                  type: "sentences",
+                  items: [
+                    {
+                      en: "Free-flowing steam is a method in which items are exposed to vapor from boiling water.",
+                      pron: "فري فلوينغ ستيم إز أ ميثود إن وِتش آيتِمز آر إكسبوزد تو ڤيبر فروم بويْلينغ ووتر.",
+                      ar: "البخار الحر هو طريقة تُعرض فيها الأدوات لبخار الماء المغلي."
+                    }
+                  ]
+                },
+                {
+                  type: "heading",
+                  text: "🔥 Dry Heat — الحرارة الجافة"
+                },
+                {
+                  type: "sentences",
+                  items: [
+                    {
+                      en: "Dry heat sterilization is similar to baking items in an oven.",
+                      pron: "دراي هيت ستيرلايزيشن إز سيميلار تو بيكينغ آيتِمز إن أن أڤن.",
+                      ar: "التعقيم بالحرارة الجافة يشبه خبز الأدوات في الفرن."
+                    },
+                    {
+                      en: "Temperatures of 165° to 170°C are maintained for at least 3 hours.",
+                      pron: "تِمبراتشرز أوف 165 تو 170 سيلسيوس آر مينتيند فور أت لِيست ثري آورز.",
+                      ar: "تُحفظ الحرارة بين 165 و170 درجة مئوية لمدة 3 ساعات على الأقل."
+                    }
+                  ]
+                },
+                {
+                  type: "heading",
+                  text: "💨 Steam Under Pressure (Autoclave) — البخار تحت الضغط (الأوتوكلاف)"
+                },
+                {
+                  type: "sentences",
+                  items: [
+                    {
+                      en: "Steam under pressure is the most dependable method for destroying all organisms and spores.",
+                      pron: "ستيم أندر بريسشر إز ذا موست دِبندبل ميثود فور ديستروينغ أول أورغانيزمز أند سبورز.",
+                      ar: "البخار تحت الضغط هو أكثر الطرق موثوقية للقضاء على جميع الكائنات الدقيقة والأبواغ."
+                    },
+                    {
+                      en: "The autoclave is an example.",
+                      pron: "الأوتوكليف إز أن إكزامبل.",
+                      ar: "جهاز الأوتوكلاف مثال على ذلك."
+                    }
+                  ]
+                },
+                {
+                  type: "heading",
+                  text: "🧪 Chemical Sterilization — التعقيم الكيميائي"
+                },
+                {
+                  type: "sentences",
+                  items: [
+                    {
+                      en: "Both gas and liquid chemicals are used to sterilize invasive equipment.",
+                      pron: "بوث غاز أند لِكوِد كِمِكلز آر يوزد تو ستيرلايز إنفېسِڤ إكويبمنت.",
+                      ar: "تُستخدم المواد الكيميائية الغازية والسائلة لتعقيم الأدوات التي تدخل الجسم."
+                    }
+                  ]
+                },
+                {
+                  type: "info",
+                  style: "important",
+                  label: "📌 ملخص طرق التعقيم",
+                  text: "• الإشعاع (Radiation) — يستخدم للأشعة فوق البنفسجية\n• الماء المغلي (Boiling Water) — 15 دقيقة عند 100°C\n• البخار الحر (Free-Flowing Steam)\n• الحرارة الجافة (Dry Heat) — 165-170°C لمدة 3 ساعات\n• الأوتوكلاف (Autoclave) — البخار تحت الضغط، أكثر الطرق موثوقية\n• التعقيم الكيميائي (Chemical Sterilization) — غازات وسوائل"
+                }
+              ]
+            },
+            // ==================== PAGE 12: PRINCIPLES OF SURGICAL ASEPSIS ====================
+            {
+              title: "مبادئ العقامة الجراحية (Principles of Surgical Asepsis)",
+              sections: [
+                {
+                  type: "heading",
+                  text: "📋 المبادئ الأساسية للعقامة الجراحية"
+                },
+                {
+                  type: "sentences",
+                  items: [
+                    {
+                      en: "They preserve sterility by touching one sterile item with another that is sterile.",
+                      pron: "ذَي بريسِرف ستيرِليتي باي تاتشِنغ ون ستيرِيل آيتِم وِذ أناذر ذات إز ستيرِيل.",
+                      ar: "يتم الحفاظ على التعقيم من خلال ملامسة أداة معقمة لأداة معقمة أخرى."
+                    },
+                    {
+                      en: "Once a sterile item touches something that is not, it is considered contaminated.",
+                      pron: "ونس أ ستيرِيل آيتِم تاتشِز سَمذِنغ ذات إز نوت، إت إز كونسِدَرد كونتامينييتِد.",
+                      ar: "بمجرد أن تلامس أداة معقمة شيئاً غير معقم تُعتبر ملوثة."
+                    },
+                    {
+                      en: "Any partially unwrapped sterile package is considered contaminated.",
+                      pron: "أني بارشلي أنرابْت ستيرِيل باكِج إز كونسِدَرد كونتامينييتِد.",
+                      ar: "أي عبوة معقمة مفتوحة جزئياً تُعتبر ملوثة."
+                    },
+                    {
+                      en: "If there is a question about the sterility of an item, it is considered unsterile.",
+                      pron: "إف ذير إز أ كويِشِن أباوت ذا ستيرِليتي أوف أن آيتِم، إت إز كونسِدَرد أنستيريل.",
+                      ar: "إذا وُجد شك حول تعقيم أداة ما تُعتبر غير معقمة."
+                    },
+                    {
+                      en: "The longer the time since sterilization, the more likely it is that the item is no longer sterile.",
+                      pron: "ذا لونغر ذا تايم سِنس ستيرلايزيشن، ذا مور لايكلي إت إز ذات ذا آيتِم إز نو لونغر ستيريل.",
+                      ar: "كلما طال الوقت منذ التعقيم زاد احتمال فقدان التعقيم."
+                    },
+                    {
+                      en: "A commercially packaged sterile item is not considered sterile past its recommended expiration date.",
+                      pron: "أ كومرشلي باكِجْد ستيرِيل آيتِم إز نوت كونسِدَرد ستيرِيل پاست إتس ريكومينديد إكسبيريشن ديت.",
+                      ar: "الأدوات المعقمة تجارياً لا تُعتبر معقمة بعد تاريخ انتهاء الصلاحية."
+                    },
+                    {
+                      en: "Once a sterile item is opened or uncovered, it is only a matter of time before it becomes contaminated.",
+                      pron: "ونس أ ستيرِيل آيتِم إز أوبند أور أنكَفرَد، إت إز أونلي أ ماتر أوف تايم بِفور إت بِكَمز كونتامينييتِد.",
+                      ar: "بمجرد فتح الأداة المعقمة يصبح تلوثها مسألة وقت."
+                    },
+                    {
+                      en: "The outer 1-inch margin of a sterile area is considered a zone of contamination.",
+                      pron: "ذا أوتر ون إنش مارجِن أوف أ ستيرِيل إيريا إز كونسِدَرد أ زون أوف كونتامينييشن.",
+                      ar: "الحافة الخارجية بمقدار 1 إنش (2.5 سم) تعتبر منطقة تلوث."
+                    },
+                    {
+                      en: "A sterile wrapper, if it becomes wet, wicks microorganisms from its supporting surface, causing contamination.",
+                      pron: "أ ستيرِيل رابَر، إِف إت بِكَمز وِت، وِكس مايكروأورغانيزمز فروم إتس سابورتنغ سيرفِس، كوزينغ كونتامينييشن.",
+                      ar: "إذا ابتل الغلاف المعقم فإنه يسحب الكائنات الدقيقة من السطح ويسبب التلوث."
+                    },
+                    {
+                      en: "Any opened sterile item or sterile area is considered contaminated if it is left unattended.",
+                      pron: "أني أوبند ستيرِيل آيتِم أور ستيرِيل إيريا إز كونسِدَرد كونتامينييتِد إف إت إز لِفت أناتينديد.",
+                      ar: "أي أداة أو منطقة معقمة تُترك بدون مراقبة تُعتبر ملوثة."
+                    },
+                    {
+                      en: "Coughing, sneezing, or excessive talking over a sterile field causes contamination.",
+                      pron: "كوفينغ، سنيزينغ، أور إكسيسيڤ توكينغ أوفر أ ستيرِيل فيلد كوزيز كونتامينييشن.",
+                      ar: "السعال أو العطاس أو الكلام المفرط فوق الحقل المعقم يسبب التلوث."
+                    },
+                    {
+                      en: "Reaching across an area that contains sterile equipment has a high potential for causing contamination and is therefore avoided.",
+                      pron: "ريتشِنغ أكروس أن إيريا ذات كونتينز ستيرِيل إكويبمنت هاز أ هاي بوتنشل فور كوزينغ كونتامينييشن أند إز ذيرفور أڤويدد.",
+                      ar: "مد اليد فوق منطقة تحتوي أدوات معقمة قد يسبب تلوثاً ويجب تجنبه."
+                    },
+                    {
+                      en: "Sterile items that are located or lowered below waist level are considered contaminated because they are not within critical view.",
+                      pron: "ستيرِيل آيتِمز ذات آر لوكيتد أور لَوِرد بيلو ويست لِفل آر كونسِدَرد كونتامينييتِد بيكوز ذَي آر نوت ويذن كريتيكال فيو.",
+                      ar: "الأدوات المعقمة التي توضع أو تنزل تحت مستوى الخصر تُعتبر ملوثة لأنها خارج مجال الرؤية الحرج."
+                    }
+                  ]
+                },
+                {
+                  type: "heading",
+                  text: "🛡️ Creating a Sterile Field — إنشاء حقل معقم"
+                },
+                {
+                  type: "sentences",
+                  items: [
+                    {
+                      en: "A sterile field means a work area free of microorganisms.",
+                      pron: "أ ستيرِيل فيلد مينز أ وورك إيريا فري أوف مايكروأورغانيزمز.",
+                      ar: "الحقل المعقم هو منطقة عمل خالية من الكائنات الدقيقة."
+                    }
+                  ]
+                },
+                {
+                  type: "info",
+                  style: "important",
+                  label: "🎯 تذكير: مبادئ الحقل المعقم",
+                  text: "• لا تلمس إلا الأدوات المعقمة بأدوات معقمة\n• الحافة الخارجية 1 إنش تعتبر ملوثة\n• لا تعبر فوق الحقل المعقم بيديك\n• لا تسعل أو تعطس فوق الحقل المعقم\n• أي شك في التعقيم يعني عدم التعقيم"
+                }
+              ]
+            },
+            // ==================== PAGE 13: NURSING IMPLICATIONS & CRITICAL THINKING ====================
+            {
+              title: "تطبيقات تمريضية، أسئلة تفكير نقدي، وأسئلة اختبار (NCLEX)",
+              sections: [
+                {
+                  type: "heading",
+                  text: "📋 Nursing Implications — الآثار التمريضية"
+                },
+                {
+                  type: "terms",
+                  items: [
+                    { en: "Risk for Infection", pron: "ريسك فور إنفِكشن", ar: "خطر الإصابة بالعدوى" },
+                    { en: "Risk for Infection Transmission", pron: "ريسك فور إنفِكشن ترانسمِشن", ar: "خطر انتقال العدوى" },
+                    { en: "Ineffective Protection", pron: "إينإفِكتِف بروتيكشن", ar: "حماية غير فعالة" },
+                    { en: "Delayed Surgical Recovery", pron: "ديلايد سيرجِكل ريكافري", ar: "تأخر التعافي الجراحي" },
+                    { en: "Deficient Knowledge", pron: "ديفيشِنت نالج", ar: "نقص في المعرفة" }
+                  ]
+                },
+                {
+                  type: "heading",
+                  text: "🧠 Critical Thinking Exercises — تمارين التفكير النقدي"
+                },
+                {
+                  type: "info",
+                  style: "tip",
+                  label: "❓ السؤال الأول",
+                  text: "If the rate of infections increased on your nursing unit, what would you investigate to determine the contributing factors?\n\nإذا زاد معدل العدوى في وحدة التمريض لديك، ماذا ستفحص لتحديد العوامل المساهمة؟\n\n📌 الإجابة المقترحة: التحقق من التزام فريق التمريض بغسل اليدين، فحص إجراءات التعقيم، مراجعة استخدام معدات الوقاية الشخصية، وتحليل أنماط العدوى."
+                },
+                {
+                  type: "info",
+                  style: "tip",
+                  label: "❓ السؤال الثاني",
+                  text: "If the cause of health care-associated infections is related to inadequate hand washing among health care providers, what suggestions would you give for correcting the problem?\n\nإذا كان سبب العدوى المرتبطة بالرعاية الصحية هو ضعف غسل اليدين، ما الاقتراحات لتصحيح المشكلة؟\n\n📌 الإجابة المقترحة: توفير معقمات اليدين بسهولة في نقاط الرعاية، تنظيم دورات تدريبية، وضع نظام مراقبة وتقييم، وتعزيز ثقافة المساءلة."
+                },
+                {
+                  type: "info",
+                  style: "tip",
+                  label: "❓ السؤال الثالث",
+                  text: "What methods could be used to evaluate if health care providers are performing hand hygiene appropriately?\n\nما الطرق المستخدمة لتقييم نظافة اليدين لدى مقدمي الرعاية الصحية؟\n\n📌 الإجابة المقترحة: المراقبة المباشرة، استخدام كاميرات المراقبة، فحص استهلاك معقمات اليدين، إجراء استبيانات سرية، واستخدام أنظمة تذكير إلكترونية."
+                },
+                {
+                  type: "info",
+                  style: "tip",
+                  label: "❓ السؤال الرابع",
+                  text: "What recommendations might you suggest to prevent transferring microorganisms from health care providers' homes to clients for whom they care?\n\nما التوصيات لمنع انتقال الكائنات الدقيقة من منازل مقدمي الرعاية إلى المرضى؟\n\n📌 الإجابة المقترحة: تغيير الملابس قبل الدخول إلى المنشأة الصحية، ارتداء الزي الرسمي داخل المستشفى فقط، غسل اليدين جيداً قبل وبعد كل وردية، وتجنب ارتداء المجوهرات أثناء العمل."
+                },
+                {
+                  type: "heading",
+                  text: "📝 NCLEX-Style Questions — أسئلة على غرار اختبار الترخيص"
+                },
+                {
+                  type: "info",
+                  style: "important",
+                  label: "❓ السؤال الأول (Hand Rub Duration)",
+                  text: "Before touching a client, what is the minimum amount of time the nurse should perform an alcohol-based hand rub?\n\nقبل لمس المريض، ما الحد الأدنى لمدة فرك اليدين بالكحول؟\n\nA) 5 seconds\nB) 10 seconds\nC) 15 seconds ✓\nD) 20 seconds\n\n📌 Test Taking Strategy: Select the option that compares to the time it takes to sing 'Happy Birthday' twice (approximately 15 seconds)."
+                },
+                {
+                  type: "info",
+                  style: "important",
+                  label: "❓ السؤال الثاني (Mask Question - Select All That Apply)",
+                  text: "A nurse needs to wear a mask while caring for a client. Which nursing actions are appropriate? Select all that apply.\n\nالممرضة تحتاج لارتداء كمامة أثناء الرعاية، أي الإجراءات صحيحة؟ (اختر كل ما ينطبق)\n\n✅ 1. The mask is positioned to cover the nurse's nose and mouth. (توضع الكمامة لتغطية الأنف والفم)\n✅ 2. The nurse secures the ties at the back of the head and neck. (تربط الممرضة الأربطة خلف الرأس والرقبة)\n❌ 3. The nurse adjusts the mask during the course of client care. (تقوم الممرضة بتعديل الكمامة أثناء الرعاية — خطأ، يسبب تلوثاً)\n❌ 4. The nurse avoids wearing the mask longer than 30 minutes. (تتجنب ارتداء الكمامة أكثر من 30 دقيقة — خطأ، يمكن ارتداؤها لفترة أطول)\n❌ 5. The nurse lowers the mask to her chest area during removal. (تُخفض الكمامة إلى الصدر عند نزعها — خطأ، يسبب تلوثاً)\n✅ 6. The nurse discards the mask within a waterproof receptacle. (تتخلص من الكمامة في حاوية مقاومة للماء)"
+                },
+                {
+                  type: "info",
+                  style: "important",
+                  label: "❓ السؤال الثالث (Eye Infection)",
+                  text: "When caring for a client with an eye infection, what is the most important health teaching?\n\nأهم تعليم صحي لمريض التهاب العين:\n\nA) Eat a well-balanced, nutritious diet.\nB) Wear sunglasses in bright light.\nC) Cease sharing towels and washcloths. ✓ (التوقف عن مشاركة المناشف)\nD) Avoid products containing aspirin."
+                },
+                {
+                  type: "info",
+                  style: "important",
+                  label: "❓ السؤال الرابع (Hand Washing - Select All That Apply)",
+                  text: "Which actions require more teaching? Select all that apply.\n\nأي تصرفات تحتاج تعليم إضافي؟ (اختر كل ما ينطبق)\n\n❌ 1. The nursing assistant is wearing an engagement ring. (يرتدي خاتم خطوبة — يحتاج تعليماً)\n✅ 2. The nursing assistant works a teaspoon of soap into a lather. (يحول الصابون إلى رغوة — صحيح)\n❌ 3. The nursing assistant holds the hands downward during rinsing. (يبقي اليدين للأسفل أثناء الشطف — يحتاج تعليماً)\n✅ 4. The nursing assistant uses a paper towel to dry her hands. (يستخدم منشفة ورقية للتجفيف — صحيح)\n❌ 5. The nursing assistant turns the faucet off with her bare hands. (يقفل الحنفية بيديه العاريتين — يحتاج تعليماً)\n✅ 6. The nursing assistant applies hand lotion to her dried hands. (يضع لوشن لليدين بعد التجفيف — صحيح إذا كان اللوشن من نوعية لا تؤثر على القفازات)"
+                },
+                {
+                  type: "info",
+                  style: "important",
+                  label: "❓ السؤال الخامس (Sterile Field)",
+                  text: "Which action is correct when setting up a sterile field?\n\nأي إجراء صحيح عند إعداد حقل معقم؟\n\nA) Opens sterile pack toward herself. (يفتح العبوة المعقمة باتجاه نفسه — خطأ، يفتحها باتجاه الخارج)\n✅ B) Avoids placing items in outer 1-inch margin. (يتجنب وضع الأدوات في الحافة الخارجية 1 إنش — صحيح)\nC) Places wrapped basin in center. (يضع الحوض المغلف في المنتصف — خطأ، الحوض المغلف يوضع دون لمس الحواف)\nD) Pours sterile solution from 8-10 inches above. (يصيب المحلول المعقم من ارتفاع 8-10 بوصات — خطأ، من ارتفاع أقل لتجنب التلوث)"
+                },
+                {
+                  type: "heading",
+                  text: "🧤 Gloves — القفازات"
+                },
+                {
+                  type: "sentences",
+                  items: [
+                    {
+                      en: "Nurses wear clean gloves in the following circumstances: as a barrier to blood and body fluids, to protect clients from microorganisms, during transfer of microorganisms between clients.",
+                      pron: "نيرسِز وير غلافز إن ذا فولوينغ سيركومستانسيز: آز أ باريير تو بلاد أند بودي فلويدز، تو بروتيكت كلاينتس فروم مايكروأورغانيزمز، ديرينغ ترانسفر أوف مايكروأورغانيزمز بيتوين كلاينتس.",
+                      ar: "ترتدي الممرضات القفازات النظيفة في الحالات التالية: كحاجز ضد الدم وسوائل الجسم، لحماية المرضى من الميكروبات، وأثناء احتمال انتقال الميكروبات بين المرضى."
+                    },
+                    {
+                      en: "Gloves are generally made of latex. Some nurses and clients are allergic to latex.",
+                      pron: "غلافز آر جنرالي ميد أوف لاتِكس. سَم نيرسِز أند كلاينتس آر أليرجِك تو لاتِكس.",
+                      ar: "القفازات غالباً مصنوعة من اللاتكس. بعض الممرضين والمرضى لديهم حساسية من اللاتكس."
+                    },
+                    {
+                      en: "Examination gloves are generally made of latex.",
+                      pron: "إكزامينيشن غلافز آر جنرالي ميد أوف لاتِكس.",
+                      ar: "قفازات الفحص غالباً مصنوعة من اللاتكس."
+                    },
+                    {
+                      en: "Gloves also protect clients from microorganisms transmitted from nursing personnel.",
+                      pron: "غلافز أولسو بروتيكت كلاينتس فروم مايكروأورغانيزمز ترانسميتد فروم نيرسينغ بيرسونيل.",
+                      ar: "القفازات تحمي المرضى أيضاً من انتقال الميكروبات من الممرضين."
+                    }
+                  ]
+                },
+                {
+                  type: "heading",
+                  text: "🏥 Confining Soiled Articles — حصر المواد المتسخة (ملخص)"
+                },
+                {
+                  type: "sentences",
+                  items: [
+                    {
+                      en: "Health care agencies have clean and dirty utility rooms. Personnel must not place soiled articles in the clean utility room.",
+                      pron: "هيلث كير إيجنسيز هاف كلين أند ديرتي يوتيليتي رومز. بيرسونيل موست نوت بليس سويلد أرتيكلز إن ذا كلين يوتيليتي روم.",
+                      ar: "مؤسسات الرعاية الصحية لديها غرف خدمات نظيفة وأخرى ملوثة. يُمنع وضع الأدوات الملوثة في الغرفة النظيفة."
+                    },
+                    {
+                      en: "Waste receptacles are used to contain soiled articles until disposal.",
+                      pron: "وست ريسِبتِكلز آر يوزد تو كونتين سويلد أرتيكلز أنتل دِسبوزَل.",
+                      ar: "تُستخدم حاويات النفايات لتجميع المواد الملوثة حتى التخلص منها."
+                    },
+                    {
+                      en: "Most client rooms have puncture-resistant containers for sharps.",
+                      pron: "موست كلاينت رومز هاف بانكتشر-ريزيستنت كونتينرز فور شاربس.",
+                      ar: "معظم غرف المرضى تحتوي على حاويات مقاومة للثقب للأدوات الحادة (Sharps Containers)."
+                    }
                   ]
                 },
                 {
                   type: "info",
                   style: "tip",
-                  label: "🎓 ملاحظة ختامية",
-                  text: "Nosocomial Infection = Hospital-acquired infection = العدوى المكتسبة من المستشفى\nغالباً تنتج عن خلل في إجراءات التعقيم أو نظافة الطاقم الطبي.\nميكروبات المستشفى غالباً مقاومة للمضادات الحيوية.\n\nتذكر: منع العدوى يبدأ بفهم سلسلة العدوى وكسر إحدى حلقاتها!"
+                  label: "🎓 ملخص نهائي للفصل",
+                  text: "• العقامة (Asepsis) هي أساس منع العدوى\n• سلسلة العدوى تتكون من 6 حلقات، كسر أي حلقة يمنع العدوى\n• العقامة الطبية (Medical Asepsis) تقلل الميكروبات\n• العقامة الجراحية (Surgical Asepsis) تقضي على جميع الميكروبات والأبواغ\n• غسل اليدين هو أهم إجراء للوقاية من العدوى\n• الفرك الجراحي يستغرق 2-6 دقائق مع رفع اليدين فوق المرفقين\n• الأوتوكلاف هو أكثر طرق التعقيم موثوقية\n• الحافة الخارجية 1 إنش من الحقل المعقم تعتبر ملوثة\n• أي شك في التعقيم يعني عدم التعقيم"
                 }
               ]
             }
