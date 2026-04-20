@@ -67,7 +67,7 @@ const coursesData = {
           name: "Asepsis - العقامة (الفصل الأول)",
           pdfUrl: "https://www.mediafire.com/file/3ngj0dww90i5i7f/Asepsis.pdf/file",
           pages: [
-            // ==================== PAGE 0: LEARNING OBJECTIVES (NEW) ====================
+            // ==================== PAGE 0: LEARNING OBJECTIVES ====================
             {
               title: "📚 أهداف التعلم (Learning Objectives)",
               sections: [
@@ -225,13 +225,13 @@ const coursesData = {
                   type: "info",
                   style: "tip",
                   label: "💡 معلومة مهمة",
-                  text: "بعض الكائنات الدقيقة أقل خطورة من غيرها. مثال: البكتيريا المعوية تساعد في إنتاج فيتامين K الذي يساعد في السيطرة على النزيف.\n\nمقارنة سريعة:\n• Resident vs Transient: المقيمة دائمة والعالقة سطحياً، العابرة مكتسبة من البيئة\n• Aerobic vs Anaerobic: الهوائية تحتاج أكسجين، اللاهوائية تعيش بدونه"
+                  text: "بعض الكائنات الدقيقة أقل خطورة من غيرها. مثال: البكتيريا المعوية تساعد في إنتاج فيتامين K الذي يساعد في السيطرة على النزيف."
                 }
               ]
             },
             // ==================== PAGE 3: SURVIVAL OF MICROORGANISMS & SPORES ====================
             {
-              title: "بقاء الميكروبات على قيد الحياة (Survival of Microorganisms) والأبواغ (Spores)",
+              title: "بقاء الميكروبات والأبواغ (Survival of Microorganisms & Spores)",
               sections: [
                 {
                   type: "sentences",
@@ -277,7 +277,7 @@ const coursesData = {
                   type: "info",
                   style: "warning",
                   label: "⚠️ الأهمية السريرية (Clinical Importance)",
-                  text: "الأبواغ تجعل بعض البكتيريا مقاومة للتعقيم العادي وتتطلب التعقيم الجراحي (Sterilization).\nمثال: بكتيريا Clostridium difficile (C. diff) المسببة للإسهال المرتبط بالمضادات الحيوية.\n\n📌 مثال آخر على تكيف الميكروبات: بعض البكتيريا تنتج إنزيمات تقاوم المضادات الحيوية (مقاومة المضادات الحيوية)."
+                  text: "الأبواغ تجعل بعض البكتيريا مقاومة للتعقيم العادي وتتطلب التعقيم الجراحي (Sterilization).\nمثال: بكتيريا Clostridium difficile (C. diff) المسببة للإسهال المرتبط بالمضادات الحيوية."
                 }
               ]
             },
@@ -376,7 +376,7 @@ const coursesData = {
             },
             // ==================== PAGE 6: SUSCEPTIBLE HOST & NOSOCOMIAL INFECTION ====================
             {
-              title: "العائل القابل للإصابة (Susceptible Host) والعدوى المكتسبة من المستشفى",
+              title: "العائل القابل للإصابة والعدوى المكتسبة من المستشفى",
               sections: [
                 {
                   type: "sentences",
@@ -423,7 +423,7 @@ const coursesData = {
             },
             // ==================== PAGE 7: TYPES OF ASEPSIS (MEDICAL VS SURGICAL) ====================
             {
-              title: "أنواع العقامة (Types of Asepsis): الطبي مقابل الجراحي",
+              title: "أنواع العقامة (الطبي مقابل الجراحي)",
               sections: [
                 {
                   type: "terms",
@@ -563,7 +563,7 @@ const coursesData = {
             },
             // ==================== PAGE 9: HAND WASHING & SURGICAL SCRUB ====================
             {
-              title: "غسل اليدين (Hand Washing) والتعقيم الجراحي (Surgical Scrub)",
+              title: "غسل اليدين والتعقيم الجراحي",
               sections: [
                 {
                   type: "heading",
@@ -664,7 +664,7 @@ const coursesData = {
             },
             // ==================== PAGE 10: PPE, GLOVES & ENVIRONMENTAL HYGIENE ====================
             {
-              title: "معدات الوقاية الشخصية (PPE)، القفازات، ونظافة البيئة",
+              title: "معدات الوقاية الشخصية، القفازات، ونظافة البيئة",
               sections: [
                 {
                   type: "list",
@@ -761,7 +761,7 @@ const coursesData = {
             },
             // ==================== PAGE 11: SURGICAL ASEPSIS & STERILIZATION ====================
             {
-              title: "العقامة الجراحية (Surgical Asepsis) والتعقيم (Sterilization)",
+              title: "العقامة الجراحية والتعقيم (Surgical Asepsis & Sterilization)",
               sections: [
                 {
                   type: "heading",
@@ -913,14 +913,7 @@ const coursesData = {
                   type: "info",
                   style: "important",
                   label: "📌 ملخص طرق التعقيم (تقنيات التعقيم — Sterilization Techniques)",
-                  items: [
-                    "1. الإشعاع (Radiation) — يستخدم للأشعة فوق البنفسجية",
-                    "2. الماء المغلي (Boiling Water) — 15 دقيقة عند 100°C",
-                    "3. البخار الحر (Free-Flowing Steam)",
-                    "4. الحرارة الجافة (Dry Heat) — 165-170°C لمدة 3 ساعات",
-                    "5. الأوتوكلاف (Autoclave) — البخار تحت الضغط، أكثر الطرق موثوقية",
-                    "6. التعقيم الكيميائي (Chemical Sterilization) — غازات وسوائل"
-                  ]
+                  text: "1. الإشعاع (Radiation) — يستخدم للأشعة فوق البنفسجية\n2. الماء المغلي (Boiling Water) — 15 دقيقة عند 100°C\n3. البخار الحر (Free-Flowing Steam)\n4. الحرارة الجافة (Dry Heat) — 165-170°C لمدة 3 ساعات\n5. الأوتوكلاف (Autoclave) — البخار تحت الضغط، أكثر الطرق موثوقية\n6. التعقيم الكيميائي (Chemical Sterilization) — غازات وسوائل"
                 }
               ]
             },
@@ -1547,17 +1540,6 @@ function renderSection(sec) {
     `).join('');
   }
   if (sec.type === 'info') {
-    if (sec.items) {
-      // Handle info with items array (like the sterilization techniques list)
-      return `
-        <div class="info-box ${sec.style || ''}">
-          <div class="info-box-label">${sec.label}</div>
-          <div style="margin-top:8px">
-            ${sec.items.map(item => `<div style="margin-bottom:4px">${item}</div>`).join('')}
-          </div>
-        </div>
-      `;
-    }
     return `
       <div class="info-box ${sec.style || ''}">
         <div class="info-box-label">${sec.label}</div>
