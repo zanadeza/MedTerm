@@ -83,8 +83,8 @@
         {
           "type": "terms",
           "items": [
-            { "en": "Zacharias Janssen (1590)", "pron": "زاكارياس يانسن", "ar": "صانع نظارات هولندي، اخترع أول مجهر ضوئي مركب (First compound light microscope)" },
-            { "en": "Robert Hooke (1665)", "pron": "روبرت هوك", "ar": "فيلسوف إنجليزي ومعماري، نشر كتاب 'Micrographia' الذي احتوى على أول وصف دقيق للكائنات الدقيقة (مثل أبواغ العفن)" },
+            { "en": "Zacharias Janssen (1590)", "pron": "زاكرياس جانسن", "ar": "صانع نظارات هولندي، اخترع أول مجهر ضوئي مركب (First compound light microscope)" },
+            { "en": "Robert Hooke (1665)", "pron": "روبرت هوك", "ar": "عالم إنجليزي، نشر كتاب 'Micrographia' (1665) الذي احتوى على أول وصف دقيق للكائنات الدقيقة (مثل أبواغ العفن - mold spores)" },
             { "en": "Antony van Leeuwenhoek (1674-1676)", "pron": "أنطوني فان ليفينهوك", "ar": "أبو علم الأحياء الدقيقة، صنع عدسات قوية تصل إلى 300x، أول من رصد البكتيريا والخميرة والأوليات" }
           ]
         }
@@ -112,7 +112,7 @@
       ]
     },
     {
-      "title": "العلماء الرئيسيون واكتشافاتهم",
+      "title": "العلماء الرئيسيون واكتشافاتهم (Historical Review)",
       "sections": [
         {
           "type": "heading",
@@ -124,11 +124,11 @@
             { "en": "Edward Jenner (1796)", "pron": "إدوارد جينر", "ar": "أول لقاح (الجدري - Smallpox vaccine)" },
             { "en": "Louis Pasteur (1857)", "pron": "لويس باستور", "ar": "نظرية جرثومية الأمراض (Germ Theory of Disease)" },
             { "en": "Louis Pasteur (1885)", "pron": "لويس باستور", "ar": "لقاح ضد داء الكلب (Rabies vaccine)" },
-            { "en": "Tyndall (1877)", "pron": "تيندال", "ar": "التعقيم المتقطع (Tyndallization) للقضاء على البكتيريا المكونة للأبواغ، أول من لاحظ الخصائص المضادة للبكتيريا لفطر البنسليوم" },
+            { "en": "Tyndall (1877)", "pron": "تيندال", "ar": "التعقيم المتقطع (Tyndallization) للقضاء على البكتيريا المكونة للأبواغ، أول من لاحظ الخصائص المضادة للبكتيريا لفطر البنسليوم (Penicillium)" },
             { "en": "Robert Koch (1884)", "pron": "روبرت كوخ", "ar": "فرضيات كوخ (Koch's Postulates) حول انتقال الأمراض" },
             { "en": "Joseph Lister (1867)", "pron": "جوزيف ليستر", "ar": "قدم الفينول كمطهر (Antiseptic)" },
-            { "en": "Gram (1884)", "pron": "غرام", "ar": "طور تقنيته الهامة في الصيغ التفريقي (Gram staining)" },
-            { "en": "Behring and Kitassato (1890)", "pron": "بهيرنغ وكيتاساتو", "ar": "اكتشفا مضاد السموم للدفتيريا والكزاز" }
+            { "en": "Gram (1884)", "pron": "غرام", "ar": "طور تقنيته الهامة في الصيغ التفريقي (Differential staining technique)" },
+            { "en": "Behring and Kitassato (1890)", "pron": "بهيرنغ وكيتاساتو", "ar": "اكتشفا مضاد السموم للدفتيريا والكزاز (Antitoxin for diphtheria and tetanus)" }
           ]
         }
       ]
@@ -175,7 +175,7 @@
           "type": "info",
           "style": "tip",
           "label": "📌 ملاحظة",
-          "text": "روبرت كوخ (1876) استخدم الأوساط الصلبة لزراعة الكائنات الدقيقة، وكان الجيلاتين هو مادة التصلب المستخدمة. قام كوخ بعزل بكتيريا الجمرة الخبيثة (Bacillus anthracis)، وأجرى دراسات مفيدة حول السل والكوليرا. رسومات كوخ لبكتيريا Mycobacterium tuberculosis أظهرتها كأشكال خيطية طويلة (Long cordlike forms)."
+          "text": "روبرت كوخ (1876) استخدم الأوساط الصلبة لزراعة الكائنات الدقيقة، وكان الجيلاتين هو مادة التصلب المستخدمة. قام كوخ بعزل بكتيريا الجمرة الخبيثة (Bacillus anthracis)، وأجرى دراسات مفيدة حول السل والكوليرا. رسومات كوخ لبكتيريا Mycobacterium tuberculosis أظهرتها كأشكال خيطية طويلة (Long cordlike forms) عند نموها في المختبر."
         }
       ]
     },
@@ -228,7 +228,7 @@
         },
         {
           "type": "list",
-          "label": "العوامل المسببة للأمراض المعدية:",
+          "label": "تنتج الأمراض المعدية عن خمس مجموعات رئيسية من الكائنات الحية:",
           "items": [
             "Bacteria (البكتيريا) — تنتمي إلى مملكة بدائيات النوى (Prokaryotic kingdom)",
             "Fungi (الفطريات) — تشمل الخمائر والعفن (Yeasts and molds)، أعضاء في مملكة الطلائعيات (Protists)",
@@ -292,11 +292,11 @@
       ]
     },
     {
-      "title": "جدول 1: مقارنة الكائنات الدقيقة المهمة طبياً",
+      "title": "جدول 1: مقارنة الكائنات الدقيقة المهمة طبياً (Comparison of Medically Important Organisms)",
       "sections": [
         {
           "type": "heading",
-          "text": "📊 Comparison of Medically Important Organisms"
+          "text": "📊 مقارنة الكائنات المهمة طبياً"
         },
         {
           "type": "heading",
@@ -305,7 +305,7 @@
         {
           "type": "terms",
           "items": [
-            { "en": "Viruses", "pron": "فيروسات", "ar": "لا تمتلك خلايا، قطرها 0.02-0.2 ميكرومتر" },
+            { "en": "Viruses", "pron": "فيروسات", "ar": "لا تمتلك خلايا، قطرها 0.02 ميكرومتر" },
             { "en": "Bacteria", "pron": "بكتيريا", "ar": "تمتلك خلايا، قطرها 1-5 ميكرومتر" },
             { "en": "Fungi", "pron": "فطريات", "ar": "تمتلك خلايا، قطرها 3-10 ميكرومتر (للخمائر)" },
             { "en": "Protozoa & Helminths", "pron": "أوليات وديدان", "ar": "تمتلك خلايا، قطرها 15-25 ميكرومتر (للأطوار النشطة)" }
@@ -319,7 +319,7 @@
           "type": "terms",
           "items": [
             { "en": "Viruses", "pron": "فيروسات", "ar": "تحتوي إما DNA أو RNA، ولا تمتلك نواة" },
-            { "en": "Bacteria", "pron": "بكتيريا", "ar": "تحتوي كلا من DNA و RNA، نواة بدائية (Prokaryotic)" },
+            { "en": "Bacteria", "pron": "بكتيريا", "ar": "تحتوي كلا من DNA و RNA معاً، نواة بدائية (Prokaryotic)" },
             { "en": "Fungi, Protozoa & Helminths", "pron": "فطريات، أوليات وديدان", "ar": "تحتوي كلا من DNA و RNA، نواة حقيقية (Eukaryotic)" }
           ]
         },
@@ -332,7 +332,7 @@
           "items": [
             { "en": "Viruses - Ribosomes", "pron": "فيروسات", "ar": "الريبوسومات: غائبة | الميتوكوندريا: غائبة" },
             { "en": "Bacteria - Ribosomes", "pron": "بكتيريا", "ar": "الريبوسومات: 70S | الميتوكوندريا: غائبة" },
-            { "en": "Fungi & Protozoa - Ribosomes", "pron": "فطريات وأوليات", "ar": "الريبوسومات: 80S | الميتوكوندريا: موجودة" }
+            { "en": "Fungi, Protozoa & Helminths - Ribosomes", "pron": "فطريات وأوليات وديدان", "ar": "الريبوسومات: 80S | الميتوكوندريا: موجودة" }
           ]
         },
         {
@@ -343,8 +343,8 @@
           "type": "terms",
           "items": [
             { "en": "Viruses", "pron": "فيروسات", "ar": "سطحها: غلاف بروتيني (Capsid) وأحياناً غلاف دهني، لا تتحرك" },
-            { "en": "Bacteria", "pron": "بكتيريا", "ar": "جدار صلب يحتوي على Peptidoglycan، بعضها يتحرك" },
-            { "en": "Fungi", "pron": "فطريات", "ar": "جدار صلب يحتوي على Chitin، لا تتحرك" },
+            { "en": "Bacteria", "pron": "بكتيريا", "ar": "جدار صلب يحتوي على ببتيدوغليكان (Peptidoglycan)، بعضها يتحرك" },
+            { "en": "Fungi", "pron": "فطريات", "ar": "جدار صلب يحتوي على كيتين (Chitin)، لا تتحرك (معظمها)" },
             { "en": "Protozoa & Helminths", "pron": "أوليات وديدان", "ar": "غشاء مرن، معظمها يتحرك" }
           ]
         }
@@ -396,11 +396,11 @@
       ]
     },
     {
-      "title": "أمثلة على بدائيات وحقيقيات النوى",
+      "title": "أمثلة على بدائيات وحقيقيات النوى (Examples)",
       "sections": [
         {
           "type": "heading",
-          "text": "📋 أمثلة (Examples)"
+          "text": "📋 أمثلة"
         },
         {
           "type": "terms",
@@ -408,25 +408,16 @@
             { "en": "Prokaryotes", "pron": "بدائيات النوى", "ar": "تشمل البكتيريا (Bacteria)، الكلاميديا (Chlamydia)، والميكوبلازما (Mycoplasma)" },
             { "en": "Eukaryotes", "pron": "حقيقيات النوى", "ar": "تشمل الأوليات (Protozoa) والفطريات (Fungi)" }
           ]
-        }
-      ]
-    },
-    {
-      "title": "جدول 2: خصائص الخلايا بدائية النواة وحقيقية النواة",
-      "sections": [
+        },
         {
           "type": "heading",
-          "text": "📊 Characteristics of Prokaryotic and Eukaryotic Cells"
+          "text": "🔄 التكاثر (Multiplication)"
         },
         {
           "type": "terms",
           "items": [
-            { "en": "DNA within a nuclear membrane", "pron": "الحمض النووي داخل غشاء نووي", "ar": "بدائيات النواة: ❌ | حقيقيات النواة: ✅" },
-            { "en": "Mitotic division", "pron": "الانقسام الميتوزي", "ar": "بدائيات النواة: ❌ | حقيقيات النواة: ✅" },
-            { "en": "Chromosome number", "pron": "عدد الكروموسومات", "ar": "بدائيات النواة: واحد | حقيقيات النواة: أكثر من واحد" },
-            { "en": "Membrane-bound organelles", "pron": "عضيات محاطة بغشاء", "ar": "بدائيات النواة: ❌ | حقيقيات النواة: ✅" },
-            { "en": "Size of ribosome", "pron": "حجم الريبوسوم", "ar": "بدائيات النواة: 70S | حقيقيات النواة: 80S" },
-            { "en": "Cell wall containing peptidoglycan", "pron": "جدار خلوي يحتوي على ببتيدوغليكان", "ar": "بدائيات النواة: ✅ | حقيقيات النواة: ❌" }
+            { "en": "Prokaryotes multiplication", "pron": "تكاثر بدائيات النوى", "ar": "تتكاثر عن طريق عملية انقسام بسيطة تُعرف بالانشطار الثنائي (Binary fission)" },
+            { "en": "Eukaryotes multiplication", "pron": "تكاثر حقيقيات النوى", "ar": "تتكاثر عن طريق عملية الانقسام المتساوي (Mitosis)" }
           ]
         }
       ]
@@ -445,8 +436,28 @@
             "The agents of human infectious diseases are bacteria, fungi (yeasts and molds), protozoa, helminths (worms), and viruses. (العوامل المسببة للأمراض المعدية للإنسان هي البكتيريا، الفطريات (الخمائر والأعفان)، الأوليات، الديدان، والفيروسات)",
             "Bacterial cells have a prokaryotic nucleus, whereas human, fungal, protozoan, and helminth cells have a eukaryotic nucleus. (الخلايا البكتيرية لها نواة بدائية، بينما خلايا الإنسان والفطريات والأوليات والديدان لها نواة حقيقية)",
             "Viruses are not cells and do not have a nucleus. (الفيروسات ليست خلايا ولا تمتلك نواة)",
-            "Bacterial and fungal cells are surrounded by a rigid cell wall, whereas human, protozoan, and helminth cells have a flexible cell membrane. (الخلايا البكتيرية والفطرية محاطة بجدار خلوي صلب، بينما خلايا الإنسان والأوليات والديدان تمتلك غشاء خلويًا مرنًا)",
+            "Bacterial and fungal cells are surrounded by a rigid cell wall, whereas human, protozoan, and helminth cells have a flexible cell membrane. (الخلايا البكتيرية والفطرية محاطة بجدار خلوي صلب، بينما خلايا الإنسان والأوليات والديدان تمتلك غشاء خلوي مرناً)",
             "The bacterial cell wall contains peptidoglycan, whereas the fungal cell wall contains chitin. (الجدار الخلوي البكتيري يحتوي على مادة الببتيدوغليكان، بينما الجدار الخلوي الفطري يحتوي على الكيتين)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "جدول 2: خصائص الخلايا بدائية النواة وحقيقية النواة (Characteristics of Prokaryotic and Eukaryotic Cells)",
+      "sections": [
+        {
+          "type": "heading",
+          "text": "📊 خصائص الخلايا البدائية والحقيقية"
+        },
+        {
+          "type": "terms",
+          "items": [
+            { "en": "DNA within a nuclear membrane", "pron": "الحمض النووي داخل غشاء نووي", "ar": "بدائيات النوى: لا يوجد | حقيقيات النوى: يوجد" },
+            { "en": "Mitotic division", "pron": "الانقسام الميتوزي", "ar": "بدائيات النوى: لا يحدث | حقيقيات النوى: يحدث" },
+            { "en": "Chromosome number", "pron": "عدد الكروموسومات", "ar": "بدائيات النوى: واحد | حقيقيات النوى: أكثر من واحد" },
+            { "en": "Membrane-bound organelles (Mitochondria & Lysosomes)", "pron": "عضيات محاطة بغشاء", "ar": "بدائيات النوى: لا توجد | حقيقيات النوى: توجد" },
+            { "en": "Size of ribosome", "pron": "حجم الريبوسوم", "ar": "بدائيات النوى: 70S | حقيقيات النوى: 80S" },
+            { "en": "Cell wall containing peptidoglycan", "pron": "جدار خلوي يحتوي على ببتيدوغليكان", "ar": "بدائيات النوى: يوجد | حقيقيات النوى: لا يوجد" }
           ]
         }
       ]
