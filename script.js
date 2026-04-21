@@ -43,6 +43,34 @@ function updateOnlineStatus() {
 window.addEventListener('online', updateOnlineStatus);
 window.addEventListener('offline', updateOnlineStatus);
 
+// ==================== TEXT TO SPEECH FUNCTION ====================
+function speakText(text, lang) {
+  if (!text || text.trim() === '') return;
+  
+  // Stop any ongoing speech
+  window.speechSynthesis.cancel();
+  
+  const utterance = new SpeechSynthesisUtterance(text);
+  utterance.lang = lang; // 'en-US' for English, 'ar-SA' for Arabic
+  utterance.rate = 0.9; // Slightly slower for better clarity
+  utterance.pitch = 1;
+  utterance.volume = 1;
+  
+  window.speechSynthesis.speak(utterance);
+}
+
+// ==================== CREATE AUDIO BUTTON ====================
+function createAudioButton(text, lang) {
+  if (!text || text.trim() === '') return '';
+  const langCode = lang === 'en' ? 'en-US' : 'ar-SA';
+  const buttonLabel = lang === 'en' ? '🔊 استماع للإنجليزية' : '🔊 استماع للعربية';
+  return `<button class="audio-btn" onclick="speakText('${escapeText(text)}', '${langCode}')" title="${buttonLabel}">🔊</button>`;
+}
+
+function escapeText(text) {
+  return text.replace(/'/g, "\\'").replace(/"/g, '&quot;').replace(/\n/g, ' ');
+}
+
 // ==================== GLOBAL DATA ====================
 let coursesList = [];
 let coursesData = {};
@@ -58,10 +86,8 @@ async function loadAllData() {
     
     // Load each course's chapters data
     for (const course of coursesList) {
-      // Special handling for nadhari course (reads from folder)
       if (course.id === "nadhari") {
         try {
-          // Try to load chapters from nadhari folder
           const chapterFiles = ['chapter1.json', 'chapter2.json', 'chapter3.json'];
           const chapters = [];
           
@@ -82,7 +108,6 @@ async function loadAllData() {
           if (chapters.length > 0) {
             coursesData[course.id] = { chapters: chapters };
           } else {
-            // Fallback to old method if folder method fails
             const courseRes = await fetch(`./data/${course.id}.json`);
             if (courseRes.ok) {
               const courseData = await courseRes.json();
@@ -93,7 +118,6 @@ async function loadAllData() {
           }
         } catch (err) {
           console.warn(`Error loading nadhari chapters:`, err);
-          // Fallback to old method
           const courseRes = await fetch(`./data/${course.id}.json`);
           if (courseRes.ok) {
             const courseData = await courseRes.json();
@@ -103,7 +127,6 @@ async function loadAllData() {
           }
         }
       } else {
-        // For other courses, load single JSON file
         try {
           const courseRes = await fetch(`./data/${course.id}.json`);
           if (courseRes.ok) {
@@ -287,8 +310,8 @@ function showSearch() {
     }
     resultsEl.innerHTML = results.slice(0,20).map(r => `
       <div class="sentence-card fade-in" style="margin-bottom:10px;cursor:pointer;" onclick="navigateTo('chapter',{courseId:'${r.course.id}',chapterIdx:${r.ci},pageIdx:${r.pi}})">
-        <div class="sentence-en"><div class="sentence-en-text">${r.item.en || ''}</div></div>
-        <div class="sentence-ar"><span class="ar-label">ترجمة</span><div class="sentence-ar-text">${r.item.ar || ''}</div></div>
+        <div class="sentence-en"><div class="sentence-en-text">${r.item.en || ''}</div>${createAudioButton(r.item.en, 'en')}</div>
+        <div class="sentence-ar"><span class="ar-label">ترجمة</span><div class="sentence-ar-text">${r.item.ar || ''}</div>${createAudioButton(r.item.ar, 'ar')}</div>
         <div style="padding:5px 13px;font-size:0.65rem;color:var(--text3)">${r.course.name} / ${r.chName}</div>
       </div>
     `).join('');
@@ -487,15 +510,31 @@ function renderSection(sec) {
     return sec.items.map(item => `
       <div class="sentence-card">
         <div class="sentence-en">
-          <div class="sentence-en-text">${item.en || ''}</div>
+          <div class="sentence-header">
+            <div class="sentence-header-left">
+              <span class="pron-label">English</span>
+              <div class="sentence-text">${item.en || ''}</div>
+            </div>
+            ${createAudioButton(item.en, 'en')}
+          </div>
         </div>
         <div class="sentence-pron">
-          <span class="pron-label">نطق</span>
-          <div class="sentence-pron-text">${item.pron || ''}</div>
+          <div class="sentence-header">
+            <div class="sentence-header-left">
+              <span class="pron-label">نطق</span>
+              <div class="sentence-text">${item.pron || ''}</div>
+            </div>
+            ${createAudioButton(item.pron, 'ar')}
+          </div>
         </div>
         <div class="sentence-ar">
-          <span class="ar-label">ترجمة</span>
-          <div class="sentence-ar-text">${item.ar || ''}</div>
+          <div class="sentence-header">
+            <div class="sentence-header-left">
+              <span class="ar-label">ترجمة</span>
+              <div class="sentence-text">${item.ar || ''}</div>
+            </div>
+            ${createAudioButton(item.ar, 'ar')}
+          </div>
         </div>
       </div>
     `).join('');
@@ -504,10 +543,22 @@ function renderSection(sec) {
     return sec.items.map(item => `
       <div class="term-card">
         <div class="term-en">
-          <span class="term-en-word">${item.en || ''}</span>
-          <span class="term-pron">[${item.pron || ''}]</span>
+          <div class="term-header">
+            <div class="sentence-header-left">
+              <span class="term-en-word">${item.en || ''}</span>
+              <span class="term-pron">[${item.pron || ''}]</span>
+            </div>
+            ${createAudioButton(item.en, 'en')}
+          </div>
         </div>
-        <div class="term-ar">${item.ar || ''}</div>
+        <div class="term-ar">
+          <div class="term-header">
+            <div class="sentence-header-left">
+              <span>${item.ar || ''}</span>
+            </div>
+            ${createAudioButton(item.ar, 'ar')}
+          </div>
+        </div>
       </div>
     `).join('');
   }
@@ -773,3 +824,6 @@ window.addEventListener('load', () => {
   loadAllData();
   updateOnlineStatus();
 });
+
+// Make speakText available globally for onclick handlers
+window.speakText = speakText;
