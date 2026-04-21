@@ -39,27 +39,101 @@
           "text": "🔬 الأشكال النموذجية للبكتيريا"
         },
         {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Bacteria not only vary in size but also in shape, the more typical forms are:",
+              "pron": "باكتيريا نوت أونلي فاري إن سايز بوت ألسو إن شيب، ذا مور تيبيكال فورمز آر:",
+              "ar": "لا تختلف البكتيريا في الحجم فحسب بل في الشكل أيضاً، والأشكال الأكثر شيوعاً هي:"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "1️⃣ Cocci (spherical shape) — البكتيريا المكورة (الشكل الكروي)"
+        },
+        {
           "type": "terms",
           "items": [
-            { "en": "Cocci (spherical shape)", "pron": "كوكاي", "ar": "المكورات — بكتيريا كروية الشكل" },
-            { "en": "Monococci", "pron": "مونوكوكاي", "ar": "مكورات مفردة — خلايا منفردة" },
-            { "en": "Diplococci", "pron": "ديبلوكوكاي", "ar": "مكورات ثنائية — تظهر في أزواج" },
-            { "en": "Streptococci", "pron": "ستربتوكوكاي", "ar": "مكورات سبحية — تظهر في سلاسل" },
-            { "en": "Staphylococcus", "pron": "ستافيلوكوكس", "ar": "مكورات عنقودية — تظهر في مجموعات تشبه العنقود" },
-            { "en": "Bacilli (rod shaped)", "pron": "باسيلي", "ar": "العصيات — بكتيريا عصوية الشكل" },
-            { "en": "Monobacilli", "pron": "مونوباسيلي", "ar": "عصيات مفردة" },
-            { "en": "Diplobacilli", "pron": "ديبلوباسيلي", "ar": "عصيات ثنائية" },
-            { "en": "Streptobacilli", "pron": "ستربتوباسيلي", "ar": "عصيات سبحية — في سلاسل" },
-            { "en": "Vibrios (comma shaped)", "pron": "فيبريوس", "ar": "الضمات — بكتيريا على شكل فاصلة، مثل Vibrio cholerae" },
-            { "en": "Spiral", "pron": "سبايرال", "ar": "اللولبيات — مثل Spirochetes" },
-            { "en": "Filamentous", "pron": "فلامنتس", "ar": "الخيطية — مثل Actinomyces" },
-            { "en": "Fusiforms (spindle shaped)", "pron": "فيوزيفورمز", "ar": "المغزلية — بكتيريا على شكل مغزل" }
+            { "en": "Monococci", "pron": "مونوكوكاي", "ar": "مكورات أحادية — خلية واحدة منفردة" },
+            { "en": "Diplococci", "pron": "ديبلوكوكاي", "ar": "مكورات ثنائية — خليتان ملتصقتان معاً (Di = اثنان)" },
+            { "en": "Streptococci", "pron": "ستربتوكوكاي", "ar": "مكورات سبحية — على شكل سلسلة (Chains)" },
+            { "en": "Staphylococci", "pron": "ستافيلوكوكاي", "ar": "مكورات عنقودية — على شكل عنقود عنب (Clusters)" }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "2️⃣ Bacilli (rod shaped) — العصيات (على شكل عصا)"
+        },
+        {
+          "type": "terms",
+          "items": [
+            { "en": "Monobacilli", "pron": "مونوباسيلي", "ar": "عصيات أحادية — عصية واحدة منفردة" },
+            { "en": "Diplobacilli", "pron": "ديبلوباسيلي", "ar": "عصيات ثنائية — خليتان ملتصقتان" },
+            { "en": "Streptobacilli", "pron": "ستربتوباسيلي", "ar": "عصيات سبحية — على شكل سلاسل طويلة" },
+            { "en": "Acid fast bacilli (e.g., Mycobacterium)", "pron": "أسيد فاست باسيلي", "ar": "عصيات صامدة للحمض — مثل بكتيريا المتفطرة المسببة للسل" }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "3️⃣ Vibrios (comma shaped) — الضمات (على شكل فاصلة)"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Vibrios are comma-shaped bacteria. Example: Vibrio cholerae (causes cholera).",
+              "pron": "فيبريوس آر كوم-شيبيد باكتيريا. إكزامبل: فيبريو كوليراي.",
+              "ar": "الضمات هي بكتيريا على شكل فاصلة. مثال: ضمة الكوليرا (تسبب مرض الكوليرا)."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "4️⃣ Spiral — الحلزونية"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Spiral bacteria are spiral-shaped. Example: Spirochetes.",
+              "pron": "سبايرال باكتيريا آر سبايرال-شيبيد. إكزامبل: سبايروكيتس.",
+              "ar": "البكتيريا الحلزونية هي بكتيريا على شكل حلزوني. مثال: الملتويات (Spirochetes)."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "5️⃣ Filamentous — الخيطية"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Filamentous bacteria are thread-like. Example: Actinomyces.",
+              "pron": "فلامنتس باكتيريا آر ثريد-لايك. إكزامبل: أكتينومايسيس.",
+              "ar": "البكتيريا الخيطية تشبه الخيوط. مثال: البكتيريا الشعاعية (Actinomyces)."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "6️⃣ Fusiformis (spindle shaped) — المغزالية"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Fusiform bacteria are spindle-shaped (tapered at both ends).",
+              "pron": "فيوزيفورم باكتيريا آر سبيندل-شيبيد.",
+              "ar": "البكتيريا المغزلية هي بكتيريا على شكل مغزل (مدببة من الطرفين)."
+            }
           ]
         }
       ]
     },
     {
-      "title": "مكونات الخلية البكتيرية (Bacterial Cell Structure)",
+      "title": "تركيب الخلية البكتيرية (Bacterial Cell Structure)",
       "sections": [
         {
           "type": "heading",
@@ -69,10 +143,10 @@
           "type": "list",
           "label": "الأجزاء الهيكلية:",
           "items": [
-            "Appendages (الزوائد) - flagella (أسواط), pili (أهداب) or fimbriae (زمامات)",
+            "Appendages (الزوائد) - flagella (أسواط), pili (أهداب), fimbriae (زمامات)",
             "Surface layers (الطبقات السطحية) - capsule (محفظة), cell wall (جدار خلوي), cell membrane (غشاء خلوي)",
-            "Cytoplasm (السيتوبلازم) - nuclear material (مادة نووية), ribosome (رايبوسومات), mesosome (ميزوزوم), inclusions (شوائب)",
-            "Special structure (تركيب خاص) - endospore (بوغة داخلية)"
+            "Cytoplasm (السيتوبلازم) - nuclear material (مادة نووية), ribosomes (ريبوسومات), mesosomes (ميزوزومات), inclusions (شوائب)",
+            "Special structure (تركيب خاص) - endospores (أبواغ داخلية)"
           ]
         }
       ]
@@ -90,39 +164,58 @@
             {
               "en": "Flagella are long, whiplike appendages that move the bacteria toward nutrients and other attractants, a process called chemotaxis.",
               "pron": "فلا جيلا آر لونج، ويبلايك أبنادجيز ذات موف ذا باكتيريا توارد نيوترينتس آند أذر أتراكتنتس، أ بروسس كولد كيموتاكسيس.",
-              "ar": "الأسواط هي زوائد طويلة تشبه السوط تحرك البكتيريا نحو المغذيات والمواد الجاذبة الأخرى، وهي عملية تسمى الانجذاب الكيميائي."
+              "ar": "الأسواط هي زوائد طويلة تشبه السوط تحرك البكتيريا نحو المغذيات والمواد الجاذبة الأخرى، وهي عملية تسمى الانجذاب الكيميائي (Chemotaxis)."
             },
             {
-              "en": "Flagella composed of many subunits of a single protein, flagellin, arranged in several intertwined chains.",
-              "pron": "فلا جيلا كومبوزد أوف ميني سابيونتس أوف أ سينغل بروتين، فلا جيلين، أرينجد إن سيفرال إنترتويند تشينز.",
-              "ar": "يتكون السوط من وحدات فرعية عديدة من بروتين واحد يسمى الفلاجيلين، مرتبة في سلاسل متشابكة متعددة."
+              "en": "Flagella are composed of many subunits of a single protein, flagellin, arranged in several intertwined chains.",
+              "pron": "فلا جيلا آر كومبوزد أوف ميني سابيونتس أوف أ سينغل بروتين، فلا جيلين، أرينجد إن سيفرال إنترتويند تشينز.",
+              "ar": "تتكون الأسواط من وحدات فرعية عديدة من بروتين واحد يسمى الفلاجيلين (Flagellin)، مرتبة في سلاسل متشابكة متعددة."
             }
           ]
         },
         {
           "type": "heading",
-          "text": "📋 ترتيبات الأسواط (Flagella arrangements)"
+          "text": "📋 ترتيبات الأسواط (Flagella Arrangements)"
         },
         {
           "type": "terms",
           "items": [
-            { "en": "Monotrichous", "pron": "مونوتريكس", "ar": "سوط واحد (One flagellum)" },
-            { "en": "Lophotrichous", "pron": "لوفوتريكس", "ar": "خصلة من الأسواط في أحد طرفي الخلية (A clump/tuft at one end)" },
-            { "en": "Amphitrichous", "pron": "أمفيتريكس", "ar": "أسواط في طرفي الخلية (Flagella at two ends)" },
-            { "en": "Peritrichous", "pron": "بيريتريكس", "ar": "أسواط تغطي الخلية بأكملها (Flagella covering entire cell)" },
-            { "en": "Endoflagellum", "pron": "إندوفلاجيلوم", "ar": "سوط داخلي ملفوف حول اللولبيات (Tightly wrapped around spirochetes)" }
+            { "en": "Monotrichous", "pron": "مونوتريكس", "ar": "أحادية السوط — سوط واحد فقط في أحد الأطراف" },
+            { "en": "Lophotrichous", "pron": "لوفوتريكس", "ar": "خصلية الأسواط — مجموعة من الأسواط (تسمى خصلة) عند طرف واحد من الخلية" },
+            { "en": "Amphitrichous", "pron": "أمفيتريكس", "ar": "متقابلة الأسواط — أسواط موجودة عند طرفي الخلية" },
+            { "en": "Peritrichous", "pron": "بيريتريكس", "ar": "محيطية الأسواط — الأسواط تغطي جسم الخلية بالكامل" },
+            { "en": "Endoflagellum", "pron": "إندوفلاجيلوم", "ar": "السوط الداخلي — نوع من الأسواط المتقابلة التي تلتف بإحكام حول البكتيريا الملتوية (Spirochetes)" }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "🦠 الأهمية الطبية للأسواط"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Some species of motile bacteria, e.g., E. coli and Proteus species, are common causes of urinary tract infections.",
+              "pron": "سَم سبيسيز أوف موتايل باكتيريا، إي.جي.، إي. كولاي آند بروتيوس سبيسيز، آر كومون كوزز أوف يورينري تراكت إنفيكشنز.",
+              "ar": "بعض أنواع البكتيريا المتحركة، مثل بكتيريا E. coli وأنواع Proteus، هي أسباب شائعة لعدوى المسالك البولية."
+            },
+            {
+              "en": "Borrelia burgdorferi, which is the bacterium that causes Lyme disease, exhibits an endoflagellum.",
+              "pron": "بورليليا بورجدورفيري، وِتش إز ذا باكتيريا ذات كوزيز لايم ديزيز، إكزبيتس أن إندوفلاجيلوم.",
+              "ar": "بكتيريا Borrelia burgdorferi، وهي البكتيريا المسببة لمرض لايم، تمتلك سوطاً داخلياً (Endoflagellum)."
+            }
           ]
         },
         {
           "type": "info",
           "style": "tip",
-          "label": "💡 أهمية طبية",
-          "text": "الأسواط مهمة طبياً لأن بعض أنواع البكتيريا المتحركة، مثل E. coli و Proteus species، هي أسباب شائعة لالتهابات المسالك البولية.\n\nمثال: Borrelia burgdorferi (البكتيريا المسببة لمرض لايم) تمتلك إندوفلاجيلوم (سوط داخلي)."
+          "label": "💡 معلومات إضافية",
+          "text": "• السوط الداخلي (Endoflagellum) يقع في المسافة بين الغشاء الداخلي والغشاء الخارجي (Periplasmic space)\n• عندما يدور هذا السوط الداخلي، يجعل جسم البكتيريا بالكامل يلتوي ويدور حول نفسه، مما يسمح لها باختراق الأنسجة اللزجة بسهولة مثل حركة المسمار داخل الخشب."
         }
       ]
     },
     {
-      "title": "الزمامات والأهداب (Fimbriae and Pili)",
+      "title": "الزمامات (Fimbriae) والأهداب (Pili)",
       "sections": [
         {
           "type": "heading",
@@ -132,19 +225,24 @@
           "type": "sentences",
           "items": [
             {
-              "en": "Fimbriae are sticky, proteinaceous, bristlelike projections used by bacteria to adhere to one another, to hosts, and to substances in environment.",
-              "pron": "فيمبرياي آر ستيكي، بروتينيشس، بريستللايك بروجكشنز يوزد باي باكتيريا تو أدير تو ون أناذر، تو هوستس، آند تو سابستانسز إن إنفايرونمنت.",
-              "ar": "الزمامات هي نتؤات لزجة بروتينية تشبه الشعر الخشن تستخدمها البكتيريا للالتصاق ببعضها البعض وبالعوائل وبالمواد في البيئة."
+              "en": "Fimbriae are nonmotile extensions. They are sticky, proteinaceous, bristle-like projections.",
+              "pron": "فيمبرياي آر نونموتايل إكستنشنز. ذاي آر ستيكي، بروتينيشس، بريستل-لايك بروجكشنز.",
+              "ar": "الزمامات هي زوائد غير حركية. وهي نتؤات لزجة بروتينية تشبه شعيرات الفرشاة الخشنة."
             },
             {
-              "en": "They may be hundreds per cell and are shorter than flagella.",
-              "pron": "ذاي ماي بي هاندرردز بير سيل آند آر شورتر ذان فلا جيلا.",
-              "ar": "قد تكون بمئات لكل خلية وهي أقصر من الأسواط."
+              "en": "Used by bacteria to adhere to one another, to hosts, and to substances in environment.",
+              "pron": "يوزد باي باكتيريا تو أدير تو ون أناذر، تو هوستس، آند تو سابستانسز إن إنفايرونمنت.",
+              "ar": "تُستخدم من قبل البكتيريا للالتصاق ببعضها البعض أو بالعائل (مثل جسم الإنسان) أو بالأسطح في البيئة."
             },
             {
-              "en": "They serve an important function in biofilms.",
-              "pron": "ذاي سيرف أن إمبورتنت فانكشن إن بايوفيللمز.",
-              "ar": "تخدم وظيفة مهمة في الأغشية الحيوية (Biofilms)."
+              "en": "May be hundreds per cell and are shorter than flagella.",
+              "pron": "ماي بي هاندرردز بير سيل آند آر شورتر ذان فلا جيلا.",
+              "ar": "قد يوجد المئات منها في الخلية الواحدة وهي أقصر من الأسواط."
+            },
+            {
+              "en": "Serve an important function in biofilms.",
+              "pron": "سيرف أن إمبورتنت فانكشن إن بايوفيللمز.",
+              "ar": "تؤدي وظيفة مهمة في تكوين الأغشية الحيوية (Biofilms)."
             }
           ]
         },
@@ -156,26 +254,42 @@
           "type": "sentences",
           "items": [
             {
-              "en": "Pili are long hollow tubules composed of pilin. They are longer than fimbriae but shorter than flagella.",
-              "pron": "بايلي آر لونغ هولو توبيولز كومبوزد أوف بايلين. ذاي آر لونغر ذان فيمبرياي بوت شورتر ذان فلا جيلا.",
-              "ar": "الأهداب هي أنابيب مجوفة طويلة تتكون من البيلين. وهي أطول من الزمامات ولكنها أقصر من الأسواط."
+              "en": "Pili are long hollow tubules composed of pilin.",
+              "pron": "بايلي آر لونغ هولو توبيولز كومبوزد أوف بايلين.",
+              "ar": "الأهداب هي أنابيب مجوفة طويلة تتكون من بروتين يسمى البيلين (Pilin)."
+            },
+            {
+              "en": "Longer than fimbriae but shorter than flagella.",
+              "pron": "لونغر ذان فيمبرياي بوت شورتر ذان فلا جيلا.",
+              "ar": "هي أطول من الزمامات ولكنها أقصر من الأسواط."
             },
             {
               "en": "Bacteria typically only have one or two per cell.",
               "pron": "باكتيريا تيبيكلي أونلي هاف ون أور تو بير سيل.",
-              "ar": "عادة ما تحتوي البكتيريا على واحد أو اثنين فقط لكل خلية."
+              "ar": "عادة ما تمتلك البكتيريا واحداً أو اثنين فقط من هذه الأهداب لكل خلية."
             },
             {
               "en": "They join two bacterial cells and mediate the transfer of DNA from one cell to another (conjugation).",
               "pron": "ذاي جوين تو باكتيريال سيلز آند ميديات ذا ترانسفر أوف دي إن إيه فروم ون سيل تو أناذر (كونجوجيشن).",
-              "ar": "تربط خليتين بكتيريتين وتوسط نقل DNA من خلية إلى أخرى (الاقتران)."
+              "ar": "تربط بين خليتين بكتيريتين وتسهل عملية انتقال DNA من خلية إلى أخرى (الاقتران - Conjugation)."
             },
             {
-              "en": "They are also known as conjugation pili or sex pili.",
-              "pron": "ذاي آر أولسو نون آز كونجوجيشن بايلي أور سيكس بايلي.",
+              "en": "Also known as conjugation pili or sex pili.",
+              "pron": "أولسو نون آز كونجوجيشن بايلي أور سيكس بايلي.",
               "ar": "تُعرف أيضاً باسم أهداب الاقتران أو الأهداب الجنسية."
+            },
+            {
+              "en": "They mediate the attachment of bacteria to specific receptors on the human cell surface, a necessary step in the initiation of infection.",
+              "pron": "ذاي ميديات ذا أتاتشمنت أوف باكتيريا تو سبيسيفيك ريسيپتورز أون ذا هيومن سيل سيرفيس، أ نيسيسري ستيب إن ذا إنيشييشن أوف إنفيكشن.",
+              "ar": "تتوسط عملية التصاق البكتيريا بمستقبلات محددة على سطح خلايا الإنسان، وهي خطوة ضرورية لبدء العدوى."
             }
           ]
+        },
+        {
+          "type": "info",
+          "style": "tip",
+          "label": "💡 ملخص",
+          "text": "الزمامات (Fimbriae) هي \"أدوات التثبيت\" للبكتيريا. هي ليست للمشي أو السباحة، بل هي مثل \"الالصق\" أو \"الكالبات\" الصغيرة التي تجعل البكتيريا تلتصق بقوة بالأسطح. بدون هذه الزمامات، قد لا تتمكن الكثير من أنواع البكتيريا من التسبب بالمرض لأن الجسم سيتمكن من غسلها وطردها بسهولة."
         }
       ]
     },
@@ -192,7 +306,7 @@
             {
               "en": "Glycocalyx is a sticky, sugary envelope composed of polysaccharides and/or polypeptides that surround the cell.",
               "pron": "غليكوكاليكس إز أ ستيكي، شوغري إنفيلوب كومبوزد أوف بولي ساكارايدز أند/أور بوليبيبتايدز ذات سوراوند ذا سيل.",
-              "ar": "الغشاء السكري هو غلاف لزج سكري يتكون من عديدات السكاريد و/أو عديدات الببتيد التي تحيط بالخلية."
+              "ar": "الغشاء السكري (Glycocalyx) هو غلاف سكري لزج يتكون من سكريات متعددة و/أو ببتيدات متعددة يحيط بالخلية."
             },
             {
               "en": "Glycocalyx can be firmly attached to the cell's surface, called capsule, or loosely attached, called slime layer.",
@@ -221,7 +335,7 @@
             {
               "en": "It is a determinant of virulence of many bacteria since it limits the ability of phagocytes to engulf the bacteria.",
               "pron": "إت إز أ ديتيرمينانت أوف فيرولنس أوف ماني باكتيريا سينس إت ليميتس ذا أبيلتي أوف فاجوسايتس تو إنغالف ذا باكتيريا.",
-              "ar": "إنها محدد من محددات الضراوة للعديد من البكتيريا لأنها تحد من قدرة البالعات على ابتلاع البكتيريا."
+              "ar": "إنها محدد من محددات الضراوة للعديد من البكتيريا لأنها تحد من قدرة البالعات (Phagocytes) على ابتلاع البكتيريا."
             },
             {
               "en": "Capsular polysaccharides are used as the antigens in certain vaccines because they are capable of eliciting protective antibodies.",
@@ -229,6 +343,12 @@
               "ar": "تستخدم عديدات السكاريد المحفظية كمستضدات في بعض اللقاحات لأنها قادرة على إحداث أجسام مضادة واقية."
             }
           ]
+        },
+        {
+          "type": "info",
+          "style": "important",
+          "label": "🩺 الأهمية السريرية للتليف الكيسي (Cystic Fibrosis)",
+          "text": "• التليف الكيسي هو مرض وراثي يصيب الخلايا التي تنتج المخاط والعرق والعصارات الهضمية.\n• في الحالة الطبيعية، تكون هذه الإفرازات خفيفة وزَلقة. لكن في هذا المرض، يصبح المخاط سميكاً ولزجاً جداً.\n• يتراكم المخاط بدلاً من أن يتحرك بسهولة، فيلتصق بجدران القصبات الهوائية ويسدها.\n• تستغل بكتيريا Pseudomonas aeruginosa هذا المخاط لتنتج الغشاء السكري (Glycocalyx) وتصنع غشاءً حيوياً (Biofilm) داخله.\n• هذا الغشاء الحيوي يجعل العدوى مزمنة وصعبة العلاج لأن المضادات الحيوية لا تستطيع اختراق هذا الغلاف السكري السميك."
         }
       ]
     },
@@ -243,14 +363,33 @@
           "type": "sentences",
           "items": [
             {
-              "en": "The cell wall is the outermost component common to all bacteria (except Mycoplasma species).",
-              "pron": "ذا سيل وول إز ذا أوترموست كومبوننت كومون تو أول باكتيريا (إكسيبت مايكوبلازما سبيسيز).",
-              "ar": "جدار الخلية هو المكون الأكثر خارجية الشائع لجميع البكتيريا (باستثناء أنواع الميكوبلازما)."
+              "en": "The cell wall is the outermost component common to all bacteria (except Mycoplasma species, which are bounded by a cell membrane, not a cell wall).",
+              "pron": "ذا سيل وول إز ذا أوترموست كومبوننت كومون تو أول باكتيريا (إكسيبت مايكوبلازما سبيسيز، وِتش آر باونديد باي أ سيل ميمبرين، نوت أ سيل وول).",
+              "ar": "جدار الخلية هو المكون الأكثر خارجية الشائع لجميع البكتيريا (باستثناء أنواع الميكوبلازما (Mycoplasma)، التي يحيط بها غشاء خلوي وليس جداراً خلويًا)."
             },
             {
-              "en": "Peptidoglycan is composed of N-acetylglucosamine and N-acetylmuramic acid with a tetrapeptide attached.",
-              "pron": "بيبتيدوغلايكان إز كومبوزد أوف إن-أسيتيلغليكوزامين آند إن-أسيتيل موراميك أسيد وِث أ تيترابيبتايد أتاتشد.",
-              "ar": "يتكون الببتيدوغليكان من N-acetylglucosamine و N-acetylmuramic acid مع ارتباط رباعي الببتيد."
+              "en": "It is composed of an inner layer of peptidoglycan and an outer membrane that varies in thickness and chemical composition depending upon the bacterial type.",
+              "pron": "إت إز كومبوزد أوف أن إينر لاير أوف بيبتيدوغلايكان آند أن أوتر ميمبرين ذات فاريز إن ثيكنيس آند كيميكال كومبوزيشن ديبندينغ أپون ذا باكتيريال تايب.",
+              "ar": "يتكون من طبقة داخلية من الببتيدوغليكان (Peptidoglycan) وغشاء خارجي يختلف في السمك والتركيب الكيميائي حسب نوع البكتيريا."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "🧪 الببتيدوغليكان (Peptidoglycan)"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Peptidoglycan is made of N-acetylglucosamine (NAG) and N-acetylmuramic acid (NAM) with a tetrapeptide attached.",
+              "pron": "بيبتيدوغلايكان إز ميد أوف إن-أسيتيلغليكوزامين (NAG) آند إن-أسيتيل موراميك أسيد (NAM) وِث أ تيترابيبتايد أتاتشد.",
+              "ar": "يتكون الببتيدوغليكان من N-acetylglucosamine (NAG) و N-acetylmuramic acid (NAM) مع ارتباط رباعي الببتيد (Tetrapeptide)."
+            },
+            {
+              "en": "The entire cell wall structure is cross linked by covalent bonds.",
+              "pron": "ذا إنتاير سيل وول ستراكشر إز كروس لينكد باي كوفالنت باندز.",
+              "ar": "هيكل جدار الخلية بالكامل متصل بروابط تساهمية متقاطعة."
             },
             {
               "en": "The peptidoglycan provides structural support and maintains the characteristic shape of the cell.",
@@ -262,7 +401,7 @@
       ]
     },
     {
-      "title": "جدار الخلية للبكتيريا موجبة الجرام وسالبة الجرام",
+      "title": "جدران الخلايا للبكتيريا موجبة الجرام وسالبة الجرام",
       "sections": [
         {
           "type": "heading",
@@ -271,30 +410,78 @@
         {
           "type": "terms",
           "items": [
-            { "en": "Peptidoglycan thickness", "pron": "سمك الببتيدوغليكان", "ar": "موجبة الجرام: سميك، متعدد الطبقات | سالبة الجرام: رقيق، طبقة واحدة" },
+            { "en": "Peptidoglycan thickness", "pron": "سمك الببتيدوغليكان", "ar": "موجبة الجرام: سميك، متعدد الطبقات (15-80 نانومتر) | سالبة الجرام: رقيق، طبقة واحدة" },
             { "en": "Teichoic acids", "pron": "أحماض التيكويك", "ar": "موجبة الجرام: ✅ موجودة | سالبة الجرام: ❌ غير موجودة" },
-            { "en": "Lipopolysaccharide (endotoxin)", "pron": "عديدات السكاريد الشحمية (السموم الداخلية)", "ar": "موجبة الجرام: ❌ غير موجود | سالبة الجرام: ✅ موجود" },
-            { "en": "Periplasmic space", "pron": "الفراغ المحيط بالغشاء", "ar": "موجبة الجرام: أقل وضوحاً | سالبة الجرام: موجود ويحتوي على إنزيمات beta-lactamase" }
+            { "en": "Lipopolysaccharide (LPS) / Endotoxin", "pron": "عديدات السكاريد الشحمية (السموم الداخلية)", "ar": "موجبة الجرام: ❌ غير موجود | سالبة الجرام: ✅ موجود" },
+            { "en": "Periplasmic space", "pron": "الفراغ المحيط بالغشاء", "ar": "موجبة الجرام: أقل وضوحاً | سالبة الجرام: موجود ويحتوي على إنزيمات beta-lactamase" },
+            { "en": "Outer membrane", "pron": "الغشاء الخارجي", "ar": "موجبة الجرام: ❌ غير موجود | سالبة الجرام: ✅ موجود" }
           ]
         },
         {
+          "type": "info",
+          "style": "important",
+          "label": "💡 ملاحظة مهمة",
+          "text": "الفراغ المحيط بالغشاء (Periplasmic space) في البكتيريا سالبة الجرام هو الموقع الذي توجد فيه إنزيمات تسمى beta-lactamases التي تحطم البنسلينات والأدوية الأخرى من فئة beta-lactam، مما يجعل هذه البكتيريا مقاومة لهذه المضادات الحيوية."
+        }
+      ]
+    },
+    {
+      "title": "جدران الخلايا للبكتيريا الصامدة للحامض (Acid-fast bacteria)",
+      "sections": [
+        {
           "type": "heading",
-          "text": "🧫 جدران الخلايا للبكتيريا المقاومة للحامض (Acid-fast bacteria)"
+          "text": "🧫 البكتيريا الصامدة للحامض"
         },
         {
           "type": "sentences",
           "items": [
             {
-              "en": "Mycobacteria, e.g., Mycobacterium tuberculosis, have an unusual cell wall with high concentration of lipids called mycolic acids.",
-              "pron": "مايكوباكتيريا، إي.جي.، مايكوباكتيريوم تيوبيركولوسيس، هاف أن أنيوجوال سيل وول وِث هاي كونسنترايشن أوف ليبيدز كولد مايكوليك أسيدز.",
-              "ar": "المتفطرات، مثل Mycobacterium tuberculosis، لها جدار خلوي غير عادي مع تركيز عالٍ من الدهون تسمى الأحماض الميكولية."
+              "en": "Mycobacteria, e.g., Mycobacterium tuberculosis, have an unusual cell wall, resulting in their inability to be Gram-stained.",
+              "pron": "مايكوباكتيريا، إي.جي.، مايكوباكتيريوم تيوبيركولوسيس، هاف أن أنيوجوال سيل وول، ريزولتينغ إن ذيير إنابيليتي تو بي غرام-ستيند.",
+              "ar": "المتفطرات (Mycobacteria)، مثل Mycobacterium tuberculosis، لها جدار خلوي غير عادي، مما يؤدي إلى عدم قدرتها على التصبغ بصبغة جرام التقليدية."
             },
             {
-              "en": "They are called acid-fast because they resist decolorization with acid-alcohol after being stained with carbolfuchsin.",
-              "pron": "ذاي آر كولد أسيد-فاست بيكوز ذاي ريزيست ديكولورايزيشن وِذ أسيد-ألكوهول آفتر بيينغ ستنيد وِذ كاربولفوكسين.",
-              "ar": "تسمى مقاومة للحامض لأنها تقاوم إزالة اللون بالكحول الحمضي بعد صبغها بالكاربولفوكسين."
+              "en": "These bacteria are said to be acid-fast because they resist decolorization with acid-alcohol after being stained with carbolfuchsin.",
+              "pron": "ذيز باكتيريا آر سيد تو بي أسيد-فاست بيكوز ذاي ريزيست ديكولورايزيشن وِذ أسيد-ألكوهول آفتر بيينغ ستنيد وِذ كاربولفوكسين.",
+              "ar": "يُقال إن هذه البكتيريا \"صامدة للحامض\" (Acid-fast) لأنها تقاوم إزالة اللون بالكحول الحمضي بعد صبغها بصبغة الكاربولفوكسين (الحمراء)."
+            },
+            {
+              "en": "This property is related to the high concentration of lipids, called mycolic acids, in the cell wall of mycobacteria.",
+              "pron": "ذس بروبرتي إز ريليتد تو ذا هاي كونسنترايشن أوف ليبيدز، كولد مايكوليك أسيدز، إن ذا سيل وول أوف مايكوباكتيريا.",
+              "ar": "ترتبط هذه الخاصية بالتركيز العالي من الدهون، التي تسمى الأحماض الميكولية (Mycolic acids)، الموجودة في جدار خلية المتفطرات."
             }
           ]
+        },
+        {
+          "type": "info",
+          "style": "tip",
+          "label": "💡 أهمية طبية",
+          "text": "• وجود أحماض المايكوليك يجعل البكتيريا \"شمعية\"، وهذا يفسر لماذا يصعب علاج مرض السل (TB) لأن الأدوية لا تخترق هذه الطبقة الشمعية بسهولة.\n• تتطلب البكتيريا الصامدة للحامض صبغات خاصة مثل صبغة Ziehl-Neelsen لتظهر باللون الأحمر/الوردي."
+        }
+      ]
+    },
+    {
+      "title": "خصائص أخرى مهمة لجدار الخلية",
+      "sections": [
+        {
+          "type": "heading",
+          "text": "📋 خصائص إضافية"
+        },
+        {
+          "type": "list",
+          "label": "جدار الخلية له عدة خصائص مهمة أخرى:",
+          "items": [
+            "In gram-negative bacteria, it contains endotoxin (lipopolysaccharide / LPS) الذي يسبب الحمى الشديدة أو الصدمة السمية عندما تموت البكتيريا.",
+            "Its polysaccharides and proteins are antigens that are useful in laboratory identification of bacterial species.",
+            "Porin proteins play a role in facilitating the passage of small, hydrophilic molecules into the cell.",
+            "Porin proteins in the outer membrane of gram-negative bacteria act as channels to allow entry of essential substances (sugars, amino acids, vitamins, metals) as well as antimicrobial drugs such as penicillins."
+          ]
+        },
+        {
+          "type": "info",
+          "style": "warning",
+          "label": "⚠️ ملاحظة",
+          "text": "البورينات (Porins) هي بمثابة \"الأبواب\" في الغشاء الخارجي للبكتيريا سالبة الجرام. إذا أغلقتها البكتيريا أو غيرت شكلها، تصبح مقاومة للمضادات الحيوية."
         }
       ]
     },
@@ -303,35 +490,50 @@
       "sections": [
         {
           "type": "heading",
-          "text": "🫧 تركيب ووظائف الغشاء السيتوبلازمي"
+          "text": "🫧 تركيب الغشاء السيتوبلازمي"
         },
         {
-          "type": "list",
-          "label": "الوظائف المهمة للغشاء:",
+          "type": "sentences",
           "items": [
-            "Active transport of molecules into the cell (النقل النشط للجزيئات إلى داخل الخلية)",
-            "Energy generation by oxidative phosphorylation (توليد الطاقة عن طريق الفسفرة التأكسدية)",
-            "Synthesis of precursors of the cell wall (تخليق سلائف جدار الخلية)",
-            "Secretion of hydrolytic enzymes and toxins (إفراز الإنزيمات المحللة والسموم)",
-            "Permeability barrier (حاجز النفاذية)",
-            "Protein anchor (مرساة للبروتينات)",
-            "Energy conservation (حفظ الطاقة)"
+            {
+              "en": "Just inside the peptidoglycan layer of the cell wall lies the cytoplasmic membrane, which is composed of a phospholipid bilayer.",
+              "pron": "جاست إنسايد ذا بيبتيدوغلايكان لاير أوف ذا سيل وول لايز ذا سايتوبلازميك ميمبرين، وِتش إز كومبوزد أوف أ فوسفوليبيد بايلاير.",
+              "ar": "يقع الغشاء السيتوبلازمي مباشرة داخل طبقة الببتيدوغليكان في جدار الخلية، ويتكون من طبقة مزدوجة من الدهون الفوسفاتية (Phospholipid bilayer)."
+            },
+            {
+              "en": "They are chemically similar but eukaryotic membranes contain sterols, whereas prokaryotes generally do not.",
+              "pron": "ذاي آر كيميكلي سيميلار بوت يوكاريوتيك ميمبرينز كونتين ستيرولز، ويرياس بروكاريوتس جنرالي دو نوت.",
+              "ar": "الأغشية متشابهة كيميائياً، لكن أغشية الخلايا حقيقية النواة (مثل الإنسان) تحتوي على ستيرولات (مثل الكوليسترول)، بينما الخلايا بدائية النواة (البكتيريا) عادة لا تحتوي عليها."
+            }
           ]
         },
         {
-          "type": "info",
-          "style": "tip",
-          "label": "💡 ملاحظة",
-          "text": "الأغشية السيتوبلازمية متشابهة كيميائياً ولكن الأغشية حقيقية النواة تحتوي على ستيرولات، بينما بدائيات النواة لا تحتوي عليها عموماً (ما عدا Mycoplasma)."
+          "type": "heading",
+          "text": "⚙️ وظائف الغشاء السيتوبلازمي"
+        },
+        {
+          "type": "list",
+          "label": "الوظائف:",
+          "items": [
+            "Active transport of molecules into the cell (control permeability) — النقل النشط للجزيئات إلى داخل الخلية (التحكم في النفاذية)",
+            "Energy generation by oxidative phosphorylation — توليد الطاقة عن طريق الفسفرة التأكسدية (البكتيريا تستخدم غشاءها لإنتاج الطاقة لأنها تفتقر للميتوكوندريا)",
+            "Synthesis of precursors of the cell wall — تصنيع المواد الأولية (السالئف) اللازمة لبناء جدار الخلية",
+            "Secretion of hydrolytic enzymes and toxins — إفراز الإنزيمات المتحللة مائياً والسموم",
+            "Regulate cell division — تنظيم عملية انقسام الخلية",
+            "Transport electrons and protons for cellular metabolism — نقل الإلكترونات والبروتونات اللازمة لعمليات الأيض الخلوي",
+            "Permeability barrier — حاجز النفاذية (يمنع التسرب ويعمل كبوابة لنقل العناصر الغذائية من وإلى الخلية)",
+            "Protein anchor — مرساة البروتين (موقع للعديد من البروتينات المشاركة في النقل والطاقة الحيوية والانتحاء الكيميائي)",
+            "Energy conservation — حفظ الطاقة (موقع توليد واستخدام قوة دفع البروتونات)"
+          ]
         }
       ]
     },
     {
-      "title": "الميزوزوم (Mesosome) والريبوسومات (Ribosomes)",
+      "title": "الميسوزوم (Mesosome)",
       "sections": [
         {
           "type": "heading",
-          "text": "🔬 الميزوزوم (Mesosome)"
+          "text": "🔬 الميسوزوم (Mesosome)"
         },
         {
           "type": "sentences",
@@ -339,13 +541,46 @@
             {
               "en": "Mesosomes are large invaginations of the plasma membrane, irregular in shape.",
               "pron": "ميسوزومز آر لارج إنفاجينايشنز أوف ذا بلازما ميمبرين، إيريجيولار إن شيب.",
-              "ar": "الميزوزومات هي انغماسات كبيرة للغشاء البلازمي، غير منتظمة الشكل."
+              "ar": "الميسوزومات هي انغماسات كبيرة للغشاء البلازمي نحو الداخل، غير منتظمة الشكل."
             },
             {
-              "en": "They increase membrane surface for enzyme activity in respiration and transport.",
-              "pron": "ذاي إنكريس ميمبرين سيرفيس فور إنزايم أكتيفيتي إن ريسبيريشن آند ترانسبورت.",
-              "ar": "تزيد من سطح الغشاء للنشاط الأنزيمي في التنفس والنقل."
+              "en": "They increase membrane surface area, which may be useful as a site for enzyme activity in respiration and transport.",
+              "pron": "ذاي إنكريس ميمبرين سيرفيس إيريا، وِتش ماي بي يوزفل آز أ سايت فور إنزايم أكتيفيتي إن ريسبيريشن آند ترانسبورت.",
+              "ar": "تزيد من مساحة سطح الغشاء، مما قد يكون مفيداً كمركز لنشاط الإنزيمات في عمليات التنفس الخلوي والنقل."
+            },
+            {
+              "en": "They may participate in cell replication by serving as a place of attachment for the bacterial chromosome.",
+              "pron": "ذاي ماي بارتيسيبيت إن سيل ريبل كيشن باي سيرفينغ آز أ بليس أوف أتاتشمنت فور ذا باكتيريال كروموسوم.",
+              "ar": "قد تشارك في تضاعف الخلية من خلال عملها كمكان لارتباط الكروموسوم البكتيري."
             }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "السيتوبلازم والريبوسومات (Cytoplasm & Ribosomes)",
+      "sections": [
+        {
+          "type": "heading",
+          "text": "🧪 السيتوبلازم (Cytoplasm)"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "The cytoplasm contains several different types of granules that serve as storage areas for nutrients and stain characteristically with certain dyes.",
+              "pron": "ذا سايتوبلازم كونتينز سيفرال ديفرنت تايبز أوف غرانيولز ذات سيرف آز ستوريج إيرياز فور نيوترينتس آند ستين كيريكتيرستيكلي وِذ سيرتن دايز.",
+              "ar": "يحتوي السيتوبلازم على عدة أنواع مختلفة من الحبيبات (Granules) التي تعمل كمناطق تخزين للمغذيات وتصطبغ بشكل مميز بصبغات معينة."
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "label": "أنواع الحبيبات:",
+          "items": [
+            "Glycogen (الجليكوجين) — مخزن للكربوهيدرات/الطاقة",
+            "Fat droplets (قطرات الدهون) — مخزن للطاقة",
+            "Inorganic metaphosphate (الميتافوسفات غير العضوي) — مخزن للفوسفات الذي تحتاجه الخلية لصنع DNA و ATP"
           ]
         },
         {
@@ -361,9 +596,9 @@
               "ar": "الريبوسومات البكتيرية هي موقع تخليق البروتين كما في الخلايا حقيقية النواة، ولكنها تختلف في الحجم والتركيب الكيميائي."
             },
             {
-              "en": "Bacterial ribosomes are 70S (50S + 30S subunits), whereas eukaryotic ribosomes are 80S (60S + 40S subunits).",
-              "pron": "باكتيريال رايبوسومز آر 70S (50S + 30S سابيونتس)، ويرياس يوكاريوتيك رايبوسومز آر 80S (60S + 40S سابيونتس).",
-              "ar": "الريبوسومات البكتيرية هي 70S (وحدات فرعية 50S و 30S)، بينما الريبوسومات حقيقية النواة هي 80S (وحدات فرعية 60S و 40S)."
+              "en": "Bacterial ribosomes are 70S in size (with 50S and 30S subunits), whereas eukaryotic ribosomes are 80S (with 60S and 40S subunits).",
+              "pron": "باكتيريال رايبوسومز آر 70S إن سايز (وِث 50S آند 30S سابيونتس)، ويرياس يوكاريوتيك رايبوسومز آر 80S (وِث 60S آند 40S سابيونتس).",
+              "ar": "الريبوسومات البكتيرية حجمها 70S (مع وحدات فرعية 50S و 30S)، بينما الريبوسومات حقيقية النواة حجمها 80S (مع وحدات فرعية 60S و 40S)."
             }
           ]
         },
@@ -371,16 +606,16 @@
           "type": "info",
           "style": "important",
           "label": "💊 أهمية سريرية",
-          "text": "الاختلافات في الرنا الريبوسومي والبروتينات تشكل أساس العمل الانتقائي للعديد من المضادات الحيوية التي تثبط تخليق البروتين البكتيري دون التأثير على الخلايا البشرية.\n\nوحدة القياس هي وحدة سفيدبرج (Svedberg unit)، وهي مقياس لمعدل الترسيب في الطرد المركزي وليس الحجم."
+          "text": "الاختلافات في الرنا الريبوسومي والبروتينات تشكل أساس العمل الانتقائي للعديد من المضادات الحيوية التي تثبط تخليق البروتين البكتيري دون التأثير على الخلايا البشرية.\n\nملاحظة: وحدة القياس هي وحدة سفيدبرج (Svedberg unit - S)، وهي مقياس لمعدل الترسيب في الطرد المركزي وليس الحجم. لهذا السبب، عندما تتحد الوحدتان (30S + 50S = 70S)، لا يتم جمع الأرقام لأن الشكل والسرعة يتغيران."
         }
       ]
     },
     {
-      "title": "النواة (Nucleoid) والبلازميدات (Plasmids)",
+      "title": "المنطقة النووية (Nucleoid) والكروموسوم البكتيري",
       "sections": [
         {
           "type": "heading",
-          "text": "🧬 النواة (Nucleoid / Bacterial chromosome)"
+          "text": "🧬 المنطقة النووية (Nucleoid)"
         },
         {
           "type": "sentences",
@@ -388,18 +623,28 @@
             {
               "en": "The nucleoid is the area of the cytoplasm in which DNA is located.",
               "pron": "ذا نيوكليويد إز ذا إيريا أوف ذا سايتوبلازم إن وِتش دي إن إيه إز لوكيتد.",
-              "ar": "النواة هي منطقة السيتوبلازم التي يقع فيها DNA."
+              "ar": "المنطقة النووية (Nucleoid) هي منطقة السيتوبلازم التي يقع فيها DNA."
             },
             {
-              "en": "The DNA of prokaryotes is a single, circular molecule that has a molecular weight of approximately 2 × 10⁹ and contains about 2000 genes.",
+              "en": "The DNA of prokaryotes is a single, circular molecule that has a molecular weight of approximately 2 × 10⁹ and contains about 2000 genes. (By contrast, human DNA has approximately 100,000 genes.)",
               "pron": "ذا دي إن إيه أوف بروكاريوتس إز أ سينغل، سيركيولار موليكيول ذات هاز أ موليكيولر ويت أوف أبروكسيميتلي 2 × 10⁹ آند كونتينز أباوت 2000 جينز.",
-              "ar": "DNA بدائيات النواة هو جزيء دائري واحد يبلغ وزنه الجزيئي حوالي 2 × 10⁹ ويحتوي على حوالي 2000 جين."
+              "ar": "DNA بدائيات النواة هو جزيء واحد دائري الشكل، وزنه الجزيئي التقريبي 2 × 10⁹ ويحتوي على حوالي 2000 جين. (على سبيل المقارنة، يحتوي DNA الإنسان على حوالي 100,000 جين)."
+            },
+            {
+              "en": "Because the nucleoid contains no nuclear membrane, no nucleolus, no mitotic spindle, and no histones, there is little resemblance to the eukaryotic nucleus.",
+              "pron": "بيكوز ذا نيوكليويد كونتينز نو نيوكليار ميمبرين، نو نيوكليولس، نو مايتوتيك سبيندل، آند نو هيستونز، ذير إز ليتل ريزيمبلنس تو ذا يوكاريوتيك نيوكليوس.",
+              "ar": "لأن المنطقة النووية لا تحتوي على غشاء نووي، ولا نوية، ولا خيوط مغزلية، ولا بروتينات هستون، فهناك تشابه ضئيل مع نواة الخلايا حقيقية النواة."
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "title": "البلازميدات (Plasmids)",
+      "sections": [
         {
           "type": "heading",
-          "text": "🧬 البلازميدات (Plasmids)"
+          "text": "🧬 البلازميدات"
         },
         {
           "type": "sentences",
@@ -407,19 +652,44 @@
             {
               "en": "Plasmids are extrachromosomal, double-stranded, circular DNA molecules that are capable of replicating independently of the bacterial chromosome.",
               "pron": "بلازميدز آر إكستراكرو موزومال، دابل-سترانديد، سيركيولار دي إن إيه موليكيولز ذات آر كيبابل أوف ريبل كيتينغ إنديبندنتلي أوف ذا باكتيريال كروموسوم.",
-              "ar": "البلازميدات هي جزيئات DNA دائرية مزدوجة الشريطة خارج الصبغي، قادرة على التضاعف بشكل مستقل عن الكروموسوم البكتيري."
+              "ar": "البلازميدات هي جزيئات DNA دائرية مزدوجة الشريطة تقع خارج الكروموسوم (Extrachromosomal)، وهي قادرة على التضاعف بشكل مستقل عن الكروموسوم البكتيري الرئيسي."
+            },
+            {
+              "en": "Although plasmids are usually extrachromosomal, they can be integrated into the bacterial chromosome.",
+              "pron": "ألذو بلازميدز آر يوجوالي إكستراكرو موزومال، ذاي كان بي إنتيغريتد إنتو ذا باكتيريال كروموسوم.",
+              "ar": "على الرغم من أن البلازميدات تكون عادةً خارج الكروموسوم، إلا أنها يمكن أن تندمج في الكروموسوم البكتيري."
+            },
+            {
+              "en": "Plasmids occur in both gram-positive and gram-negative bacteria.",
+              "pron": "بلازميدز أوكر إن باث غرام-بوزيتيف آند غرام-نيغاتيف باكتيريا.",
+              "ar": "توجد البلازميدات في كل من البكتيريا موجبة الجرام وسالبة الجرام."
             }
           ]
+        },
+        {
+          "type": "heading",
+          "text": "📋 أنواع البلازميدات"
+        },
+        {
+          "type": "terms",
+          "items": [
+            { "en": "Transmissible plasmids", "pron": "ترانسميسيبال بلازميدز", "ar": "بلازميدات قابلة للانتقال — يمكن أن تنتقل من خلية إلى أخرى عن طريق الاقتران (Conjugation)، وهي كبيرة الحجم، وتوجد عادة بعدد نسخ قليل (1-3 نسخ) في كل خلية." },
+            { "en": "Nontransmissible plasmids", "pron": "نون-ترانسميسيبال بلازميدز", "ar": "بلازميدات غير قابلة للانتقال — بلازميدات صغيرة لأنها لا تحتوي على جينات النقل، وتوجد بكثرة بعدد نسخ كبير (10-60 نسخة) في كل خلية." }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "⚙️ وظائف البلازميدات (ما ترمز له)"
         },
         {
           "type": "list",
           "label": "البلازميدات ترمز لـ:",
           "items": [
-            "Antibiotic resistance (مقاومة المضادات الحيوية)",
-            "Resistance to heavy metals (مقاومة المعادن الثقيلة مثل الزئبق والفضة)",
-            "Resistance to ultraviolet light (مقاومة الأشعة فوق البنفسجية)",
-            "Pili/fimbriae that mediate adherence (الأهداب/الزمامات التي توسّط الالتصاق)",
-            "Exotoxins, including enterotoxins (السموم الخارجية، بما في ذلك السموم المعوية)"
+            "Antibiotic resistance — مقاومة المضادات الحيوية، والتي تتم بوساطة مجموعة متنوعة من الإنزيمات.",
+            "Resistance to heavy metals — مقاومة المعادن الثقيلة مثل الزئبق (المكون النشط في بعض المطهرات) والفضة.",
+            "Resistance to ultraviolet light — مقاومة الأشعة فوق البنفسجية، وتتم عبر إنزيمات إصلاح DNA.",
+            "Pili (fimbriae) — الأهداب التي تساعد البكتيريا على الالتصاق بالخلايا الطلائية في جسم الإنسان.",
+            "Exotoxins — السموم الخارجية، بما في ذلك السموم المعوية (التي تسبب الإسهال والتسمم الغذائي)."
           ]
         }
       ]
@@ -437,25 +707,47 @@
             {
               "en": "Transposons are pieces of DNA that move readily from one site to another either within or between the DNAs of bacteria, plasmids, and bacteriophages.",
               "pron": "ترانسبوزونز آر بيسز أوف دي إن إيه ذات موف ريديللي فروم ون سايت تو أناذر إيذر ويذن أور بيتوين ذا دي إن إيه أوف باكتيريا، بلازميدز، آند باكتيريوفاجز.",
-              "ar": "الترانسبوزونات هي قطع من DNA تتحرك بسهولة من موقع إلى آخر إما داخل أو بين DNA البكتيريا والبلازميدات والعاثيات البكتيرية."
+              "ar": "الترانسبوزونات هي قطع من DNA تنتقل بسهولة من موقع إلى آخر، سواء داخل DNA البكتيريا نفسه أو بين DNA البكتيريا والبلازميدات والفيروسات البكتيرية (Bacteriophages)."
             },
             {
               "en": "Because of their unusual ability to move, they are nicknamed 'jumping genes'.",
               "pron": "بيكوز أوف ذيير أنيوجوال أبيلتي تو موف، ذاي آر نيكنيمد 'جامبينغ جينز'.",
-              "ar": "بسبب قدرتها غير العادية على الحركة، يطلق عليها لقب 'الجينات القافزة'."
+              "ar": "وبسبب قدرتها غير العادية على الحركة، لُقبت بـ 'الجينات القافزة'."
             }
           ]
         },
         {
+          "type": "heading",
+          "text": "🔄 آليات حركة الترانسبوزونات"
+        },
+        {
           "type": "list",
-          "label": "وظائف الترانسبوزونات:",
+          "label": "آليتان للحركة:",
           "items": [
-            "Code for drug-resistant enzymes (ترمز للإنزيمات المقاومة للأدوية)",
-            "Code for toxins (ترمز للسموم)",
-            "Code for metabolic enzymes (ترمز للإنزيمات الأيضية)",
-            "Can cause mutations (يمكن أن تسبب طفرات)",
-            "Can alter expression of nearby genes (يمكن أن تغير التعبير عن الجينات المجاورة)"
+            "Replicative transposition (الانتقال التضاعفي) — تشبه عملية \"نسخ ولصق\"، حيث تقوم الترانسبوزونات بمضاعفة نفسها وإدخال النسخة الجديدة في موقع آخر.",
+            "Direct transposition (الانتقال المباشر) — تشبه عملية \"قص ولصق\"، حيث تُنتزع الترانسبوزونات من مكانها بالكامل وتُحقن في موقع جديد."
           ]
+        },
+        {
+          "type": "heading",
+          "text": "⚠️ مخاطر ونتائج الترانسبوزونات"
+        },
+        {
+          "type": "list",
+          "label": "الترانسبوزونات يمكن أن:",
+          "items": [
+            "Code for drug-resistant enzymes — ترمز للإنزيمات المقاومة للأدوية",
+            "Code for toxins — ترمز للسموم",
+            "Code for metabolic enzymes — ترمز للإنزيمات الأيضية المتنوعة",
+            "Cause mutations in the gene into which they insert — تسبب طفرات في الجين الذي تندمج فيه",
+            "Alter the expression of nearby genes — تغير من طريقة تعبير الجينات المجاورة عن نفسها"
+          ]
+        },
+        {
+          "type": "info",
+          "style": "warning",
+          "label": "⚠️ الأهمية الطبية",
+          "text": "الترانسبوزونات (الجينات القافزة) هي السبب في أن البكتيريا يمكنها تجميع عدة جينات مقاومة للمضادات الحيوية على بلازميد واحد بسرعة كبيرة، مما يؤدي لظهور البكتيريا المقاومة لجميع المضادات (Superbugs)."
         }
       ]
     },
@@ -470,9 +762,9 @@
           "type": "sentences",
           "items": [
             {
-              "en": "These highly resistant structures are formed in response to adverse conditions by two genera of medically important gram-positive rods: Bacillus and Clostridium.",
-              "pron": "ذيز هايلي ريزيستنت ستراكشرز آر فورميد إن ريسپونس تو أدفيرس كوندشنز باي تو جينيرا أوف ميديكلي إمبورتنت غرام-بوزيتيف رودز: باسيلس آند كلوستريديوم.",
-              "ar": "تتكون هذه التراكيب شديدة المقاومة استجابة للظروف المعاكسة بواسطة جنسين من العصيات موجبة الجرام المهمة طبياً: Bacillus و Clostridium."
+              "en": "These highly resistant structures are formed in response to adverse conditions by two genera of medically important gram-positive rods: the genus Bacillus, which includes the agent of anthrax, and the genus Clostridium, which includes the agents of tetanus and botulism.",
+              "pron": "ذيز هايلي ريزيستنت ستراكشرز آر فورميد إن ريسپونس تو أدفيرس كوندشنز باي تو جينيرا أوف ميديكلي إمبورتنت غرام-بوزيتيف رودز: ذا جينس باسيلس، وِتش إنكلودز ذا إيجنت أوف أنثراكس، آند ذا جينس كلوستريديوم، وِتش إنكلودز ذا إيجنتس أوف تيتانوس آند بوتشوليزم.",
+              "ar": "تتكون هذه التراكيب شديدة المقاومة استجابة للظروف القاسية (مثل نقص الغذاء أو الجفاف) من قِبل جنسين من البكتيريا العصوية الموجبة لصبغة جرام والمهمة طبياً: جنس الباسيلوس (Bacillus) الذي يضم المسبب لمرض الجمرة الخبيثة، وجنس الكلوستريديوم (Clostridium) الذي يضم المسببات أمراض الكزاز (التيتانوس) والتسمم الغذائي (الوشيقي)."
             },
             {
               "en": "The medical importance of spores lies in their extraordinary resistance to heat and chemicals.",
@@ -480,17 +772,45 @@
               "ar": "تكمن الأهمية الطبية للأبواغ في مقاومتها الاستثنائية للحرارة والمواد الكيميائية."
             },
             {
-              "en": "Steam heating under pressure (autoclaving) at 121°C, usually for 30 minutes, is required to ensure sterility.",
-              "pron": "ستيم هيتينغ أندر بريسشر (أوتوكلافينغ) آت 121°C، يوجوالي فور ثيرتي مينتس، إز ريكوايرد تو إنشور ستيريليتي.",
-              "ar": "التسخين بالبخار تحت الضغط (الأوتوكلاف) عند 121 درجة مئوية، عادة لمدة 30 دقيقة، مطلوب لضمان التعقيم."
+              "en": "Steam heating under pressure (autoclaving) at 121°C, usually for 30 minutes, is required to ensure the sterility of products for medical use.",
+              "pron": "ستيم هيتينغ أندر بريسشر (أوتوكلافينغ) آت 121°C، يوجوالي فور ثيرتي مينتس، إز ريكوايرد تو إنشور ذا ستيريليتي أوف بروداكتس فور ميديكال يوز.",
+              "ar": "يلزم التسخين بالبخار تحت الضغط (جهاز الأوتوكلاف - Autoclave) عند درجة حرارة 121 درجة مئوية لمدة 30 دقيقة عادةً، لضمان تعقيم المنتجات والمعدات للاستخدام الطبي."
             }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "📋 مواضع الأبواغ داخل الخلية"
+        },
+        {
+          "type": "list",
+          "label": "حسب موقع البوغ داخل الخلية الأم:",
+          "items": [
+            "Terminal (طرفي) — في طرف الخلية",
+            "Subterminal (تحت طرفي) — تحت الطرف",
+            "Central (مركزي) — في المركز"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "🔬 تركيب البوغ (طبقات الحماية)"
+        },
+        {
+          "type": "list",
+          "label": "الطبقات من الخارج إلى الداخل:",
+          "items": [
+            "Exosporium — الغلاف الخارجي الرقيق",
+            "Spore coat — غلاف البوغ (طبقة بروتينية صلبة جداً تقاوم المواد الكيميائية)",
+            "Cortex — القشرة (طبقة سميكة تحمي من الحرارة)",
+            "Core wall — جدار اللب",
+            "Nuclear body (Nucleoid) — الجسم النووي (حيث يختبئ DNA البكتيريا بسلام)"
           ]
         },
         {
           "type": "info",
           "style": "warning",
-          "label": "⚠️ الأهمية الطبية",
-          "text": "• Bacillus anthracis: المسبب للجمرة الخبيثة (Anthrax)\n• Clostridium tetani: المسبب للكزاز (Tetanus)\n• Clostridium botulinum: المسبب للتسمم السجقي (Botulism)\n• Clostridium difficile: المسبب للإسهال المرتبط بالمضادات الحيوية"
+          "label": "⚠️ لماذا تلجأ البكتيريا للأبواغ؟",
+          "text": "ليس للتكاثر، بل للبقاء (Survival) في الظروف القاسية.\n\nلماذا هي صلبة؟ بسبب طبقات القشرة والغلاف واحتوائها على نسبة مياه ضئيلة جداً، مما يجعل \"سلقها\" بالحرارة العادية (100 درجة مئوية) مستحيلاً.\n\nالمعلومة الطبية الأهم: لا يكفي غلي الأدوات الجراحية بالماء (100 درجة مئوية) لقتل الأبواغ، بل يجب استخدام الأوتوكلاف (121 درجة مئوية تحت الضغط)."
         }
       ]
     },
@@ -506,15 +826,15 @@
           "label": "الخلاصة:",
           "items": [
             "Bacteria have various shapes: cocci (spherical), bacilli (rod-shaped), vibrios (comma-shaped), spiral, filamentous, and fusiforms.",
-            "Flagella provide motility; pili and fimbriae mediate attachment and DNA transfer.",
-            "The glycocalyx (capsule or slime layer) protects bacteria and aids in adherence.",
-            "Gram-positive bacteria have thick peptidoglycan and teichoic acids; Gram-negative have thin peptidoglycan, outer membrane, and lipopolysaccharide (endotoxin).",
-            "Mycobacteria have a cell wall rich in mycolic acids, making them acid-fast.",
-            "The cytoplasmic membrane controls permeability, generates energy, and secretes enzymes.",
+            "Flagella provide motility; pili and fimbriae mediate attachment and DNA transfer (conjugation).",
+            "The glycocalyx (capsule or slime layer) protects bacteria and aids in adherence and biofilm formation.",
+            "Gram-positive bacteria have thick peptidoglycan and teichoic acids; Gram-negative have thin peptidoglycan, outer membrane, and lipopolysaccharide (LPS/endotoxin).",
+            "Mycobacteria have a cell wall rich in mycolic acids, making them acid-fast and resistant to many drugs.",
+            "The cytoplasmic membrane controls permeability, generates energy, and secretes enzymes and toxins.",
             "Bacterial ribosomes are 70S (target of many antibiotics), eukaryotic ribosomes are 80S.",
-            "Plasmids carry genes for antibiotic resistance, toxins, and adherence factors.",
-            "Transposons are 'jumping genes' that can move between DNA molecules.",
-            "Endospores (Bacillus and Clostridium) are highly resistant to heat and chemicals, requiring autoclaving for sterilization."
+            "Plasmids carry genes for antibiotic resistance, toxins, heavy metal resistance, and adherence factors.",
+            "Transposons are 'jumping genes' that can move between DNA molecules and contribute to antibiotic resistance spread.",
+            "Endospores (formed by Bacillus and Clostridium) are highly resistant to heat and chemicals, requiring autoclaving (121°C, 30 min) for sterilization."
           ]
         }
       ]
