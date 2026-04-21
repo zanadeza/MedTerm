@@ -50,23 +50,16 @@ let coursesData = {};
 // ==================== LOAD DATA FROM JSON FILES ====================
 async function loadAllData() {
   try {
+    // Load courses list
     const coursesRes = await fetch('./data/courses.json');
-    if (!coursesRes.ok) throw new Error('Failed to load courses.json');
     const coursesJson = await coursesRes.json();
     coursesList = coursesJson.courses;
     
+    // Load each course's chapters data
     for (const course of coursesList) {
-      try {
-        const courseRes = await fetch(`./data/${course.id}.json`);
-        if (!courseRes.ok) {
-          coursesData[course.id] = { chapters: [] };
-          continue;
-        }
-        const courseData = await courseRes.json();
-        coursesData[course.id] = courseData;
-      } catch (err) {
-        coursesData[course.id] = { chapters: [] };
-      }
+      const courseRes = await fetch(`./data/${course.id}.json`);
+      const courseData = await courseRes.json();
+      coursesData[course.id] = courseData;
     }
     
     console.log('All data loaded successfully');
@@ -89,12 +82,19 @@ const quizData = {
       { question: "ما هو تعريف Asepsis؟", options: ["تعقيم كامل", "الممارسات التي تقلل أو تقضي على العوامل المعدية", "نظافة عامة", "تطهير الأسطح فقط"], correct: 1 },
       { question: "ما هي المدة الدنيا لغسل اليدين بالصابون؟", options: ["5 ثوان", "10 ثوان", "15 ثانية", "30 ثانية"], correct: 2 },
       { question: "أي من هذه الكائنات هي أصغر الكائنات الحية الدقيقة؟", options: ["البكتيريا", "الفطريات", "الفيروسات", "الأوليات"], correct: 2 },
-      { question: "ما هي البوغة (Spore)؟", options: ["ميكروب نشط دائماً", "شكل حياة ميكروبية غير نشطة مؤقتاً تقاوم الحرارة", "نوع من البكتيريا", "فيروس صغير"], correct: 1 },
+      { question: "ما هي البوغة (Spore)؟", options: ["ميكروب نشط دائماً", "شكل حياة ميكروبية غير نشطة مؤقتاً تقاوم الحرارة والمواد الكيميائية", "نوع من البكتيريا", "فيروس صغير"], correct: 1 },
       { question: "كم عدد مكونات سلسلة العدوى؟", options: ["4", "5", "6", "7"], correct: 2 },
-      { question: "ما هو الفرق بين Medical Asepsis و Surgical Asepsis؟", options: ["لا يوجد فرق", "Medical تقلل الميكروبات، Surgical تقضي عليها تماماً", "Surgical أسهل تطبيقاً", "Medical للعمليات فقط"], correct: 1 },
-      { question: "ما المقصود بـ Nosocomial Infection؟", options: ["عدوى منقولة جنسياً", "عدوى مكتسبة من المستشفى", "عدوى فيروسية", "عدوى الجلد"], correct: 1 },
-      { question: "في الفرك الجراحي، كيف يجب أن تكون وضعية اليدين؟", options: ["أسفل المرفقين", "فوق مستوى المرفقين", "على مستوى الصدر", "لا يهم"], correct: 1 },
+      { question: "ما هو الفرق بين Medical Asepsis و Surgical Asepsis؟", options: ["لا يوجد فرق", "Medical تقلل الميكروبات، Surgical تقضي عليها تماماً بما فيها الأبواغ", "Surgical أسهل تطبيقاً", "Medical للعمليات فقط"], correct: 1 },
+      { question: "أي من هذه المواد يُستخدم لتعقيم المعدات ويقضي على الأبواغ؟", options: ["الكحول", "الصابون", "الكلور", "الغلوتارالدهيد (Cidex)"], correct: 3 },
+      { question: "ما المقصود بـ Nosocomial Infection؟", options: ["عدوى منقولة جنسياً", "عدوى مكتسبة من المستشفى أثناء تلقي الرعاية", "عدوى فيروسية", "عدوى الجلد"], correct: 1 },
+      { question: "في الفرك الجراحي، كيف يجب أن تكون وضعية اليدين؟", options: ["أسفل المرفقين", "فوق مستوى المرفقين", "على مستوى الصدر", "لا يهم الوضعية"], correct: 1 },
       { question: "ما هو طريق انتقال العدوى الذي يحدث في مسافة أقل من 3 أقدام؟", options: ["Airborne", "Vehicle", "Droplet", "Vector"], correct: 2 }
+    ],
+    1: [
+      { question: "ما هي مراحل العدوى الأربعة بالترتيب الصحيح؟", options: ["الحضانة-البادرات-الذروة-النقاهة", "البادرات-الحضانة-الذروة-النقاهة", "الذروة-الحضانة-البادرات-النقاهة", "النقاهة-الذروة-البادرات-الحضانة"], correct: 0 }
+    ],
+    2: [
+      { question: "ما هي أكثر المخاطر شيوعاً بين كبار السن في المستشفى؟", options: ["الحروق", "السقوط", "التسمم الدوائي", "الاختناق"], correct: 1 }
     ]
   },
   amali: {
@@ -104,7 +104,8 @@ const quizData = {
   },
   tashreeh: {
     0: [
-      { question: "كم عدد عظام الإنسان البالغ؟", options: ["200", "206", "210", "215"], correct: 1 }
+      { question: "كم عدد عظام الإنسان البالغ؟", options: ["200", "206", "210", "215"], correct: 1 },
+      { question: "أي من هذه ليس جزءاً من الجهاز الهيكلي؟", options: ["الجمجمة", "القفص الصدري", "الكبد", "العمود الفقري"], correct: 2 }
     ]
   },
   ahyaa: {
