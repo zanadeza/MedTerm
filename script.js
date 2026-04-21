@@ -1115,14 +1115,16 @@ const coursesData = {
         }
       ],
       lectures: [
-        { title: "محاضرة 1 - Chapter 1 Introduction to Microbiology", url: "https://www.youtube.com/watch?v=JUwqdnDMnv4&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-" },
-        { title: "محاضرة 2 الجزء الأول - Chapter 2 Bacterial cell structure (part 1)", url: "https://www.youtube.com/watch?v=mOLOMgInvTU&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-" },
-        { title: "محاضرة 2 الجزء الثاني - Chapter 2 Bacterial cell structure (part 2)", url: "https://www.youtube.com/watch?v=NP5P6m7pT6M&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=3" },
-        { title: "محاضرة 3 - Chapter 3: Bacterial growth and multiplication", url: "https://www.youtube.com/watch?v=NbUqxwae4R8&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=4" },
-        { title: "محاضرة 4 - Chapter 4: Bacterial Identification and Diagnosis", url: "https://www.youtube.com/watch?v=XUBKO_IKyVo&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=5" },
-        { title: "محاضرة 5 الجزء الأول - Sterilization and disinfection (Part 1)", url: "https://www.youtube.com/watch?v=DV-8CJ1z9xg&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=6" },
-        { title: "محاضرة 5 الجزء الثاني - Sterilization and disinfection (Part 2)", url: "https://www.youtube.com/watch?v=BNAM6oAk_6o&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=7" },
-        { title: "محاضرة 6 الجزء الأول - Classification of bacteria (Part 1)", url: "https://www.youtube.com/watch?v=McWHmMMF8cc&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=8" }
+        { title: "Asepsis (الجزء الأول)", url: "https://youtu.be/Fj_cHc7qiHI" },
+        { title: "Asepsis (الجزء الثاني)", url: "https://youtu.be/O1qCfxoZxXE" },
+        { title: "Infection Control", url: "https://youtu.be/6AydMEgD2V0" },
+        { title: "Safety", url: "https://youtu.be/YVBFkQ9gsoU" },
+        { title: "Admission, Discharge, Transfer (الجزء الأول والثاني)", url: "https://youtu.be/tt1ifco00W8" },
+        { title: "Recording and Reporting", url: "https://youtu.be/tt1ifco00W8" },
+        { title: "Vital Signs (الجزء الأول)", url: "https://youtu.be/B3gQJsvhuMs" },
+        { title: "Vital Signs (الجزء الثاني)", url: "https://youtu.be/a3jdPLWsLbY" },
+        { title: "Hygiene", url: "https://youtu.be/Us-PuSaWMaE" },
+        { title: "Body Mechanics, Positioning", url: "https://youtu.be/nnwa61B0PVA" }
       ]
     },
     {
@@ -1150,7 +1152,13 @@ const coursesData = {
         { name: "الجهاز الهيكلي", pdfUrl: "", pages: [{ title: "مقدمة", sections: [{ type: "info", style: "tip", label: "🔜 قريباً", text: "محتوى هذا الشابتر قيد الإعداد" }] }] },
         { name: "الجهاز العضلي", pdfUrl: "", pages: [{ title: "مقدمة", sections: [{ type: "info", style: "tip", label: "🔜 قريباً", text: "محتوى هذا الشابتر قيد الإعداد" }] }] }
       ],
-      lectures: []
+      lectures: [
+        { title: "محاضرة التشريح ووظائف اعضاء 1 2025 2026 المحاضرة الاولى", url: "https://youtu.be/zLoMS9bqnZY" },
+        { title: "محاضرة التشريح الثانية 11 04 2026", url: "https://youtu.be/t7GbRUIYOxk" },
+        { title: "محاضرة التشريح الثالثة 11 04 2026", url: "https://youtu.be/tMa5FO7hRgA" },
+        { title: "INTEGUMENTARY SYSTEM 4 المحاضرة الرابعة", url: "https://youtu.be/KCSViIGdhqY" },
+        { title: "Skeletal system 1 المحاضرة الخامسة", url: "https://youtu.be/T8KcYEFgilU" }
+      ]
     },
     {
       id: "ahyaa",
@@ -1162,7 +1170,20 @@ const coursesData = {
       chapters: [
         { name: "الخلية", pdfUrl: "", pages: [{ title: "مقدمة", sections: [{ type: "info", style: "tip", label: "🔜 قريباً", text: "محتوى هذا الشابتر قيد الإعداد" }] }] }
       ],
-      lectures: []
+      lectures: [
+        { title: "Chapter 1: Introduction to Microbiology", url: "https://www.youtube.com/watch?v=JUwqdnDMnv4&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-" },
+        { title: "Chapter 2: Bacterial cell structure (Part 1)", url: "https://www.youtube.com/watch?v=mOLOMgInvTU&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-" },
+        { title: "Chapter 2: Bacterial cell structure (Part 2)", url: "https://www.youtube.com/watch?v=NP5P6m7pT6M&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=3" },
+        { title: "Chapter 3: Bacterial growth and multiplication", url: "https://www.youtube.com/watch?v=NbUqxwae4R8&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=4" },
+        { title: "Chapter 4: Bacterial Identification and Diagnosis", url: "https://www.youtube.com/watch?v=XUBKO_IKyVo&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=5" },
+        { title: "Chapter 5 (Part 1): Sterilization and disinfection", url: "https://www.youtube.com/watch?v=DV-8CJ1z9xg&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=6" },
+        { title: "Chapter 5 (Part 2): Sterilization and disinfection", url: "https://www.youtube.com/watch?v=BNAM6oAk_6o&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=7" },
+        { title: "Chapter 6: Classification of bacteria (Part 1)", url: "https://www.youtube.com/watch?v=McWHmMMF8cc&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=8" },
+        { title: "Chapter 6: Classification of bacteria (Part 2)", url: "https://www.youtube.com/watch?v=KxZuGg26Z4Q&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=9" },
+        { title: "Chapter 6: Classification of bacteria (Part 3)", url: "https://www.youtube.com/watch?v=7gMBsyQLS90&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=10" },
+        { title: "Chapter 6: Classification of bacteria (Part 4)", url: "https://www.youtube.com/watch?v=nmJd45pTF9Q&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=11" },
+        { title: "Chapter 6: Classification of bacteria (Part 5)", url: "https://www.youtube.com/watch?v=NoyDyLmDvjQ&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=12" }
+      ]
     }
   ]
 };
