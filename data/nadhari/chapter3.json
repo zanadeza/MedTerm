@@ -1,0 +1,630 @@
+{
+  "name": "Safety - السلامة (الفصل الثالث)",
+  "pdfUrl": "https://www.mediafire.com/file/ofe0j0gqca2knxb/Safety.pdf/file",
+  "pages": [
+    {
+      "title": "📚 أهداف التعلم (Learning Objectives)",
+      "sections": [
+        {
+          "type": "heading",
+          "text": "🎯 أهداف هذا الفصل"
+        },
+        {
+          "type": "list",
+          "label": "بعد دراسة هذا الفصل، يجب أن تكون قادراً على:",
+          "items": [
+            "1. Discuss the purpose of the National Patient Safety goals and methods for implementing them. (مناقشة الغرض من أهداف السلامة الوطنية للمرضى وطرق تنفيذها)",
+            "2. Give an example of one common injury that predominates during each developmental stage (infancy through older adulthood). (إعطاء مثال على إصابة شائعة تسود في كل مرحلة عمرية من الطفولة إلى الشيخوخة)",
+            "3. Name six injuries that result from environmental hazards. (تسمية ست إصابات ناتجة عن المخاطر البيئية)",
+            "4. Identify at least two methods for reducing latex sensitization. (تحديد طريقتين على الأقل للحد من حساسية اللاتكس)",
+            "5. List four areas of responsibility incorporated into most fire plans. (سرد أربعة مجالات للمسؤولية في معظم خطط الحرائق)",
+            "6. Describe the indications for using each class of fire extinguishers. (وصف دواعي استخدام كل فئة من طفايات الحريق)",
+            "7. Discuss five measures for preventing burns. (مناقشة خمسة إجراءات للوقاية من الحروق)",
+            "8. Name three common causes of asphyxiation. (تسمية ثلاثة أسباب شائعة للاختناق)",
+            "9. Discuss two methods for preventing drowning. (مناقشة طريقتين للوقاية من الغرق)",
+            "10. Explain why humans are susceptible to electrical shock. (شرح سبب تعرض البشر للصدمات الكهربائية)",
+            "11. Discuss three methods for preventing electrical shock. (مناقشة ثلاثة إجراءات للوقاية من الصدمات الكهربائية)",
+            "12. Name at least six common substances associated with poisonings. (تسمية ست مواد شائعة مرتبطة بالتسمم)",
+            "13. Discuss four methods for preventing poisonings. (مناقشة أربعة إجراءات للوقاية من التسمم)",
+            "14. Discuss the benefits and risks of using physical restraints. (مناقشة فوائد ومخاطر استخدام القيود الجسدية)",
+            "15. Explain the basis for enacting restraint legislation and the Joint Commission's accreditation standards. (شرح أساس سن تشريعات القيود ومعايير الاعتماد)",
+            "16. Differentiate between a restraint and a restraint alternative. (التفريق بين القيد وبديل القيد)",
+            "17. Give at least four criteria for applying a physical restraint. (إعطاء أربعة معايير على الأقل لتطبيق القيد الجسدي)",
+            "18. Describe two areas of concern during an accident. (وصف مجالين للاهتمام أثناء الحادث)",
+            "19. Explain why older adults are prone to falling. (شرح سبب تعرض كبار السن للسقوط)"
+          ]
+        },
+        {
+          "type": "info",
+          "style": "important",
+          "label": "📌 ملاحظة",
+          "text": "هذه الأهداف ستساعدك في التركيز على أهم النقاط أثناء دراسة هذا الفصل. تأكد من مراجعتها قبل وبعد الدراسة."
+        }
+      ]
+    },
+    {
+      "title": "مقدمة في السلامة (Safety)",
+      "sections": [
+        {
+          "type": "heading",
+          "text": "🛡️ تعريف السلامة"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Safety measures that prevent accidents or unintentional injuries. Major nursing responsibility.",
+              "pron": "سيفتي ميجردز ذات پريڤنت أكسيدنتس أور أنإنتينشل إنجريز. ميجور نيرسينغ ريسپونسبيليتي.",
+              "ar": "السلامة هي إجراءات تمنع الحوادث أو الإصابات غير المقصودة. وهي مسؤولية تمريضية كبرى."
+            },
+            {
+              "en": "Death from hospital errors is ranked between 5th – 8th leading cause of death by National Center for Health Statistics.",
+              "pron": "ديث فروم هوسبيتال إرورز إز رانكد بيتوين فيفث – إيث ليدينغ كوز أوف ديث باي ناشونال سنتر فور هيلث ستاتيستيكس.",
+              "ar": "يحتل الموت الناتج عن أخطاء المستشفى المرتبة بين الخامس والثامن كأسباب الوفاة حسب المركز الوطني للإحصاءات الصحية."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "عوامل السلامة المرتبطة بالعمر (Age-Related Safety Factors)",
+      "sections": [
+        {
+          "type": "heading",
+          "text": "👶 الرضع (Infants)"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Infants rely on the safety consciousness of their adult care-takers.",
+              "pron": "إنفانتس ريلي أون ذا سيفتي كونشسنس أوف ذيير أدولت كير-تيكرز.",
+              "ar": "يعتمد الرضع على وعي البالغين الذين يعتنون بهم بالسلامة."
+            },
+            {
+              "en": "Falling off changing tables. Unrestrained in automobiles.",
+              "pron": "فولينغ أوف تشانجينغ تيبلز. أنريستريد إن أوتوموبيلز.",
+              "ar": "السقوط من طاولات التغيير. عدم التقييد في السيارات."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "🧒 الأطفال في سن المدرسة والمراهقون (School-aged children and adolescents)"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "School-aged children: play-related injuries. Adolescents: sports-related injuries without adequate protective equipment.",
+              "pron": "سكول-إيدجد تشيلدرن: بلاي-ريليتد إنجريز. أدوليسنتس: سبورتس-ريليتد إنجريز ويذاوت أديكوات بروتيكتيڤ إكويبمنت.",
+              "ar": "أطفال المدارس: إصابات متعلقة باللعب. المراهقون: إصابات رياضية بدون معدات وقائية كافية."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "👨 البالغون (Adults)"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Ignoring safety issues, fatigue, sensory changes, effects of disease.",
+              "pron": "إجنورينغ سيفتي إيشوز، فاتيغ، سينسوري تشانجيز، إفيكتس أوف ديزيز.",
+              "ar": "تجاهل قضايا السلامة، التعب، التغيرات الحسية، آثار المرض."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "👴 كبار السن (Older adults)"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Visual impairment, urinary urgency, postural hypotension, reduced coordination, impaired mobility, inadequate home maintenance, and mental confusion.",
+              "pron": "فيجوال إمپيرمنت، يورينري أرجنسي، بوستشورال هايبوتينشن، ريديوسد كووردينيشن، إمپيرد موبيليتي، إينأدي كويت هوم مينتينانس، آند منتال كونفيوجن.",
+              "ar": "ضعف البصر، الإلحاح البولي، انخفاض ضغط الدم الوضعي، ضعف التنسيق، ضعف الحركة، عدم كفاية صيانة المنزل، والارتباك العقلي."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "المخاطر البيئية (Environmental Hazards)",
+      "sections": [
+        {
+          "type": "heading",
+          "text": "⚠️ أنواع المخاطر البيئية"
+        },
+        {
+          "type": "list",
+          "label": "أمثلة على المخاطر البيئية في المنزل والرعاية الصحية:",
+          "items": [
+            "Latex sensitization (حساسية اللاتكس)",
+            "Thermal burns (الحروق الحرارية)",
+            "Asphyxiation (الاختناق)",
+            "Electrical shock (الصدمة الكهربائية)",
+            "Poisoning (التسمم)",
+            "Falls (السقوط)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "حساسية اللاتكس (Latex Sensitization)",
+      "sections": [
+        {
+          "type": "heading",
+          "text": "🧤 تعريف حساسية اللاتكس"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Latex sensitization: allergic response to the latex proteins. Latex is natural rubber sap. Component of many household items.",
+              "pron": "لاتكس سينسيتيزيشن: أليرجيك ريسپونس تو ذا لاتكس بروتينز. لاتكس إز ناتشورال رابير ساب. كومبوننت أوف ماني هاوسهولد آيتمز.",
+              "ar": "حساسية اللاتكس: استجابة تحسسية لبروتينات اللاتكس. اللاتكس هو عصارة المطاط الطبيعي. وهو مكون في العديد من الأدوات المنزلية."
+            },
+            {
+              "en": "Predisposition to latex sensitivity.",
+              "pron": "پريديسپوزيشن تو لاتكس سينسيتيفيتي.",
+              "ar": "استعداد للإصابة بحساسية اللاتكس."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "📋 أنواع تفاعلات اللاتكس (Types of latex reactions)"
+        },
+        {
+          "type": "list",
+          "label": "أنواع التفاعلات:",
+          "items": [
+            "Contact dermatitis: delayed localized skin reaction within 6-48 hours, lasts several days. (التهاب الجلد التماسي: تفاعل جلدي موضعي متأخر خلال 6-48 ساعة، يستمر لعدة أيام)",
+            "Immediate hypersensitivity systemic reaction: swelling, itching, respiratory distress, hypotension, and death in severe cases. (فرط الحساسية المباشر: تورم، حكة، ضيق تنفس، انخفاض ضغط الدم، والوفاة في الحالات الشديدة)",
+            "Possible cross-reaction to fruits or vegetables. (تفاعل متصالب محتمل مع الفواكه أو الخضروات) — The molecular structure of latex and other plant substances is similar."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "🛡️ حماية المرضى والموظفين (Safeguarding Clients and Personnel)"
+        },
+        {
+          "type": "list",
+          "label": "إجراءات الحماية:",
+          "items": [
+            "Obtaining an allergy history, and a sensitivity to latex in particular. (أخذ تاريخ الحساسية، وخاصة حساسية اللاتكس)",
+            "Flagging the chart and room door and attaching an allergy-alert identification bracelet on latex-sensitive clients. (وضع علامات تحذيرية على المخطط وباب الغرفة، وربط سوار تعريف تنبيه للحساسية للمرضى المصابين بحساسية اللاتكس)",
+            "Assigning clients with a latex allergy to a private room or latex-safe environment (room stocked with latex-free equipment and wiped clean of glove powder). (تخصيص غرفة خاصة أو بيئة آمنة من اللاتكس للمرضى المصابين بحساسية اللاتكس)",
+            "Stocking a latex-safe cart containing synthetic gloves and latex-free client care and resuscitation equipment in the room of a client sensitive to latex. (تجهيز عربة آمنة من اللاتكس تحتوي على قفازات اصطناعية ومعدات رعاية وإنعاش خالية من اللاتكس في غرفة المريض المصاب بحساسية اللاتكس)",
+            "Communicating with personnel in other departments so that they use nonlatex equipment and supplies during diagnostic or treatment procedures. (التواصل مع الموظفين في الأقسام الأخرى لاستخدام معدات وإمدادات غير مصنوعة من اللاتكس أثناء إجراءات التشخيص أو العلاج)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "الحرائق (Fires) وإدارة الحرائق",
+      "sections": [
+        {
+          "type": "heading",
+          "text": "🔥 الوقاية من الحروق وإدارة الحرائق (Burn prevention & Fire plans)"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Burn prevention: exits identified, lighted, unlocked; ensure functioning sprinkler system.",
+              "pron": "بورن پريڤينشن: إكزيتس أيدنتيفايد، لايتد، أنلوكد؛ إنشور فانكشنينغ سبرينكلر سيستم.",
+              "ar": "الوقاية من الحروق: مخارج محددة ومضاءة وغير مقفلة؛ ضمان نظام رشاشات يعمل."
+            },
+            {
+              "en": "Fire plans: all employees must know and follow the agency's fire plan:",
+              "pron": "فاير بلانز: أول إمبلايز موست نو آند فولو ذا إيجنسيز فاير بلان.",
+              "ar": "خطط الحرائق: يجب على جميع الموظفين معرفة واتباع خطة الإطفاء الخاصة بالمؤسسة:"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "label": "📋 عناصر خطة الحرائق:",
+          "items": [
+            "Specific roles and responsibilities at and away from the fire's point of origin (الأدوار والمسؤوليات المحددة عند نقطة نشوب الحريق وبعيداً عنها)",
+            "Use of the fire alarm system (استخدام نظام إنذار الحريق)",
+            "Roles in preparing for building evacuation (الأدوار في التحضير لإخلاء المبنى)",
+            "Location and proper use of equipment for evacuation or transporting clients to areas of refuge (موقع والاستخدام الصحيح للمعدات للإخلاء أو نقل المرضى إلى مناطق الأمان)",
+            "Building compartmentalization procedures for containing smoke and fire (إجراءات تجزئة المبنى لاحتواء الدخان والحريق)"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "📋 RACE (إدارة الحرائق)"
+        },
+        {
+          "type": "list",
+          "label": "اختصار RACE:",
+          "items": [
+            "R - Rescue: Rescue clients from the room with the fire. (إنقاذ المرضى من الغرفة التي بها حريق)",
+            "A - Alarm: Inform the switchboard operator of the fire's location. (إبلاغ مشغل الهاتف بموقع الحريق)",
+            "C - Contain the fire: Close doors to client rooms, stairwells, and fire doors. (احتواء الحريق: إغلاق أبواب غرف المرضى، وأبواب السلالم، وأبواب الحريق)",
+            "E - Extinguish / Evacuate: Extinguish the fire or evacuate. (إطفاء الحريق أو إخلاء المنطقة)"
+          ]
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Return to the nursing unit when an alarm sounds; do not use the elevator.",
+              "pron": "ريتورن تو ذا نيرسينغ يونيت وين إن ألارم ساوندز؛ دو نوت يوز ذا إليفيتور.",
+              "ar": "عد إلى وحدة التمريض عند سماع الإنذار؛ لا تستخدم المصعد."
+            },
+            {
+              "en": "Clear the halls of visitors and equipment.",
+              "pron": "كلير ذا هولز أوف ڤيزيتورز آند إكويبمنت.",
+              "ar": "أخلِ الممرات من الزوار والمعدات."
+            },
+            {
+              "en": "Place moist towels or bath blankets at the threshold of doors if smoke is escaping.",
+              "pron": "پليس مويست تاولز أور باث بلانكيتس أت ذا ثريشولد أوف دورز إف سموك إز إسكيبينغ.",
+              "ar": "ضع مناشف مبللة أو بطانيات الاستحمام عند عتبات الأبواب إذا كان الدخان يتسرب."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "الإخلاء والإنقاذ (Rescue and Evacuation)",
+      "sections": [
+        {
+          "type": "heading",
+          "text": "🚑 طرق الإخلاء"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "The first priority is to rescue clients in the immediate vicinity of the fire. Nurses lead those who can walk to a safe area and close the room and fire doors after exiting.",
+              "pron": "ذا فرست برايوريتي إيز تو ريسكيو كلاينتس إن ذا إميديت ڤيسينيتي أوف ذا فاير. نيرسز ليد ذوز هو كان ووك تو أ سيف إيريا آند كلوز ذا روم آند فاير دورز آفتر إكزيتينغ.",
+              "ar": "الأولوية الأولى هي إنقاذ المرضى في المنطقة المجاورة مباشرة للحريق. تقود الممرضات القادرين على المشي إلى منطقة آمنة وتغلق أبواب الغرفة وأبواب الحريق بعد الخروج."
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "label": "طرق إخلاء المرضى غير القادرين على المشي:",
+          "items": [
+            "Human crutches (عكازات بشرية): rescuers secure a weak but ambulatory client's arm and waist. (ينقذ شخصان مريضاً ضعيفاً ولكنه قادر على المشي بتأمين ذراعه وخصره)",
+            "Seat carry (حمل المقعد): rescuers interlock arms and carry a nonambulatory client. (يتشابك المنقذون أذرعهم ويحملون مريضاً غير قادر على المشي)",
+            "Body drag (السحب بالجسم): rescuers drag an unconscious victim or one who cannot assist on a blanket or sheet. (يسحب المنقذون ضحية فاقدة للوعي أو لا تستطيع المساعدة على بطانية أو ملاءة)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "طفايات الحريق (Fire Extinguishers)",
+      "sections": [
+        {
+          "type": "heading",
+          "text": "🧯 أنواع طفايات الحريق"
+        },
+        {
+          "type": "terms",
+          "items": [
+            { "en": "Class A", "pron": "كلاس إيه", "ar": "مياه مضغوطة — للورق والخشب والقماش (Burning paper, wood, and cloth)" },
+            { "en": "Class B", "pron": "كلاس بي", "ar": "ثاني أكسيد الكربون — للغازولين والزيوت والدهانات (Fires caused by gasoline, oil, paint, grease)" },
+            { "en": "Class C", "pron": "كلاس سي", "ar": "مواد كيميائية جافة — للحرائق الكهربائية (Electrical fires)" },
+            { "en": "Class ABC", "pron": "كلاس إيه بي سي", "ar": "جرافيت — لجميع أنواع الحرائق (Fires of any kind)" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "الاختناق (Asphyxiation)",
+      "sections": [
+        {
+          "type": "heading",
+          "text": "🌫️ الاختناق بأول أكسيد الكربون (Carbon Monoxide - CO)"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Carbon monoxide (CO) binds with hemoglobin. CO poisoning symptoms similar to flu, except for cherry-red skin color.",
+              "pron": "كاربن مونوكسايد (سي أو) بايندز وِذ هيموغلوبين. سي أو بويزنينغ سيمبتومز سيميلار تو فلو، إكسيبت فور تشيري-ريد سكين كالر.",
+              "ar": "أول أكسيد الكربون (CO) يرتبط بالهيموغلوبين. أعراض التسمم بأول أكسيد الكربون تشبه أعراض الأنفلونزا، باستثناء لون الجلد الأحمر الكرزي."
+            },
+            {
+              "en": "Nausea, vomiting, headache, dizziness, muscle weakness.",
+              "pron": "نوزيا، فوميتينغ، هيديك، ديزينس، ماسل ويكنيس.",
+              "ar": "غثيان، قيء، صداع، دوار، ضعف عضلي."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "الغرق (Drowning) والإنعاش",
+      "sections": [
+        {
+          "type": "heading",
+          "text": "💧 الغرق والإنعاش القلبي الرئوي"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Drowning: Fluid occupies airway, interferes with ventilation. Accidental drownings.",
+              "pron": "دراونينغ: فلويد أكيوبايز إيروي، إنترفيرز وِذ ڤينتليشن. أكسيدنتال دراونينغز.",
+              "ar": "الغرق: السائل يشغل مجرى الهواء ويتداخل مع التهوية. غرق عرضي."
+            },
+            {
+              "en": "Resuscitation: Immediate CPR is required. CPR certification is essential for nurses.",
+              "pron": "ريسوسيتيشن: إميديات سي بي آر إز ريكوايرد. سي بي آر سيرتيفيكيشن إز إسينشال فور نيرسز.",
+              "ar": "الإنعاش: يتطلب الإنعاش القلبي الرئوي الفوري. شهادة CPR ضرورية للممرضين."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "الصدمة الكهربائية (Electrical Shock)",
+      "sections": [
+        {
+          "type": "heading",
+          "text": "⚡ أنواع الصدمات الكهربائية"
+        },
+        {
+          "type": "terms",
+          "items": [
+            { "en": "Macroschock", "pron": "ماكروشوك", "ar": "توزيع غير ضار للتيار الكهربائي منخفض الأمبير على مساحة كبيرة من الجسم (harmless distribution of low amperage electricity over a large area of the body)" },
+            { "en": "Microshock", "pron": "مايكروشوك", "ar": "توزيع كهربائي منخفض الجهد ولكن عالي الأمبير، خطير (low-voltage but high-amperage distribution of electricity)" }
+          ]
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Grounded equipment reduces electrical shock potential.",
+              "pron": "غراونديد إكويبمنت ريديوسز إلكتريكال شوك بوتنشل.",
+              "ar": "المعدات المؤرضة تقلل من احتمالية الصدمة الكهربائية."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "🛡️ إجراءات الوقاية من الصدمات الكهربائية (Measures to prevent electrical shock)"
+        },
+        {
+          "type": "list",
+          "label": "إجراءات الوقاية:",
+          "items": [
+            "Never use an adaptor to bypass a grounded outlet. (لا تستخدم محولاً لتجاوز مخرج مؤرض)",
+            "Make sure all outlets and switches have cover plates. (تأكد من أن جميع المنافذ والمفاتيح لها أغطية)",
+            "Plug all machines used for client care into outlets within 12 ft. of one another or within the same cluster of wall outlets. (صل جميع الأجهزة المستخدمة في رعاية المرضى في منافذ ضمن 12 قدماً من بعضها البعض أو ضمن نفس مجموعة منافذ الحائط)",
+            "Unplug machines if they are no longer necessary. (افصل الأجهزة إذا لم تعد ضرورية)",
+            "Discourage clients from resting electric hairdryers, curling irons, or razors on or near a sink that contains water. (لا تشجع المرضى على وضع مجففات الشعر الكهربائية أو مكواة تجعيد الشعر أو شفرات الحلاقة على حوض يحتوي على ماء أو بالقرب منه)",
+            "Do not use a machine that has a frayed or cracked cord or a plug with exposed wires. (لا تستخدم جهازاً بسلك متهالك أو متشقق أو قابس به أسلاك مكشوفة)",
+            "Grasp the plug, not the cord, to remove it from an outlet. (امسك القابس وليس السلك لنزعه من المنفذ)",
+            "Do not use extension cords. (لا تستخدم أسلاك التمديد)",
+            "Report macroschocks to the engineering department. (أبلغ عن الصدمات الكبيرة (Macroschock) لقسم الهندسة)",
+            "Clean liquid spills as soon as possible. (نظف الانسكابات السائلة فوراً)",
+            "Stand clear of the client and bed during cardiac defibrillation. (ابتعد عن المريض والسرير أثناء إزالة الرجفان القلبي)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "التسمم (Poisoning)",
+      "sections": [
+        {
+          "type": "heading",
+          "text": "☠️ التسمم"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Caused by ingestion, inhalation, or absorption of toxic substance. More common in homes than in health care institutions.",
+              "pron": "كوزد باي إنچيشن، إنهاليشن، أور أبسوربشن أوف توكسك سابستانس. مور كومون إن هومز ذان إن هيلث كير إنستيتيوشنز.",
+              "ar": "يحدث بسبب تناول أو استنشاق أو امتصاص مادة سامة. أكثر شيوعاً في المنازل منه في مؤسسات الرعاية الصحية."
+            },
+            {
+              "en": "Accidental poisonings; medication errors.",
+              "pron": "أكسيدنتال بويزنينغز؛ ميديكيشن إرورز.",
+              "ar": "تسمم عرضي؛ أخطاء دوائية."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "📋 المواد الشائعة المرتبطة بالتسمم عند الأطفال (Common substances associated with childhood poisonings)"
+        },
+        {
+          "type": "list",
+          "label": "المواد الشائعة:",
+          "items": [
+            "الأدوية مثل الأسبرين (Drugs such as aspirin)",
+            "مواد التنظيف مثل المبيض (Cleaning agents such as bleach)",
+            "المنتجات الكيميائية مثل الغراء (Chemical products such as glue)",
+            "مستحضرات التجميل مثل صبغة الشعر (Cosmetics such as hair dye)"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "🛡️ الوقاية من التسمم (Poisoning prevention)"
+        },
+        {
+          "type": "list",
+          "label": "الوقاية:",
+          "items": [
+            "Educate children. (تثقيف الأطفال)",
+            "Teach parents. (تعليم الوالدين)",
+            "Cognitive-impaired adults: use prefilled medication containers. (للبالغين ذوي الإعاقة الإدراكية: استخدم حاويات الأدوية مسبقة التعبئة)"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "💊 العلاج (Treatment)"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Treatment involves maintaining breathing and cardiac function. After that, rescuers attempt to identify what was ingested, how much, and when.",
+              "pron": "تريتمنت إنڤولفز مينتينينغ بريذينغ آند كاردياك فانكشن. آفتر ذات، ريسكيويرز أتيمبت تو أيدنتيفاي وات واز إنچيستد، هاو ماتش، آند وين.",
+              "ar": "يتضمن العلاج الحفاظ على التنفس والوظائف القلبية. بعد ذلك، يحاول المنقذون تحديد ما تم تناوله وكميته ومتى."
+            },
+            {
+              "en": "Definitive treatment depends on the substance, the client's condition, and if the substance is still in the stomach.",
+              "pron": "ديفينيتيف تريتمنت ديبيندز أون ذا سابستانس، ذا كلاينتس كونديشن، آند إف ذا سابستانس إز ستيل إن ذا ستوماك.",
+              "ar": "يعتمد العلاج النهائي على المادة وحالة المريض وما إذا كانت المادة لا تزال في المعدة."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "السقوط (Falls)",
+      "sections": [
+        {
+          "type": "heading",
+          "text": "👴 السقوط لدى كبار السن"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Most common accident with the most serious consequences in older adults.",
+              "pron": "موست كومون أكسيدنت وِث ذا موست سيريس كونسكوينسز إن أولدر أدولتس.",
+              "ar": "الحادث الأكثر شيوعاً والأكثر خطورة على كبار السن."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "📋 العوامل المساهمة في السقوط (Contributing factors)"
+        },
+        {
+          "type": "list",
+          "label": "العوامل:",
+          "items": [
+            "Visual impairments (ضعف البصر)",
+            "Disorders affecting gait, balance, and coordination (اضطرابات المشي والتوازن والتنسيق)",
+            "Medications to lower blood pressure (الأدوية الخافضة للضغط)",
+            "Urinary urgency (الإلحاح البولي)",
+            "Social and environmental factors (العوامل الاجتماعية والبيئية)",
+            "Accumulation of clutter (تراكم الفوضى)",
+            "Hospitalization (العلاج في المستشفى)",
+            "Confusion, impaired judgment (الارتباك وضعف الحكم)"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "🛡️ تدابير الوقاية من السقوط (Safety measures to prevent falls)"
+        },
+        {
+          "type": "list",
+          "label": "تدابير الوقاية:",
+          "items": [
+            "Keep the environment well lit. (حافظ على بيئة جيدة الإضاءة)",
+            "Install and use handrails on stairs inside and outside the home. (قم بتركيب واستخدام الدرابزين على السلالم داخل وخارج المنزل)",
+            "Place a strip of light-colored adhesive tape on the edge of each stair for visibility. (ضع شريطاً لاصقاً فاتح اللون على حافة كل درجة للرؤية)",
+            "Remove scatter rugs. (إزالة السجاد الصغير)",
+            "Keep extension cords next to the wall. (أبقِ أسلاك التمديد بجانب الحائط)",
+            "Do not wax floors. (لا تقم بتلميع الأرضيات)",
+            "Wear well-fitting shoes that enclose the heel and toe of the foot and have nonskid soles. (ارتدِ أحذية مناسبة تغطي الكعب وأصابع القدم ولها نعال غير قابلة للانزلاق)",
+            "Keep pathways clutter free. (حافظ على الممرات خالية من العوائق)",
+            "Wear short robes without cloth belts that may loosen and trip the client. (ارتدِ أردية قصيرة بدون أحزمة قماشية قد ترتخي وتعثر المريض)",
+            "Use a cane or walker if prescribed. (استخدم عصا أو مشاية إذا تم وصفها)",
+            "Replace the tip on a cane as it wears down. (استبدل طرف العصا عندما يبلى)",
+            "Stay indoors when the weather is icy or snowy. (ابق في الداخل عندما يكون الطقس جليدياً أو ثلجياً)",
+            "Sit down when using public transportation, even if it means asking someone for his or her seat. (اجلس عند استخدام وسائل النقل العامة، حتى لو كان ذلك يعني طلب مقعد من شخص آخر)",
+            "Install and use grab bars in the shower and near the toilet. (قم بتركيب واستخدام قضبان الإمساك في الحمام وبالقرب من المرحاض)",
+            "Place a nonskid mat or decals on the floor of the tub or shower. (ضع حصيرة غير قابلة للانزلاق أو ملصقات على أرضية حوض الاستحمام أو الدش)",
+            "Use soap-on-a-rope or a suspended container of liquid soap to prevent slipping on a loose soap bar. (استخدم صابونة معلقة بحبل أو حاوية معلقة للصابون السائل لمنع الانزلاق على قطعة صابون فضفاضة)",
+            "Use a flashlight or nightlight when it is dark. (استخدم مصباحاً يدوياً أو ضوءاً ليلياً عندما يكون الظلام)",
+            "Make sure that pets are not underfoot. (تأكد من أن الحيوانات الأليفة ليست تحت الأقدام)",
+            "Mop up spills immediately. (امسح الانسكابات فوراً)",
+            "Use long-handled tongs rather than climbing on a chair to reach high objects. (استخدم ملقطاً طويل المقود بدلاً من التسلق على كرسي للوصول إلى الأشياء المرتفعة)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "القيود الجسدية والكيميائية (Restraints)",
+      "sections": [
+        {
+          "type": "heading",
+          "text": "🔗 تعريف القيود"
+        },
+        {
+          "type": "terms",
+          "items": [
+            { "en": "Physical restraints", "pron": "فيزيكال ريسترينتس", "ar": "أجهزة تثبيت أو تقلل من قدرة المريض على تحريك أطرافه أو رأسه أو جسمه بحرية (Are immobile or reduce the ability of a client to freely move his or her arms, legs, body, or head)" },
+            { "en": "Chemical restraints", "pron": "كيميكال ريسترينتس", "ar": "أدوية تستخدم للتحكم في سلوك المريض أو حريته في الحركة (Drugs used to manage a client's behavior or freedom of movement)" }
+          ]
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Purpose: client or staff safety.",
+              "pron": "بَيربَوس: كلاينت أور ستاف سيفتي.",
+              "ar": "الغرض: سلامة المريض أو الموظف."
+            },
+            {
+              "en": "Use of restraints is closely regulated.",
+              "pron": "يوز أوف ريسترينتس إز كلوزلي ريگيوليتد.",
+              "ar": "استخدام القيود منظم بشكل صارم."
+            },
+            {
+              "en": "Restraints may not be used for disciplinary reasons.",
+              "pron": "ريسترينتس ماي نوت بي يوزد فور ديسيبلينري ريزنز.",
+              "ar": "لا يجوز استخدام القيود لأسباب تأديبية."
+            },
+            {
+              "en": "Last intervention used after all others exhausted.",
+              "pron": "لاست إنترفينشن يوزد آفتر أول أذرس إكزوستد.",
+              "ar": "هي آخر تدخل يستخدم بعد استنفاد جميع البدائل."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "تمارين التفكير النقدي (Critical Thinking Exercises)",
+      "sections": [
+        {
+          "type": "heading",
+          "text": "🧠 Critical Thinking Exercises — تمارين التفكير النقدي"
+        },
+        {
+          "type": "info",
+          "style": "tip",
+          "label": "❓ السؤال الأول",
+          "text": "What rationale would you give as the reason the Joint Commission identified National Patient Safety Goals as a criterion for compliance with accreditation?\n\nما المبرر الذي تقدمه لكون لجنة المشتركة قد حددت أهداف السلامة الوطنية للمرضى كمعيار للامتثال للاعتماد؟\n\n📌 الإجابة: لضمان سلامة المرضى وتوحيد معايير الرعاية الصحية عبر جميع المؤسسات، وللحد من الأخطاء الطبية القابلة للوقاية وتحسين نتائج المرضى."
+        },
+        {
+          "type": "info",
+          "style": "tip",
+          "label": "❓ السؤال الثاني",
+          "text": "If someone you know is contemplating a career in nursing, but is hesitant because of a latex allergy, what information would you offer?\n\nإذا كان شخص تعرفه يفكر في مهنة التمريض ولكنه متردد بسبب حساسية اللاتكس، ما المعلومات التي تقدمها؟\n\n📌 الإجابة: تتوفر قفازات خالية من اللاتكس (فينيل، نيوبرين، نيتريل) في معظم المؤسسات الصحية، ويمكن وضع خطة لتجنب التعرض للاتكس، والعديد من الممرضات المصابات بحساسية اللاتكس يعملن بنجاح باستخدام الاحتياطات المناسبة."
+        },
+        {
+          "type": "info",
+          "style": "tip",
+          "label": "❓ السؤال الثالث",
+          "text": "When discharging an older adult to the care of a family member, what safety measures are appropriate to include in the discharge instructions?\n\nعند خروج مريض مسن لرعاية أحد أفراد الأسرة، ما تدابير السلامة المناسبة لتضمينها في تعليمات الخروج؟\n\n📌 الإجابة: إزالة السجاد الصغير، تركيب قضبان الإمساك في الحمام وبجانب المرحاض، استخدام إضاءة ليلية، التأكد من خلو الممرات من العوائق، استخدام أحذية غير قابلة للانزلاق، تركيب درابزين على السلالم، استخدام أجهزة المساعدة على المشي إذا لزم الأمر."
+        },
+        {
+          "type": "info",
+          "style": "tip",
+          "label": "❓ السؤال الرابع",
+          "text": "Without resorting to the use of restraints, how can you prevent falls in a client with an unsteady gait?\n\nبدون اللجوء إلى استخدام القيود، كيف يمكنك منع السقوط لدى مريض يعاني من مشية غير ثابتة؟\n\n📌 الإجابة: استخدام أجهزة المساعدة على المشي (عكاز، مشاية)، مرافقة المريض أثناء المشي، توفير إضاءة كافية، وضع جرس بجانب السرير لطلب المساعدة، استخدام أحذية غير قابلة للانزلاق، رفع السرير إلى وضع منخفض، استخدام قضبان الإمساك في الحمام والمرحاض، وإزالة العوائق من الممرات."
+        }
+      ]
+    }
+  ]
+}
