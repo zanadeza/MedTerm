@@ -1,1 +1,220 @@
-1
+{
+  "name": "مقدمة في علم الأحياء الدقيقة - Introduction to Microbiology (الفصل الأول)",
+  "pdfUrl": "",
+  "pages": [
+    {
+      "title": "📚 أهداف التعلم (Learning Objectives)",
+      "sections": [
+        {
+          "type": "heading",
+          "text": "🎯 أهداف هذا الفصل"
+        },
+        {
+          "type": "list",
+          "label": "بعد دراسة هذا الفصل، يجب أن تكون قادراً على:",
+          "items": [
+            "1. Define microbiology and its branches. (تعريف علم الأحياء الدقيقة وفروعه)",
+            "2. Describe the history of microbiology and key scientists. (وصف تاريخ علم الأحياء الدقيقة والعلماء الرئيسيين)",
+            "3. Identify the agents of human infectious diseases. (تحديد مسببات الأمراض المعدية البشرية)",
+            "4. Differentiate between prokaryotic and eukaryotic cells. (التفريق بين الخلايا بدائية النواة وحقيقية النواة)",
+            "5. Compare viruses, bacteria, fungi, protozoa, and helminths. (مقارنة الفيروسات والبكتيريا والفطريات والأوليات والديدان الطفيلية)",
+            "6. Explain Koch's postulates. (شرح مسلمات كوخ)",
+            "7. Describe the structure of DNA and its discovery. (وصف تركيب DNA واكتشافه)",
+            "8. List major contributions of Pasteur, Koch, Lister, Fleming, and Jenner. (سرد الإسهامات الرئيسية باستور، كوخ، ليستر، فلمنغ، وجينر)"
+          ]
+        },
+        {
+          "type": "info",
+          "style": "important",
+          "label": "📌 ملاحظة",
+          "text": "علم الأحياء الدقيقة هو فرع من علم الأحياء يدرس الكائنات الحية الدقيقة مثل البكتيريا والفيروسات والفطريات والطفيليات."
+        }
+      ]
+    },
+    {
+      "title": "مقدمة في علم الأحياء الدقيقة (Introduction to Microbiology)",
+      "sections": [
+        {
+          "type": "heading",
+          "text": "🔬 تعريف علم الأحياء الدقيقة"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Biology is the science of living things.",
+              "pron": "بايولوجي إز ذا ساينس أوف ليفينغ ثينغز.",
+              "ar": "علم الأحياء هو علم الكائنات الحية."
+            },
+            {
+              "en": "Microbiology is a branch of biology dealing with microscopic forms of life such as bacteria, protozoa, viruses, and fungi.",
+              "pron": "مايكروبيولوجي إز أ برانش أوف بايولوجي ديلينغ وِذ مايكروسكوبيك فورمز أوف لايف ساتش آز باكتيريا، بروتوزوا، ڤايرسز، آند فانجاي.",
+              "ar": "علم الأحياء الدقيقة هو فرع من علم الأحياء يتعامل مع الأشكال المجهرية للحياة مثل البكتيريا والأوليات والفيروسات والفطريات."
+            },
+            {
+              "en": "Study of different microorganisms: Bacteria, Viruses, Parasites, Fungus.",
+              "pron": "ستادي أوف ديفرنت مايكروأورغانيزمز: باكتيريا، ڤايرسز، باراسايتس، فانجس.",
+              "ar": "دراسة الكائنات الدقيقة المختلفة: البكتيريا، الفيروسات، الطفيليات، الفطريات."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "📚 فروع علم الأحياء الدقيقة (Branches of Microbiology)"
+        },
+        {
+          "type": "terms",
+          "items": [
+            { "en": "Bacteriology", "pron": "باكتيريولوجي", "ar": "علم البكتيريا — دراسة البكتيريا" },
+            { "en": "Parasitology", "pron": "باراسيتولوجي", "ar": "علم الطفيليات — دراسة الطفيليات" },
+            { "en": "Mycology", "pron": "مايكولوجي", "ar": "علم الفطريات — دراسة الفطريات" },
+            { "en": "Virology", "pron": "فايرولوجي", "ar": "علم الفيروسات — دراسة الفيروسات" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "تاريخ علم الأحياء الدقيقة (History of Microbiology)",
+      "sections": [
+        {
+          "type": "heading",
+          "text": "🕰️ العلماء الرئيسيون في تاريخ علم الأحياء الدقيقة"
+        },
+        {
+          "type": "terms",
+          "items": [
+            { "en": "Zacharias Janssen (1590)", "pron": "زاكارياس يانسن", "ar": "صانع نظارات هولندي، اخترع أول مجهر مركب (First compound light microscope)" },
+            { "en": "Robert Hooke (1664)", "pron": "روبرت هوك", "ar": "فيلسوف إنجليزي، وصف العفن (mold) لأول مرة" },
+            { "en": "Anton van Leeuwenhoek (1676)", "pron": "أنطون فان ليوينهوك", "ar": "أول من لاحظ البكتيريا \"animalcules\" باستخدام عدسات قوية حتى 300x" },
+            { "en": "Edward Jenner (1796)", "pron": "إدوارد جينر", "ar": "أول لقاح ضد الجدري (smallpox vaccine)" },
+            { "en": "Louis Pasteur (1857)", "pron": "لويس باستور", "ar": "نظرية جرثومية المرض (Germ Theory of Disease)، لقاح داء الكلب، البسترة" },
+            { "en": "Joseph Lister (1867)", "pron": "جوزيف ليستر", "ar": "الجراحة المطهرة (Antiseptic Surgery) باستخدام الفينول" },
+            { "en": "Robert Koch (1884)", "pron": "روبرت كوخ", "ar": "مسلمات كوخ (Koch's Postulates)، عزل بكتيريا الجمرة الخبيثة والكوليرا والسل" },
+            { "en": "Alexander Fleming (1929)", "pron": "ألكسندر فلمنغ", "ar": "اكتشاف البنسلين (Penicillin) أول مضاد حيوي" },
+            { "en": "Watson & Crick (1953)", "pron": "واتسون وكريك", "ar": "اكتشاف تركيب DNA (Structure of DNA)" },
+            { "en": "Jonas Salk (1954)", "pron": "جوناس سالك", "ar": "لقاح شلل الأطفال (Polio Vaccine)" }
+          ]
+        },
+        {
+          "type": "info",
+          "style": "tip",
+          "label": "💡 معلومات مهمة",
+          "text": "• قوة تكبير المجهر الضوئي تصل إلى 1000 مرة\n• المجهر الإلكتروني يمكنه التكبير حتى 1,000,000 مرة\n• باستور أدخل التعقيم بالحرارة تحت الضغط (الأوتوكلاف)"
+        }
+      ]
+    },
+    {
+      "title": "مسلمات كوخ (Koch's Postulates)",
+      "sections": [
+        {
+          "type": "heading",
+          "text": "🧫 مسلمات كوخ لإثبات العلاقة بين الميكروب والمرض"
+        },
+        {
+          "type": "list",
+          "label": "الفرضيات الأربع:",
+          "items": [
+            "1. The suspected pathogen must be present in all cases of the disease and absent from healthy animals. (العامل المشتبه به يجب أن يكون موجوداً في جميع حالات المرض وغائباً عن الحيوانات السليمة)",
+            "2. The suspected pathogen must be grown in pure culture. (العامل المشتبه به يجب أن ينمو في مزرعة نقية)",
+            "3. Cells from the pure culture must cause the disease when injected into a healthy animal. (خلايا من المزرعة النقية يجب أن تسبب المرض عند حقنها في حيوان سليم)",
+            "4. The pathogen must be re-isolated from the injected animal and shown to be identical to the original pathogen. (يجب إعادة عزل العامل الممرض من الحيوان المحقون وإثبات تطابقه مع العامل الأصلي)"
+          ]
+        },
+        {
+          "type": "info",
+          "style": "important",
+          "label": "📌 ملاحظة",
+          "text": "كوخ هو أول من استخدم الوسائط الصلبة لزراعة الكائنات الدقيقة باستخدام الجيلاتين كعامل تصلب. عزل بكتيريا Bacillus anthracis و Mycobacterium tuberculosis و Vibrio cholerae."
+        }
+      ]
+    },
+    {
+      "title": "مسببات الأمراض المعدية البشرية (Agents of Human Infectious Diseases)",
+      "sections": [
+        {
+          "type": "heading",
+          "text": "🦠 المجموعات الخمس الرئيسية"
+        },
+        {
+          "type": "list",
+          "label": "العوامل المسببة للأمراض المعدية:",
+          "items": [
+            "Bacteria (البكتيريا) — تنتمي إلى مملكة بدائيات النواة (Prokaryote)",
+            "Fungi (الفطريات) — تشمل الخمائر والعفن (Yeasts and molds)",
+            "Protozoa (الأوليات) — كائنات وحيدة الخلية",
+            "Helminths (الديدان الطفيلية) — تصنف في مملكة الحيوان",
+            "Viruses (الفيروسات) — ليست خلايا، تتكاثر فقط داخل الخلايا"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "جدول 1-2: مقارنة الكائنات الدقيقة المهمة طبياً",
+      "sections": [
+        {
+          "type": "heading",
+          "text": "📊 Comparison of Medically Important Organisms"
+        },
+        {
+          "type": "terms",
+          "items": [
+            { "en": "Viruses - Cells", "pron": "فيروسات", "ar": "❌ ليس لها خلايا (No cells)" },
+            { "en": "Bacteria - Cells", "pron": "بكتيريا", "ar": "✅ لها خلايا (Yes)" },
+            { "en": "Fungi - Cells", "pron": "فطريات", "ar": "✅ لها خلايا (Yes)" },
+            { "en": "Protozoa & Helminths - Cells", "pron": "أوليات وديدان", "ar": "✅ لها خلايا (Yes)" },
+            { "en": "Viruses - Nucleic acid", "pron": "فيروسات", "ar": "إما DNA أو RNA (Either DNA or RNA)" },
+            { "en": "Bacteria - Nucleic acid", "pron": "بكتيريا", "ar": "DNA و RNA (Both)" },
+            { "en": "Viruses - Type of nucleus", "pron": "فيروسات", "ar": "لا نواة (None)" },
+            { "en": "Bacteria - Type of nucleus", "pron": "بكتيريا", "ar": "بدائي النواة (Prokaryotic)" },
+            { "en": "Fungi - Type of nucleus", "pron": "فطريات", "ar": "حقيقي النواة (Eukaryotic)" },
+            { "en": "Viruses - Ribosomes", "pron": "فيروسات", "ar": "غائب (Absent)" },
+            { "en": "Bacteria - Ribosomes", "pron": "بكتيريا", "ar": "70S" },
+            { "en": "Fungi - Ribosomes", "pron": "فطريات", "ar": "80S" },
+            { "en": "Bacteria - Cell wall", "pron": "بكتيريا", "ar": "جدار صلب يحتوي على ببتيدوغليكان (Peptidoglycan)" },
+            { "en": "Fungi - Cell wall", "pron": "فطريات", "ar": "جدار صلب يحتوي على كيتين (Chitin)" },
+            { "en": "Bacteria - Method of replication", "pron": "بكتيريا", "ar": "الانشطار الثنائي (Binary fission)" },
+            { "en": "Viruses - Method of replication", "pron": "فيروسات", "ar": "ليس انشطار ثنائي، يتفكك ويعيد التجميع" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "الفرق بين الخلايا حقيقية النواة وبدائية النواة (Eukaryotes & Prokaryotes)",
+      "sections": [
+        {
+          "type": "heading",
+          "text": "🧬 المقارنة بين الخلايا"
+        },
+        {
+          "type": "terms",
+          "items": [
+            { "en": "Eukaryotic cells", "pron": "يوكاريوتيك سيلز", "ar": "خلايا حقيقية النواة — لها نواة حقيقية مع غشاء نووي، تحتوي على عضيات، ريبوسومات 80S" },
+            { "en": "Prokaryotic cells", "pron": "بروكاريوتيك سيلز", "ar": "خلايا بدائية النواة — لا تحتوي على نواة محاطة بغشاء، كروموسوم دائري واحد، ريبوسومات 70S" }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "📊 جدول 1-3: خصائص الخلايا بدائية النواة وحقيقية النواة"
+        },
+        {
+          "type": "terms",
+          "items": [
+            { "en": "DNA within nuclear membrane", "pron": "الحمض النووي داخل غشاء نووي", "ar": "بدائية النواة: ❌ | حقيقية النواة: ✅" },
+            { "en": "Mitotic division", "pron": "الانقسام المتساوي", "ar": "بدائية النواة: ❌ | حقيقية النواة: ✅" },
+            { "en": "DNA associated with histones", "pron": "DNA مرتبط بالهستونات", "ar": "بدائية النواة: ❌ | حقيقية النواة: ✅" },
+            { "en": "Chromosome number", "pron": "عدد الكروموسومات", "ar": "بدائية النواة: واحد | حقيقية النواة: أكثر من واحد" },
+            { "en": "Membrane-bound organelles", "pron": "عضيات محاطة بغشاء", "ar": "بدائية النواة: ❌ | حقيقية النواة: ✅" },
+            { "en": "Size of ribosome", "pron": "حجم الريبوسوم", "ar": "بدائية النواة: 70S | حقيقية النواة: 80S" },
+            { "en": "Cell wall containing peptidoglycan", "pron": "جدار خلوي يحتوي على ببتيدوغليكان", "ar": "بدائية النواة: ✅ | حقيقية النواة: ❌" }
+          ]
+        },
+        {
+          "type": "info",
+          "style": "important",
+          "label": "💡 ملخص",
+          "text": "• الفطريات والأوليات: حقيقية النواة (Eukaryotic)\n• البكتيريا: بدائية النواة (Prokaryotic)\n• الفيروسات: ليست خلايا (Noncellular)\n• معظم بدائيات النواة لها جدار خلوي صلب يحتوي على ببتيدوغليكان\n• الخلايا حقيقية النواة تحتوي على عضيات مثل الميتوكوندريا والليسوسومات"
+        }
+      ]
+    }
+  ]
+}
