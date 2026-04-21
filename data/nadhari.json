@@ -1190,49 +1190,49 @@
           ]
         },
         {
-          "title": "تفاصيل الاحتياطات (جدول 22-2)",
+          "title": "جدول 22-2: تفاصيل الاحتياطات القائمة على طريقة الانتقال",
           "sections": [
             {
               "type": "heading",
-              "text": "📋 جدول 22-2: تفاصيل الاحتياطات"
+              "text": "📋 TABLE 22-2: Transmission-Based Precautions"
             },
             {
               "type": "heading",
-              "text": "💨 Airborne Precautions"
+              "text": "💨 Airborne Precautions (احتياطات الانتقال بالهواء)"
             },
             {
               "type": "list",
               "label": "الخصائص",
               "items": [
-                "وضع المريض: غرفة خاصة، ضغط هواء سلبي، 6-12 تغيير هواء في الساعة",
-                "الحماية: كمامة N95 أو PAPR، غلق الباب",
-                "أمثلة: السل، الحصبة، جدري الماء، SARS"
+                "• Client Placement: Private room, negative air pressure, 6-12 air changes per hour",
+                "• Protection: N95 respirator or PAPR, keep door closed",
+                "• Examples: Pulmonary TB, Measles, Varicella (Chickenpox), SARS"
               ]
             },
             {
               "type": "heading",
-              "text": "💧 Droplet Precautions"
+              "text": "💧 Droplet Precautions (احتياطات الانتقال بالقطيرات)"
             },
             {
               "type": "list",
               "label": "الخصائص",
               "items": [
-                "وضع المريض: غرفة خاصة أو مسافة 3 أقدام بين المرضى",
-                "الحماية: كمامة عادية، كمامة للمريض عند النقل",
-                "أمثلة: الإنفلونزا، الحصبة الألمانية، الالتهاب الرئوي العقدي، التهاب السحايا، السعال الديكي"
+                "• Client Placement: Private room or 3 feet distance between patients",
+                "• Protection: Mask when within 3 feet, mask on client during transport",
+                "• Examples: Influenza, Rubella, Streptococcal pneumonia, Meningococcal meningitis, Whooping cough"
               ]
             },
             {
               "type": "heading",
-              "text": "🖐️ Contact Precautions"
+              "text": "🖐️ Contact Precautions (احتياطات الانتقال بالتلامس)"
             },
             {
               "type": "list",
               "label": "الخصائص",
               "items": [
-                "وضع المريض: غرفة خاصة",
-                "الحماية: قفازات، رداء، غسل اليدين فوراً بعد الخلع، معدات مخصصة للمريض",
-                "أمثلة: عدوى مقاومة للأدوية، الغرغرينا الغازية، الإسهال الحاد، التهاب الملتحمة الفيروسي"
+                "• Client Placement: Private room",
+                "• Protection: Gloves before entering, change gloves after contact with infectious material, remove gloves before leaving, handwashing immediately, gown if clothing may touch patient, dedicated equipment",
+                "• Examples: Drug-resistant infections, Gas gangrene, Acute diarrhea, Acute viral conjunctivitis"
               ]
             }
           ]
@@ -1256,6 +1256,11 @@
                   "en": "The room has a private bathroom and a sink for hand washing.",
                   "pron": "ذا روم هاز أ پرايڤت باثروم آند أ سينك فور هاند ووشينغ.",
                   "ar": "تحتوي الغرفة على حمام خاص وحوض لغسل اليدين."
+                },
+                {
+                  "en": "Staff post an instruction card stating isolation precautions on the door.",
+                  "pron": "ستاف پوست أن إنستراكشن كارد ستيتينغ آيسوليشن بريكوشنز أون ذا دور.",
+                  "ar": "يضع الموظفون بطاقة تعليمات على الباب تفيد بضرورة احتياطات العزل."
                 }
               ]
             },
@@ -1270,12 +1275,17 @@
                   "en": "PPE includes gowns, masks, respirators, goggles, face shields, and gloves.",
                   "pron": "بي بي إي إنكلودز گاونز، ماسكس، ريسپيراتورز، گوگلز، فيس شيلدز، آند غلافز.",
                   "ar": "تشمل معدات الوقاية الشخصية الأردية والكمامات وأجهزة التنفس والنظارات الواقية وواقيات الوجه والقفازات."
+                },
+                {
+                  "en": "These items are located just outside the client's room or in an anteroom.",
+                  "pron": "ذيز آيتمز آر لوكيتد جاست آوتسايد ذا كلاينتس روم أور إن أن أنتيروم.",
+                  "ar": "توجد هذه العناصر خارج غرفة المريض مباشرة أو في غرفة الانتظار."
                 }
               ]
             },
             {
               "type": "heading",
-              "text": "🧤 Removing PPE"
+              "text": "🧤 Removing PPE (نزع معدات الوقاية الشخصية)"
             },
             {
               "type": "sentences",
@@ -1291,20 +1301,20 @@
               "type": "list",
               "label": "📋 ترتيب نزع PPE (من الأكثر تلوثاً إلى الأقل)",
               "items": [
-                "1. خلع القفازات (Gloves)",
-                "2. خلع النظارات الواقية أو واقي الوجه (Goggles/Face shield)",
-                "3. خلع الرداء (Gown)",
-                "4. خلع الكمامة أو جهاز التنفس (Mask/Respirator)"
+                "1. Remove gloves (خلع القفازات)",
+                "2. Remove goggles or face shield (خلع النظارات الواقية أو واقي الوجه)",
+                "3. Remove gown (خلع الرداء)",
+                "4. Remove mask or respirator (خلع الكمامة أو جهاز التنفس)"
               ]
             }
           ]
         },
         {
-          "title": "التكيس المزدوج ونقل المرضى",
+          "title": "التكيس المزدوج ونقل المرضى وإزالة العناصر القابلة لإعادة الاستخدام",
           "sections": [
             {
               "type": "heading",
-              "text": "🛍️ Double Bagging"
+              "text": "🛍️ Double Bagging (التكيس المزدوج)"
             },
             {
               "type": "sentences",
@@ -1318,7 +1328,7 @@
             },
             {
               "type": "heading",
-              "text": "🚑 Transporting Clients"
+              "text": "🚑 Transporting Clients (نقل المرضى)"
             },
             {
               "type": "sentences",
@@ -1332,6 +1342,20 @@
                   "en": "The client wears a mask if the pathogen is airborne or droplet transmitted.",
                   "pron": "ذا كلاينت ويرز أ ماسك إف ذا باثوجن إز إيربورن أور دروپليت ترانسميتد.",
                   "ar": "يرتدي المريض كمامة إذا كان العامل الممرض ينتقل عبر الهواء أو القطيرات."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "🔄 Removing Reusable Items"
+            },
+            {
+              "type": "sentences",
+              "items": [
+                {
+                  "en": "Reusable items are cleaned with antimicrobial disinfectant, bagged, and sterilized using heat or chemicals.",
+                  "pron": "ريوزابل آيتمز آر كليند وِذ أنتيمايكروبيال ديسإنفيكتنت، باغد، آند ستيريلايزد يوزينغ هيت أور كيميكلز.",
+                  "ar": "تُنظف العناصر القابلة لإعادة الاستخدام بمطهر مضاد للميكروبات، وتُكيس، وتُعقم باستخدام الحرارة أو المواد الكيميائية."
                 }
               ]
             }
@@ -1389,13 +1413,13 @@
               "type": "info",
               "style": "tip",
               "label": "❓ السؤال الأول",
-              "text": "Why is controlling infectious diseases difficult among children in day-care centers?\n\nلماذا يصعب السيطرة على الأمراض المعدية بين الأطفال في مراكز الرعاية النهارية؟\n\n📌 الإجابة: قلة النظافة الشخصية، التلامس الوثيق المستمر، مشاركة الألعاب، ضعف المناعة."
+              "text": "Give some reasons why controlling the spread of infectious diseases is difficult among children cared for in day-care centers.\n\nاذكر بعض الأسباب التي تجعل السيطرة على انتشار الأمراض المعدية صعبة بين الأطفال في مراكز الرعاية النهارية.\n\n📌 الإجابة المقترحة: قلة النظافة الشخصية لدى الأطفال، التلامس الوثيق المستمر، مشاركة الألعاب والأدوات، ضعف جهاز المناعة لدى الأطفال الصغار، وصعوبة تطبيق احتياطات مكافحة العدوى بشكل صارم."
             },
             {
               "type": "info",
               "style": "tip",
               "label": "❓ السؤال الثاني",
-              "text": "What actions are appropriate if there are not enough private rooms for infected residents?\n\nما الإجراءات المناسبة إذا لم تكن هناك غرف خاصة كافية للمصابين؟\n\n📌 الإجابة: تجميع المصابين بنفس العدوى في غرفة واحدة، استخدام الستائر الفاصلة، تعزيز الاحتياطات."
+              "text": "What action(s) is/are appropriate to take if there are several residents in a long-term care facility who acquire an infection with a transmittable pathogen and there are not enough private rooms to relocate them?\n\nما الإجراءات المناسبة إذا كان هناك عدة نزلاء في منشأة رعاية طويلة الأجل أصيبوا بعدوى بمسبب مرض معدٍ ولا توجد غرف خاصة كافية لنقلهم؟\n\n📌 الإجابة المقترحة: تجميع المصابين بنفس العدوى في غرفة واحدة (Cohorting)، استخدام الستائر الفاصلة بين الأسرة، تعزيز احتياطات مكافحة العدوى، وزيادة وتيرة التنظيف والتطهير."
             },
             {
               "type": "heading",
@@ -1405,31 +1429,31 @@
               "type": "info",
               "style": "important",
               "label": "❓ السؤال الأول",
-              "text": "When emptying wound secretions, which PPE is most important?\n\nA) Mask\nB) Gown\nC) Goggles\nD) Gloves ✓"
+              "text": "When a nurse empties the secretions from a wound suction container, which of the following personal protective measures is most important at this time?\n\nعند قيام ممرضة بتفريغ إفرازات من حاوية شفط الجرح، أي من إجراءات الحماية الشخصية التالية هو الأكثر أهمية في هذا الوقت؟\n\nA) Wear a mask.\nB) Wear a gown.\nC) Wear goggles.\nD) Wear gloves. ✓\n\n📌 Test Taking Strategy: اختر الخيار الذي يحدد الحاجز الأساسي من سوائل الجسم التي قد تحتوي على مسببات الأمراض."
             },
             {
               "type": "info",
               "style": "important",
               "label": "❓ السؤال الثاني",
-              "text": "For a person with respiratory symptoms, which measure is appropriate initially?\n\nA) Contact precautions\nB) Airborne precautions\nC) Respiratory hygiene/cough etiquette ✓\nD) Droplet precautions"
+              "text": "When a person comes to the emergency department with respiratory symptoms, which of the following infection control measures is appropriate to use initially?\n\nعندما يأتي شخص إلى قسم الطوارئ يعاني من أعراض تنفسية، أي من إجراءات مكافحة العدوى التالية مناسب للاستخدام أولاً؟\n\nA) Contact precautions\nB) Airborne precautions\nC) Respiratory hygiene/cough etiquette ✓\nD) Droplet precautions\n\n📌 Test Taking Strategy: اختر الخيار المناسب للاستخدام عند نقطة المواجهة الأولى مع مريض يعاني من حالة تنفسية معدية محتملة."
             },
             {
               "type": "info",
               "style": "important",
               "label": "❓ السؤال الثالث (ترتيب الخطوات)",
-              "text": "Arrange PPE removal steps in correct order:\n\n✅ 1. Remove gloves\n✅ 2. Remove goggles\n✅ 3. Remove gown\n✅ 4. Remove mask"
+              "text": "When exiting the room of a client being cared for with contact precautions, arrange the steps in the order in which personal protection items are removed. Use all the options.\n\nعند الخروج من غرفة مريض يتم رعايته باحتياطات التلامس، رتب الخطوات حسب الترتيب الذي تُنزع به عناصر الحماية الشخصية.\n\n✅ الترتيب الصحيح:\n1. Remove gloves one at a time. (خلع القفازات)\n2. Remove goggles, if worn. (خلع النظارات الواقية)\n3. Untie and remove the gown. (خلع الرداء)\n4. Take off the mask or particulate air respirator. (خلع الكمامة)\n\n📌 Test Taking Strategy: رتب عناصر الحماية الشخصية من الأكثر تلوثاً إلى الأقل تلوثاً."
             },
             {
               "type": "info",
               "style": "important",
-              "label": "❓ السؤال الرابع (Latex Allergy)",
-              "text": "Best advice for someone allergic to latex?\n\nA) Rinse latex gloves\nB) Apply petroleum ointment\nC) Eliminate gloves\nD) Wear vinyl gloves ✓"
+              "label": "❓ السؤال الرابع (حساسية اللاتكس)",
+              "text": "What is the best advice the nurse can give to someone who is allergic to latex, yet must wear gloves for standard precautions?\n\nما هي أفضل نصيحة يمكن للممرضة تقديمها لشخص يعاني من حساسية اللاتكس، ومع ذلك يجب عليه ارتداء قفازات للاحتياطات القياسية؟\n\nA) Rinse the latex gloves with running tap water before donning them.\nB) Apply a petroleum ointment to both hands before donning latex gloves.\nC) Eliminate wearing gloves, but wash both hands vigorously with alcohol afterward.\nD) Wear two pairs of vinyl gloves if there is a potential for contact with blood or body fluid. ✓\n\n📌 Test Taking Strategy: اختر الخيار الذي يوفر الحماية من التلامس مع مسببات الأمراض ومسببات الحساسية."
             },
             {
               "type": "info",
               "style": "important",
-              "label": "❓ السؤال الخامس (Influenza Prevention)",
-              "text": "Best advice to avoid influenza besides immunization?\n\nA) Vitamin C\nB) Avoid crowded places ✓\nC) Dress warmly\nD) Reduce stress"
+              "label": "❓ السؤال الخامس (الوقاية من الإنفلونزا)",
+              "text": "Other than obtaining an immunization against influenza, what is the best advice the nurse can give to high-risk people to avoid acquiring this infection?\n\nبخلاف الحصول على تطعيم ضد الإنفلونزا، ما هي أفضل نصيحة يمكن للممرضة تقديمها للأشخاص المعرضين لخطر كبير لتجنب الإصابة بهذه العدوى؟\n\nA) Consume adequate vitamin C.\nB) Avoid going to crowded places. ✓\nC) Dress warmly in cold weather.\nD) Reduce daily stress and anxiety.\n\n📌 Test Taking Strategy: اختر الخيار الأفضل من بين الخيارات الأخرى للوقاية من احتمالية الإصابة بعدوى الجهاز التنفسي مثل الإنفلونزا."
             }
           ]
         }
