@@ -52,14 +52,71 @@ async function loadAllData() {
   try {
     // Load courses list
     const coursesRes = await fetch('./data/courses.json');
+    if (!coursesRes.ok) throw new Error('Failed to load courses.json');
     const coursesJson = await coursesRes.json();
     coursesList = coursesJson.courses;
     
     // Load each course's chapters data
     for (const course of coursesList) {
-      const courseRes = await fetch(`./data/${course.id}.json`);
-      const courseData = await courseRes.json();
-      coursesData[course.id] = courseData;
+      // Special handling for nadhari course (reads from folder)
+      if (course.id === "nadhari") {
+        try {
+          // Try to load chapters from nadhari folder
+          const chapterFiles = ['chapter1.json', 'chapter2.json', 'chapter3.json'];
+          const chapters = [];
+          
+          for (let i = 0; i < chapterFiles.length; i++) {
+            try {
+              const chapterRes = await fetch(`./data/nadhari/${chapterFiles[i]}`);
+              if (chapterRes.ok) {
+                const chapterData = await chapterRes.json();
+                chapters.push(chapterData);
+              } else {
+                console.warn(`Could not load ${chapterFiles[i]}`);
+              }
+            } catch (err) {
+              console.warn(`Error loading ${chapterFiles[i]}:`, err);
+            }
+          }
+          
+          if (chapters.length > 0) {
+            coursesData[course.id] = { chapters: chapters };
+          } else {
+            // Fallback to old method if folder method fails
+            const courseRes = await fetch(`./data/${course.id}.json`);
+            if (courseRes.ok) {
+              const courseData = await courseRes.json();
+              coursesData[course.id] = courseData;
+            } else {
+              coursesData[course.id] = { chapters: [] };
+            }
+          }
+        } catch (err) {
+          console.warn(`Error loading nadhari chapters:`, err);
+          // Fallback to old method
+          const courseRes = await fetch(`./data/${course.id}.json`);
+          if (courseRes.ok) {
+            const courseData = await courseRes.json();
+            coursesData[course.id] = courseData;
+          } else {
+            coursesData[course.id] = { chapters: [] };
+          }
+        }
+      } else {
+        // For other courses, load single JSON file
+        try {
+          const courseRes = await fetch(`./data/${course.id}.json`);
+          if (courseRes.ok) {
+            const courseData = await courseRes.json();
+            coursesData[course.id] = courseData;
+          } else {
+            coursesData[course.id] = { chapters: [] };
+          }
+        } catch (err) {
+          console.warn(`Error loading ${course.id}.json:`, err);
+          coursesData[course.id] = { chapters: [] };
+        }
+      }
     }
     
     console.log('All data loaded successfully');
@@ -70,6 +127,7 @@ async function loadAllData() {
       <div class="empty-state">
         <div class="empty-state-icon">⚠️</div>
         <p>حدث خطأ في تحميل البيانات. يرجى تحديث الصفحة.</p>
+        <p style="font-size:0.7rem;margin-top:10px;">التفاصيل: ${error.message}</p>
       </div>
     `;
   }
