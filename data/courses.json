@@ -1,0 +1,79 @@
+{
+  "courses": [
+    {
+      "id": "nadhari",
+      "name": "أساسيات التمريض - نظري",
+      "description": "المفاهيم الأساسية والنظريات التمريضية",
+      "icon": "📖",
+      "color": "#38bdf8",
+      "bookChapters": [
+        { "name": "شابتر 1 - Asepsis", "url": "https://www.mediafire.com/file/3ngj0dww90i5i7f/Asepsis.pdf/file" },
+        { "name": "شابتر 2 - Infection Control", "url": "https://www.mediafire.com/file/14d312yhv4x1x7d/Infection_Control.pdf/file" },
+        { "name": "شابتر 3 - Safety", "url": "https://www.mediafire.com/file/ofe0j0gqca2knxb/Safety.pdf/file" },
+        { "name": "شابتر 4 - Admission, Discharge, Transfer", "url": "https://www.mediafire.com/file/jy3g11m8l3tt9g5/Admission%252C_Discharge%252C_Transfer%252C.pdf/file" },
+        { "name": "شابتر 5 - Recording and Reporting", "url": "https://www.mediafire.com/file/5om84r45wbfeo70/Recording_and_Reporting.pdf/file" },
+        { "name": "شابتر 6 - Vital Signs", "url": "https://www.mediafire.com/file/r4hiqhu8hedmx29/Vital_Signs.pdf/file" },
+        { "name": "شابتر 7 - Hygiene", "url": "https://www.mediafire.com/file/q74kdfr41cit84g/Hygiene.pdf/file" },
+        { "name": "شابتر 8 - Body Mechanics, Positioning", "url": "https://www.mediafire.com/file/hchz5hf38cszt1o/Body_Mechanics%252C_Positioning.pdf/file" }
+      ],
+      "lectures": [
+        { "title": "Asepsis (الجزء الأول)", "url": "https://youtu.be/Fj_cHc7qiHI" },
+        { "title": "Asepsis (الجزء الثاني)", "url": "https://youtu.be/O1qCfxoZxXE" },
+        { "title": "Infection Control", "url": "https://youtu.be/6AydMEgD2V0" },
+        { "title": "Safety", "url": "https://youtu.be/YVBFkQ9gsoU" },
+        { "title": "Admission, Discharge, Transfer", "url": "https://youtu.be/tt1ifco00W8" },
+        { "title": "Recording and Reporting", "url": "https://youtu.be/tt1ifco00W8" },
+        { "title": "Vital Signs (الجزء الأول)", "url": "https://youtu.be/B3gQJsvhuMs" },
+        { "title": "Vital Signs (الجزء الثاني)", "url": "https://youtu.be/a3jdPLWsLbY" },
+        { "title": "Hygiene", "url": "https://youtu.be/Us-PuSaWMaE" },
+        { "title": "Body Mechanics, Positioning", "url": "https://youtu.be/nnwa61B0PVA" }
+      ]
+    },
+    {
+      "id": "amali",
+      "name": "أساسيات التمريض - عملي",
+      "description": "المهارات السريرية والإجراءات العملية",
+      "icon": "💉",
+      "color": "#4ade80",
+      "bookChapters": [],
+      "lectures": []
+    },
+    {
+      "id": "tashreeh",
+      "name": "التشريح",
+      "description": "دراسة تركيب الجسم البشري",
+      "icon": "🧠",
+      "color": "#a78bfa",
+      "bookChapters": [],
+      "lectures": [
+        { "title": "محاضرة التشريح ووظائف اعضاء 1 2025 2026 المحاضرة الاولى", "url": "https://youtu.be/zLoMS9bqnZY" },
+        { "title": "محاضرة التشريح الثانية 11 04 2026", "url": "https://youtu.be/t7GbRUIYOxk" },
+        { "title": "محاضرة التشريح الثالثة 11 04 2026", "url": "https://youtu.be/tMa5FO7hRgA" },
+        { "title": "INTEGUMENTARY SYSTEM 4 المحاضرة الرابعة", "url": "https://youtu.be/KCSViIGdhqY" },
+        { "title": "Skeletal system 1 المحاضرة الخامسة", "url": "https://youtu.be/T8KcYEFgilU" }
+      ]
+    },
+    {
+      "id": "ahyaa",
+      "name": "الأحياء",
+      "description": "الأساسيات البيولوجية للجسم",
+      "icon": "🔬",
+      "color": "#fb923c",
+      "bookChapters": [],
+      "lectures": [
+        { "title": "Chapter 1: Introduction to Microbiology", "url": "https://www.youtube.com/watch?v=JUwqdnDMnv4&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-" },
+        { "title": "Chapter 2: Bacterial cell structure (Part 1)", "url": "https://www.youtube.com/watch?v=mOLOMgInvTU&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-" },
+        { "title": "Chapter 2: Bacterial cell structure (Part 2)", "url": "https://www.youtube.com/watch?v=NP5P6m7pT6M&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=3" },
+        { "title": "Chapter 3: Bacterial growth and multiplication", "url": "https://www.youtube.com/watch?v=NbUqxwae4R8&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=4" },
+        { "title": "Chapter 4: Bacterial Identification and Diagnosis", "url": "https://www.youtube.com/watch?v=XUBKO_IKyVo&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=5" },
+        { "title": "Chapter 5 (Part 1): Sterilization and disinfection", "url": "https://www.youtube.com/watch?v=DV-8CJ1z9xg&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=6" },
+        { "title": "Chapter 5 (Part 2): Sterilization and disinfection", "url": "https://www.youtube.com/watch?v=BNAM6oAk_6o&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=7" },
+        { "title": "Chapter 6: Classification of bacteria (Part 1)", "url": "https://www.youtube.com/watch?v=McWHmMMF8cc&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=8" },
+        { "title": "Chapter 6: Classification of bacteria (Part 2)", "url": "https://www.youtube.com/watch?v=KxZuGg26Z4Q&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=9" },
+        { "title": "Chapter 6: Classification of bacteria (Part 3)", "url": "https://www.youtube.com/watch?v=7gMBsyQLS90&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=10" },
+        { "title": "Chapter 6: Classification of bacteria (Part 4)", "url": "https://www.youtube.com/watch?v=nmJd45pTF9Q&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=11" },
+        { "title": "Chapter 6: Classification of bacteria (Part 5)", "url": "https://www.youtube.com/watch?v=NoyDyLmDvjQ&list=PLGtcDK7BxqpKkYpAwmLXdAjecJG1KZcc-&index=12" }
+      ]
+    }
+  ]
+}
