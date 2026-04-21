@@ -1,0 +1,770 @@
+{
+  "name": "Infection Control - مكافحة العدوى (الفصل الثاني)",
+  "pdfUrl": "https://www.mediafire.com/file/14d312yhv4x1x7d/Infection_Control.pdf/file",
+  "pages": [
+    {
+      "title": "📚 أهداف التعلم (Learning Objectives)",
+      "sections": [
+        {
+          "type": "heading",
+          "text": "🎯 أهداف هذا الفصل"
+        },
+        {
+          "type": "list",
+          "label": "بعد دراسة هذا الفصل، يجب أن تكون قادراً على:",
+          "items": [
+            "1. Explain the meaning of infectious diseases. (شرح معنى الأمراض المعدية)",
+            "2. Differentiate between infection and colonization. (التفريق بين العدوى والاستعمار الميكروبي)",
+            "3. Define infection control measures. (تعريف إجراءات مكافحة العدوى)",
+            "4. Name two major techniques for infection control. (تسمية تقنيتين رئيسيتين لمكافحة العدوى)",
+            "5. Identify three new elements of standard precautions. (تحديد ثلاثة عناصر جديدة للاحتياطات القياسية)",
+            "6. Discuss situations in which nurses use standard precautions and transmission-based precautions. (مناقشة الحالات التي تستخدم فيها الممرضات الاحتياطات القياسية والاحتياطات القائمة على طريقة الانتقال)",
+            "7. Describe the rationale for using airborne, droplet, and contact precautions. (وصف الأساس المنطقي لاستخدام احتياطات الانتقال بالهواء، والقطيرات، والتلامس)",
+            "8. Explain the purpose of personal protective equipment (PPE). (شرح الغرض من معدات الوقاية الشخصية)",
+            "9. Discuss the rationale for removing PPE in a specific sequence. (مناقشة الأساس المنطقي لنزع معدات الوقاية الشخصية بتسلسل محدد)",
+            "10. Explain how nurses perform double bagging. (شرح كيفية قيام الممرضات بالتكيس المزدوج)",
+            "11. List two psychological problems common among clients with infectious diseases. (سرد مشكلتين نفسيتين شائعتين لدى مرضى الأمراض المعدية)",
+            "12. Provide at least three teaching suggestions for preventing infections. (تقديم ثلاثة اقتراحات تعليمية على الأقل للوقاية من العدوى)"
+          ]
+        },
+        {
+          "type": "info",
+          "style": "important",
+          "label": "📌 ملاحظة",
+          "text": "هذه الأهداف ستساعدك في التركيز على أهم النقاط أثناء دراسة هذا الفصل. تأكد من مراجعتها قبل وبعد الدراسة."
+        }
+      ]
+    },
+    {
+      "title": "مقدمة في مكافحة العدوى (Infection Control)",
+      "sections": [
+        {
+          "type": "heading",
+          "text": "🦠 Infectious Diseases — الأمراض المعدية"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Infectious diseases (diseases spread from one person to another) are also called contagious or communicable diseases and community acquired infections.",
+              "pron": "إنفيكشس ديزيزز (ديزيزز سبرید فروم ون پرسن تو أناذر) آر أولسو كولد كونتايجس أور كوميونيكابل ديزيزز آند كوميونيتي أكوايرد إنفيكشنز.",
+              "ar": "الأمراض المعدية (الأمراض التي تنتقل من شخص إلى آخر) تسمى أيضاً الأمراض السارية أو الأمراض المعدية والعدوى المكتسبة من المجتمع."
+            },
+            {
+              "en": "Colonization: condition that results when microbes are present but host is without signs or symptoms of infection.",
+              "pron": "كولونايزيشن: كونديشن ذات ريزولتس وين مايكروبات آر بريزنت بوت هوست إز ويذاوت ساينز أور سيمبتومز أوف إنفيكشن.",
+              "ar": "الاستعمار الميكروبي (Colonization): حالة تحدث عندما تكون الميكروبات موجودة ولكن المضيف لا تظهر عليه علامات أو أعراض العدوى."
+            },
+            {
+              "en": "Incubation period: Infectious agent reproduces, but there are no recognized symptoms.",
+              "pron": "إنكوبيشن پيريود: إنفيكشس إيجنت ريبروديوسز، بوت ذير آر نو ريكوگنايزد سيمبتومز.",
+              "ar": "فترة الحضانة (Incubation period): يتكاثر العامل المعدي، ولكن لا تظهر أعراض معترف بها."
+            },
+            {
+              "en": "The infectious agent may, however, exit the host at this time and infect others.",
+              "pron": "ذا إنفيكشس إيجنت ماي، هاوإيڤر، إكزيت ذا هوست أت ذس تايم آند إنفيكت أذرس.",
+              "ar": "قد يغادر العامل المعدي المضيف في هذا الوقت وينقل العدوى للآخرين."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "🩺 Infection — العدوى"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Infection is a condition that results when microorganisms cause injury to a host.",
+              "pron": "إنفيكشن إز أ كونديشن ذات ريزولتس وين مايكروأورغانيزمز كوز إنجري تو أ هوست.",
+              "ar": "العدوى (Infection) هي حالة تحدث عندما تسبب الكائنات الحية الدقيقة ضرراً للمضيف."
+            },
+            {
+              "en": "The host can transmit pathogens and infectious diseases to others.",
+              "pron": "ذا هوست كان ترانسميت باثوجنز آند إنفيكشس ديزيزز تو أذرس.",
+              "ar": "يمكن للمضيف نقل مسببات الأمراض والأمراض المعدية إلى الآخرين."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "🛡️ Infection Control Precautions — احتياطات مكافحة العدوى"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Infection control precautions are physical measures designed to curtail the spread of infectious diseases.",
+              "pron": "إنفيكشن كونترول بريكوشنز آر فيزيكال ميجردز ديزايند تو كيرتيل ذا سبرید أوف إنفيكشس ديزيزز.",
+              "ar": "احتياطات مكافحة العدوى هي إجراءات فيزيائية مصممة للحد من انتشار الأمراض المعدية."
+            },
+            {
+              "en": "They are essential when caring for clients.",
+              "pron": "ذَي آر إسينشال وين كيرينغ فور كلاينتس.",
+              "ar": "وهي ضرورية عند رعاية المرضى."
+            },
+            {
+              "en": "Infection control precautions require knowledge of the mechanisms by which an infectious disease is transmitted and the methods that will interfere with the chain of infection.",
+              "pron": "إنفيكشن كونترول بريكوشنز ريكواير نالج أوف ذا ميكانيزمز باي وِتش أن إنفيكشس ديزيز إز ترانسميتد آند ذا ميثودز ذات ويل إنترفير ويذ ذا تشين أوف إنفيكشن.",
+              "ar": "تتطلب احتياطات مكافحة العدوى معرفة آليات انتقال المرض المعدي والطرق التي تتداخل مع سلسلة العدوى."
+            },
+            {
+              "en": "The Centers for Disease Control and Prevention (CDC) have established guidelines for two major categories of infection control precautions: standard precautions and transmission-based precautions.",
+              "pron": "ذا سنترز فور ديزيز كونترول آند پريڤينشن (سي دي سي) هاف إستابليشد گايدلاينز فور تو ميجور كاتيجوريز أوف إنفيكشن كونترول بريكوشنز: ستاندارد بريكوشنز آند ترانسميشن-بيزد بريكوشنز.",
+              "ar": "وضعت مراكز السيطرة على الأمراض والوقاية منها (CDC) مبادئ توجيهية لفئتين رئيسيتين من احتياطات مكافحة العدوى: الاحتياطات القياسية والاحتياطات القائمة على طريقة الانتقال."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "الاحتياطات القياسية (Standard Precautions)",
+      "sections": [
+        {
+          "type": "heading",
+          "text": "🩺 تعريف الاحتياطات القياسية"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Standard precautions are measures for reducing the risk for microorganism transmission from both recognized and unrecognized sources of infection.",
+              "pron": "ستاندارد بريكوشنز آر ميجردز فور ريديوسينغ ذا ريسك فور مايكروأورغانيزم ترانسميشن فروم باث ريكوگنايزد آند أنريكوگنايزد سورسز أوف إنفيكشن.",
+              "ar": "الاحتياطات القياسية هي إجراءات للحد من خطر انتقال الكائنات الدقيقة من مصادر العدوى المعروفة وغير المعروفة."
+            },
+            {
+              "en": "Health care personnel follow standard precautions when caring for all clients, regardless of diagnosis or infection status.",
+              "pron": "هيلث كير پرسونيل فولو ستاندارد بريكوشنز وين كيرينغ فور أول كلاينتس، ريگاردليس أوف داياجنوسس أور إنفيكشن ستيوتس.",
+              "ar": "يتبع أفراد الرعاية الصحية الاحتياطات القياسية عند رعاية جميع المرضى، بغض النظر عن التشخيص أو حالة العدوى."
+            },
+            {
+              "en": "This precautionary system combines methods previously known as universal precautions.",
+              "pron": "ذس بريكوشنري سيستم كومباينز ميثودز پريفيوسلي نون آز يونيڤيرسال بريكوشنز.",
+              "ar": "يجمع هذا النظام الوقائي بين الطرق المعروفة سابقاً باسم الاحتياطات الشاملة (Universal Precautions)."
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "label": "📋 متى تتبع الاحتياطات القياسية؟",
+          "items": [
+            "الدم (Blood)",
+            "جميع سوائل الجسم باستثناء العرق، بغض النظر عن وجود دم مرئي (All body fluids except sweat, regardless of whether or not they contain visible blood)",
+            "الجلد غير السليم (Nonintact skin)",
+            "الأغشية المخاطية (Mucous membranes)"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "🧼 Handwashing — غسل اليدين"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Wash hands after touching blood, body fluids, secretions, excretions, and contaminated items, whether or not gloves are worn.",
+              "pron": "ووش هاندز آفتر تاتشينغ بلاد، بودي فلويدز، سيكريشنز، إكسكريشنز، آند كونتامينيتد آيتمز، ويذر أور نوت غلافز آر وورن.",
+              "ar": "اغسل يديك بعد لمس الدم، سوائل الجسم، الإفرازات، المفرزات، والأدوات الملوثة، سواء ارتديت قفازات أم لا."
+            },
+            {
+              "en": "Wash hands immediately after gloves are removed, between patient contacts, and when otherwise indicated.",
+              "pron": "ووش هاندز إميدياتلي آفتر غلافز آر ريموفد، بيتوين پيشنٹ كونتاكتس، آند وين أذروايز إنديكيتد.",
+              "ar": "اغسل يديك فوراً بعد خلع القفازات، وبين ملامسة المرضى، وعندما يكون ذلك ضرورياً."
+            },
+            {
+              "en": "Use plain (non-antibacterial) soap for routine handwashing.",
+              "pron": "يوز پلاين (نون-أنتيباكتيريال) سوب فور روتين هاندووشينغ.",
+              "ar": "استخدم صابوناً عادياً (غير مضاد للبكتيريا) لغسل اليدين الروتيني."
+            },
+            {
+              "en": "Use an antimicrobial agent or a waterless antiseptic agent to control outbreaks or hyperendemic infections.",
+              "pron": "يوز أن أنتيمايكروبيال إيجنت أور أ ووترليس أنتيسيبتيك إيجنت تو كونترول آوت بريكس أور هايپيرإنديميك إنفيكشنز.",
+              "ar": "استخدم عامل مضاد للميكروبات أو عامل مطهر بدون ماء للسيطرة على الفاشيات أو العدوى شديدة الانتشار."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "🧤 Gloves — القفازات"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Wear clean, nonsterile gloves when touching blood, body fluids, secretions, excretions, and contaminated items.",
+              "pron": "وير كلين، نونستيريل غلافز وين تاتشينغ بلاد، بودي فلويدز، سيكريشنز، إكسكريشنز، آند كونتامينيتد آيتمز.",
+              "ar": "ارتد قفازات نظيفة غير معقمة عند لمس الدم، سوائل الجسم، الإفرازات، المفرزات، والأدوات الملوثة."
+            },
+            {
+              "en": "Change gloves between tasks on the same patient after contact with material that may contain a high concentration of microorganisms.",
+              "pron": "تشانج غلافز بيتوين تاسكس أون ذا سيم پيشنٹ آفتر كونتاكت وِذ ماتيريال ذات ماي كونتين أ هاي كونسنترايشن أوف مايكروأورغانيزمز.",
+              "ar": "غيّر القفازات بين المهام على نفس المريض بعد التلامس مع مواد قد تحتوي على تركيز عالٍ من الكائنات الدقيقة."
+            },
+            {
+              "en": "Remove gloves and wash hands immediately before caring for another patient.",
+              "pron": "ريموف غلافز آند ووش هاندز إميدياتلي بيفور كيرينغ فور أناذر پيشنٹ.",
+              "ar": "اخلع القفازات واغسل يديك فوراً قبل رعاية مريض آخر."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "😷 Mask, Eye Protection, Face Shield — الكمامة، حماية العين، واقي الوجه"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Wear a mask and eye protection, or face shield to protect the eyes, nose, and mouth when there is a likelihood that splashes or sprays of blood, body fluids, secretions, or excretions will occur.",
+              "pron": "وير أ ماسك آند آي بروتيكشن، أور فيس شيلد تو بروتيكت ذا آيز، نوز، آند ماوث وين ذير إز أ لايكليهود ذات سبلاشز أور سبرايز أوف بلاد، بودي فلويدز، سيكريشنز، أور إكسكريشنز ويل أوكر.",
+              "ar": "ارتدِ كمامة وحماية للعينين، أو واقي وجه لحماية العينين والأنف والفم عندما يكون هناك احتمال لحدوث رذاذ أو بخاخات من الدم أو سوائل الجسم أو الإفرازات أو المفرزات."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "👘 Gown — الرداء (العباءة)"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Wear a clean, nonsterile gown when there is a likelihood that splashes or sprays of blood, body fluids, secretions, or excretions will occur.",
+              "pron": "وير أ كلين، نونستيريل گاون وين ذير إز أ لايكليهود ذات سبلاشز أور سبرايز أوف بلاد، بودي فلويدز، سيكريشنز، أور إكسكريشنز ويل أوكر.",
+              "ar": "ارتدِ رداءً نظيفاً غير معقم عندما يكون هناك احتمال لحدوث رذاذ أو بخاخات من الدم أو سوائل الجسم أو الإفرازات أو المفرزات."
+            },
+            {
+              "en": "Remove a soiled gown promptly and wash hands.",
+              "pron": "ريموف أ سويلد گاون پرومپتلي آند ووش هاندز.",
+              "ar": "اخلع الرداء المتسخ فوراً واغسل يديك."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "معدات رعاية المرضى والتحكم البيئي (Patient-Care Equipment & Environmental Control)",
+      "sections": [
+        {
+          "type": "heading",
+          "text": "🩺 Patient-Care Equipment — معدات رعاية المرضى"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Handle equipment soiled with blood, body fluids, secretions, and excretions so as to prevent the transfer of microorganisms to oneself, others, or the environment.",
+              "pron": "هاندل إكويبمنت سويلد وِذ بلاد، بودي فلويدز، سيكريشنز، آند إكسكريشنز سو آز تو پريڤنت ذا ترانسفر أوف مايكروأورغانيزمز تو ون سيلف، أذرس، أور ذا إنڤايرونمنت.",
+              "ar": "تعامل مع المعدات الملوثة بالدم وسوائل الجسم والإفرازات والمفرزات لمنع انتقال الكائنات الدقيقة إلى نفسك أو إلى الآخرين أو إلى البيئة."
+            },
+            {
+              "en": "Ensure that soiled reusable equipment is cleaned before another subsequent use.",
+              "pron": "إنشور ذات سويلد ريوزابل إكويبمنت إز كليند بيفور أناذر سابسيكوينت يوز.",
+              "ar": "تأكد من تنظيف المعدات الملوثة القابلة لإعادة الاستخدام قبل استخدامها مرة أخرى."
+            },
+            {
+              "en": "Discard soiled single-use equipment properly.",
+              "pron": "ديسكارد سويلد سينغل-يوز إكويبمنت پراپرلي.",
+              "ar": "تخلص من المعدات الملوثة أحادية الاستخدام بشكل صحيح."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "🧹 Environmental Control — التحكم البيئي"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Ensure that procedures for routine cleaning and disinfection of environmental surfaces, beds, bedrails, bedside equipment, and other frequently touched surfaces are carried out.",
+              "pron": "إنشور ذات بروسيجرز فور روتين كلينينغ آند ديسإنفيكشن أوف إنڤايرونمنتل سيرفيسز، بيدز، بيدريلز، بيدسايد إكويبمنت، آند أذز فريكوينتلي تاتشتد سيرفيسز آر كارييد آوت.",
+              "ar": "تأكد من تنفيذ إجراءات التنظيف والتطهير الروتينية للأسطح البيئية والأسرة وقضبان السرير ومعدات السرير والأسطح الأخرى التي يتم لمسها بشكل متكرر."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "🛏️ Linen — البياضات (الملاءات)"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Handle, transport, and process soiled linen in such a way as to prevent exposure to oneself, others, and the environment.",
+              "pron": "هاندل، ترانسبورت، آند بروسس سويلد لينن إن ساتش أ وي آز تو پريڤنت إكسبوجر تو ون سيلف، أذرس، آند ذا إنڤايرونمنت.",
+              "ar": "تعامل مع البياضات المتسخة وانقلها وجهزها بطريقة تمنع التعرض لنفسك وللآخرين والبيئة."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "الصحة المهنية ووضع المرضى (Occupational Health & Patient Placement)",
+      "sections": [
+        {
+          "type": "heading",
+          "text": "🩸 Occupational Health and Blood-borne Pathogens — الصحة المهنية ومسببات الأمراض المنقولة بالدم"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Prevent injuries when using needles, scalpels, and other sharp devices.",
+              "pron": "پريڤنت إنجريز وين يوزينغ نيدلز، سكالپلز، آند أذز شارب ديفايسز.",
+              "ar": "امنع الإصابات عند استخدام الإبر والمشارط والأدوات الحادة الأخرى."
+            },
+            {
+              "en": "Never recap used needles.",
+              "pron": "نيفر ريكاب يوزد نيدلز.",
+              "ar": "لا تعيد غطاء الإبر المستخدمة أبداً."
+            },
+            {
+              "en": "Use either a one-handed 'scoop' method or mechanical device for covering a needle.",
+              "pron": "يوز إيذر أ ون-هانديد 'سكوب' ميثود أور ميكانيكال ديفايس فور كاڤرينغ أ نيدل.",
+              "ar": "استخدم إما طريقة 'المغرفة' بيد واحدة أو جهازاً ميكانيكياً لتغطية الإبرة."
+            },
+            {
+              "en": "Place all disposable sharp items in a puncture-resistant container as close to the location of use as possible.",
+              "pron": "پليس أول ديسپوزابل شارب آيتمز إن أ بانكتشر-ريزيستنت كونتينر آز كلوز تو ذا لوكيشن أوف يوز آز پوسيبال.",
+              "ar": "ضع جميع الأدوات الحادة التي تستخدم لمرة واحدة في حاوية مقاومة للثقب قريبة قدر الإمكان من موقع الاستخدام."
+            },
+            {
+              "en": "Use mouthpieces, resuscitation bags, or other ventilation devices as an alternative to mouth-to-mouth resuscitation methods.",
+              "pron": "يوز ماوثپيسز، ريسوسيتيشن باغز، أور أذز ڤينتليشن ديفايسز آز ألترناتيڤ تو ماوث-تو-ماوث ريسوسيتيشن ميثودز.",
+              "ar": "استخدم قطعة الفم أو أكياس الإنعاش أو أجهزة التنفس الأخرى كبديل لطرق الإنعاش من الفم إلى الفم."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "🏥 Patient Placement — وضع المريض"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Place a patient who contaminates the environment, who does not—or cannot be expected to—assist in maintaining appropriate hygiene or environmental control in a private room.",
+              "pron": "پليس أ پيشنٹ هو كونتامينيتس ذا إنڤايرونمنت، هو داز نوت—أور كانوت بي إكسبيكتد تو—أسيست إن مينتينينغ أپروپريت هايجين أور إنڤايرونمنتل كونترول إن أ پرايڤت روم.",
+              "ar": "ضع المريض الذي يلوث البيئة، والذي لا يتوقع منه—أو لا يمكنه—المساعدة في الحفاظ على النظافة المناسبة أو التحكم البيئي في غرفة خاصة."
+            },
+            {
+              "en": "Consult with an infection control professional concerning alternatives if a private room is not available.",
+              "pron": "كونسالت وِذ أن إنفيكشن كونترول پروفيسيونال كونسرنينغ ألترناتيفز إف أ پرايڤت روم إز نوت أفايلابل.",
+              "ar": "استشر أخصائي مكافحة العدوى بشأن البدائل إذا لم تكن الغرفة الخاصة متاحة."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "الاحتياطات القائمة على طريقة الانتقال (Transmission-Based Precautions)",
+      "sections": [
+        {
+          "type": "heading",
+          "text": "🛡️ تعريف الاحتياطات القائمة على طريقة الانتقال"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Transmission-based precautions are measures for controlling the spread of infectious agents from clients known to be or suspected of being infected with highly transmissible or epidemiologically important pathogens.",
+              "pron": "ترانسميشن-بيزد بريكوشنز آر ميجردز فور كونترولينغ ذا سبرید أوف إنفيكشس إيجنتس فروم كلاينتس نون تو بي أور سوسپيكتيد أوف بيينغ إنفيكتيد وِث هايلي ترانسميسيبال أور إپيديميولوجيكلي إمبورتنت باثوجنز.",
+              "ar": "الاحتياطات القائمة على طريقة الانتقال هي إجراءات للسيطرة على انتشار العوامل المعدية من المرضى المعروف أو المشتبه بإصابتهم بمسببات أمراض شديدة العدوى أو مهمة وبائياً."
+            },
+            {
+              "en": "They are also called the three types of transmission-based precautions: Airborne precautions, Droplet precautions, Contact precautions.",
+              "pron": "ذَي آر أولسو كولد ذا ثري تايبز أوف ترانسميشن-بيزد بريكوشنز: إيربورن بريكوشنز، دروپليت بريكوشنز، كونتاكت بريكوشنز.",
+              "ar": "وتسمى أيضاً الأنواع الثلاثة للاحتياطات القائمة على طريقة الانتقال: احتياطات الانتقال بالهواء، واحتياطات الانتقال بالقطيرات، واحتياطات الانتقال بالتلامس."
+            },
+            {
+              "en": "These three types replace the earlier categories of strict isolation, contact isolation, respiratory isolation, tuberculosis isolation, enteric precautions, and drainage/secretion precautions.",
+              "pron": "ذيز ثري تايبز ريپليس ذا إيرليير كاتيجوريز أوف ستركت آيسوليشن، كونتاكت آيسوليشن، ريسپيراتوري آيسوليشن، توبيركولوسيس آيسوليشن، إنتريك بريكوشنز، آند درينيج/سيكريشن بريكوشنز.",
+              "ar": "هذه الأنواع الثلاثة حلت محل الفئات السابقة: العزل الصارم، عزل التلامس، عزل الجهاز التنفسي، عزل السل، احتياطات الأمعاء، واحتياطات التصريف/الإفرازات."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "💨 Airborne Precautions — احتياطات الانتقال بالهواء"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Airborne precautions are measures that reduce the risk for transmitting airborne infectious agents. They block pathogens 5 microns or smaller that are present in the residue of evaporated droplets that remain suspended in the air, as well as those attached to dust particles.",
+              "pron": "إيربورن بريكوشنز آر ميجردز ذات ريديوس ذا ريسك فور ترانسميتينغ إيربورن إنفيكشس إيجنتس. ذَي بلوك باثوجنز فايف مايكرونز أور سمولر ذات آر بريزنت إن ذا ريزيديو أوف إيڤاپوريتد دروپليتس ذات ريمين سوسپينديد إن ذا إير، آز ويل آز ذوز أتاتشد تو داست پارتیكلز.",
+              "ar": "احتياطات الانتقال بالهواء هي إجراءات تقلل من خطر نقل العوامل المعدية عبر الهواء. تمنع مسببات الأمراض التي يبلغ حجمها 5 ميكرون أو أقل والموجودة في بقايا القطيرات المتبخرة التي تبقى معلقة في الهواء، وكذلك تلك المرتبطة بجزيئات الغبار."
+            },
+            {
+              "en": "Tuberculosis (TB) is an example of a disease transmitted in the air.",
+              "pron": "توبيركولوسيس (تي بي) إز أن إكزامبل أوف أ ديزيز ترانسميتد إن ذا إير.",
+              "ar": "السل (TB) هو مثال على مرض ينتقل عبر الهواء."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "💧 Droplet Precautions — احتياطات الانتقال بالقطيرات"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Droplet precautions are measures that block pathogens within moist droplets larger than 5 microns. They are used to reduce pathogen transmission from close contact (usually 3 feet or less) between an infected person or a person who is a carrier of a droplet-spread microorganism and others.",
+              "pron": "دروپليت بريكوشنز آر ميجردز ذات بلوك باثوجنز ويذن مويست دروپليتس لارجر ذان فايف مايكرونز. ذَي آر يوزد تو ريديوس باثوجن ترانسميشن فروم كلوز كونتاكت (يوجوالي ثري فيت أور لیس) بيتوين أن إنفيكتد پرسن أور أ پرسن هو إز أ كاريير أوف أ دروپليت-سبرید مايكروأورغانيزم أند أذرس.",
+              "ar": "احتياطات الانتقال بالقطيرات هي إجراءات تمنع مسببات الأمراض داخل القطيرات الرطبة التي يزيد حجمها عن 5 ميكرون. تستخدم لتقليل انتقال مسببات الأمراض من الاتصال الوثيق (عادة 3 أقدام أو أقل) بين شخص مصاب أو شخص حامل لميكروب ينتقل بالقطيرات والآخرين."
+            },
+            {
+              "en": "Microorganisms carried on droplets commonly exit the body during coughing, sneezing, talking, and procedures such as airway suctioning and bronchoscopy.",
+              "pron": "مايكروأورغانيزمز كارييد أون دروپليتس كومونلي إكزيت ذا بودي ديرينغ كوفينغ، سنيزينغ، توكينغ، آند بروسيجرز ساتش آز إيروي ساكشنينغ آند برونكوسكوبي.",
+              "ar": "تخرج الكائنات الدقيقة المحمولة على القطيرات عادة من الجسم أثناء السعال والعطاس والتحدث والإجراءات مثل شفط مجرى الهواء وتنظير القصبات."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "🖐️ Contact Precautions — احتياطات الانتقال بالتلامس"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Contact precautions are measures used to block the transmission of pathogens by direct or indirect contact. This is the final category of transmission-based precautions.",
+              "pron": "كونتاكت بريكوشنز آر ميجردز يوزد تو بلوك ذا ترانسميشن أوف باثوجنز باي دايريكت أور إيندايريكت كونتاكت. ذس إز ذا فاينل كاتيجوري أوف ترانسميشن-بيزد بريكوشنز.",
+              "ar": "احتياطات التلامس هي إجراءات تستخدم لمنع انتقال مسببات الأمراض عن طريق التلامس المباشر أو غير المباشر. هذه هي الفئة الأخيرة من الاحتياطات القائمة على طريقة الانتقال."
+            },
+            {
+              "en": "Direct contact involves skin-to-skin contact with an infected or colonized person.",
+              "pron": "دايريكت كونتاكت إنڤولڤز سكين-تو-سكين كونتاكت وِذ أن إنفيكتد أور كولونايزد پرسن.",
+              "ar": "التلامس المباشر يتضمن ملامسة الجلد للجلد مع شخص مصاب أو مستعمر ميكروبياً."
+            },
+            {
+              "en": "Indirect contact occurs by touching a contaminated intermediate object in the client's environment.",
+              "pron": "إيندايريكت كونتاكت أوكرز باي تاتشينغ أ كونتامينيتد إنترميدييت أوبجيكت إن ذا كلاينتس إنڤايرونمنت.",
+              "ar": "يحدث التلامس غير المباشر عن طريق لمس جسم وسيط ملوث في بيئة المريض."
+            },
+            {
+              "en": "Additional precautions are necessary if the microorganism is antibiotic resistant.",
+              "pron": "أديشنال بريكوشنز آر نيسيسري إف ذا مايكروأورغانيزم إز أنتيبيوتيك ريزيستنت.",
+              "ar": "احتياطات إضافية ضرورية إذا كانت الكائنات الدقيقة مقاومة للمضادات الحيوية."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "جدول 22-2: تفاصيل الاحتياطات القائمة على طريقة الانتقال (Table 22-2: Transmission-Based Precautions)",
+      "sections": [
+        {
+          "type": "heading",
+          "text": "📋 TABLE 22-2: Transmission-Based Precautions"
+        },
+        {
+          "type": "heading",
+          "text": "💨 Airborne Precautions (احتياطات الانتقال بالهواء)"
+        },
+        {
+          "type": "list",
+          "label": "الخصائص",
+          "items": [
+            "• Client Placement: Private room or in a room with a similarly infected client. Negative air pressure. 6-12 air changes per hour.",
+            "• Protection: Follow standard precautions. Keep door closed. Wear a mask such as N95 respirator or Powered Air Purifying Respirator (PAPR).",
+            "• Examples of Diseases: Pulmonary TB, Measles, Varicella (Chickenpox), Severe acute respiratory syndrome (SARS)"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "💧 Droplet Precautions (احتياطات الانتقال بالقطيرات)"
+        },
+        {
+          "type": "list",
+          "label": "الخصائص",
+          "items": [
+            "• Client Placement: Private room or in a room with a similarly infected client, or at least 3 ft between clients.",
+            "• Protection: Follow standard precautions. Wear a mask when entering the room (always within 3 ft of client). Place a mask on client if transport is required.",
+            "• Examples of Diseases: Influenza, Rubella, Streptococcal pneumonia, Meningococcal meningitis, Whooping cough"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "🖐️ Contact Precautions (احتياطات الانتقال بالتلامس)"
+        },
+        {
+          "type": "list",
+          "label": "الخصائص",
+          "items": [
+            "• Client Placement: Private room or with similarly infected client.",
+            "• Protection: Follow standard precautions. Don gloves before entering room. Change gloves after contact with infectious material. Remove gloves before leaving. Perform handwashing immediately after removing gloves. Wear a gown if clothing may touch patient or surfaces. Use dedicated equipment for the infected client.",
+            "• Examples of Diseases: Drug-resistant infections, Gas gangrene, Acute diarrhea, Acute viral conjunctivitis"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "غرفة مكافحة العدوى ومعدات الوقاية الشخصية (Infection Control Room & PPE)",
+      "sections": [
+        {
+          "type": "heading",
+          "text": "🏥 Infection Control Room — غرفة مكافحة العدوى"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Most health care agencies assign infectious or potentially infectious clients to private rooms.",
+              "pron": "موست هيلث كير إيجنسيز أساين إنفيكشس أور بوتينشيالي إنفيكشس كلاينتس تو پرايڤت رومز.",
+              "ar": "تخصص معظم مؤسسات الرعاية الصحية غرفاً خاصة للمرضى المصابين بعدوى أو المحتمل إصابتهم."
+            },
+            {
+              "en": "They keep the door to the room closed to control air currents and the circulation of dust particles.",
+              "pron": "ذَي كيب ذا دور تو ذا روم كلوزد تو كونترول إير كورنتس آند ذا سيركوليشن أوف داست پارتیكلز.",
+              "ar": "يحافظون على إغلاق باب الغرفة للتحكم في تيارات الهواء ودوران جزيئات الغبار."
+            },
+            {
+              "en": "The room has a private bathroom so that personnel can flush contaminated liquids and biodegradable solids.",
+              "pron": "ذا روم هاز أ پرايڤت باثروم سو ذات پرسونيل كان فلاش كونتامينيتد ليكويدز آند بايوديگرايدابل سوليدز.",
+              "ar": "تحتوي الغرفة على حمام خاص حتى يتمكن الموظفون من طرد السوائل والمواد الصلبة القابلة للتحلل الحيوي الملوثة."
+            },
+            {
+              "en": "Staff members post an instruction card stating that isolation precautions are required on the door or nearby at eye level.",
+              "pron": "ستاف ممبرز پوست أن إنستراكشن كارد ستيتينغ ذات آيسوليشن بريكوشنز آر ريكوايرد أون ذا دور أور نيرباي آت آي لِفل.",
+              "ar": "يضع الموظفون بطاقة تعليمات على الباب أو بالقرب منه على مستوى العين تفيد بضرورة احتياطات العزل."
+            },
+            {
+              "en": "Nurses are responsible for teaching visitors how to comply with the infection control measures.",
+              "pron": "نيرسز آر ريسپونسيبال فور تييتشينغ ڤيزيتورز هاي تو كومبلاي وِذ ذا إنفيكشن كونترول ميجردز.",
+              "ar": "الممرضات مسؤولات عن تعليم الزوار كيفية الامتثال لإجراءات مكافحة العدوى."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "🛡️ Personal Protective Equipment (PPE) — معدات الوقاية الشخصية"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Infection control measures involve the use of one or more items for personal protection.",
+              "pron": "إنفيكشن كونترول ميجردز إنڤولڤ ذا يوز أوف ون أور مور آيتمز فور پرسونال بروتيكشن.",
+              "ar": "تشمل إجراءات مكافحة العدوى استخدام عنصر واحد أو أكثر للحماية الشخصية."
+            },
+            {
+              "en": "Personal protective equipment, also called barrier garments, includes gowns, masks, respirators, goggles or face shields, and gloves.",
+              "pron": "پرسونال بروتيكتيڤ إكويبمنت، أولسو كولد باريير گارمنتس، إنكلودز گاونز، ماسكس، ريسپيراتورز، گوگلز أور فيس شيلدز، آند غلافز.",
+              "ar": "معدات الوقاية الشخصية، وتسمى أيضاً ملابس الحاجز، تشمل الأردية والكمامات وأجهزة التنفس والنظارات الواقية أو واقيات الوجه والقفازات."
+            },
+            {
+              "en": "These items are located just outside the client's room or in an anteroom.",
+              "pron": "ذيز آيتمز آر لوكيتد جاست آوتسايد ذا كلاينتس روم أور إن أن أنتيروم.",
+              "ar": "توجد هذه العناصر خارج غرفة المريض مباشرة أو في غرفة الانتظار."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "🧤 Removing Personal Protective Equipment — نزع معدات الوقاية الشخصية"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "The procedure involves making contact between two contaminated surfaces or two clean surfaces.",
+              "pron": "ذا بروسيجر إنڤولڤز ميكينغ كونتاكت بيتوين تو كونتامينيتد سيرفيسز أور تو كلين سيرفيسز.",
+              "ar": "يتضمن الإجراء إجراء تلامس بين سطحين ملوثين أو سطحين نظيفين."
+            },
+            {
+              "en": "Nurses remove the garments that are most contaminated first, preserving the clean uniform underneath.",
+              "pron": "نيرسز ريموف ذا گارمنتس ذات آر موست كونتامينيتد فرست، پريزيرفينغ ذا كلين يونيفورم أندرنيذ.",
+              "ar": "تخلع الممرضات الملابس الأكثر تلوثاً أولاً، للحفاظ على الزي النظيف الذي تحتها."
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "label": "📋 ترتيب نزع PPE (من الأكثر تلوثاً إلى الأقل)",
+          "items": [
+            "1. Remove gloves (خلع القفازات) — الأكثر تلوثاً",
+            "2. Remove goggles or face shield (خلع النظارات الواقية أو واقي الوجه)",
+            "3. Remove gown (خلع الرداء)",
+            "4. Remove mask or respirator (خلع الكمامة أو جهاز التنفس) — الأقل تلوثاً"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "التكيس المزدوج ونقل المرضى (Double Bagging & Transporting Clients)",
+      "sections": [
+        {
+          "type": "heading",
+          "text": "🛍️ Double Bagging — التكيس المزدوج"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Double-bagging is an infection control measure in which one bag of contaminated items, such as trash or laundry, is placed within another.",
+              "pron": "دابل-باغينغ إز أن إنفيكشن كونترول ميجرد إن وِتش ون باغ أوف كونتامينيتد آيتمز، ساتش آز تراش أور لاندرِي، إز پلايسد ويذن أناذر.",
+              "ar": "التكيس المزدوج هو إجراء لمكافحة العدوى يتم فيه وضع كيس واحد من العناصر الملوثة، مثل القمامة أو البياضات، داخل كيس آخر."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "🚑 Transporting Clients — نقل المرضى"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "During transport, nurses use methods to prevent the spread of pathogens either directly or indirectly from the client.",
+              "pron": "ديرينغ ترانسبورت، نيرسز يوز ميثودز تو پريڤنت ذا سبرید أوف باثوجنز إيذر دايريكتلي أور إيندايريكتلي فروم ذا كلاينت.",
+              "ar": "أثناء النقل، تستخدم الممرضات طرقاً لمنع انتشار مسببات الأمراض بشكل مباشر أو غير مباشر من المريض."
+            },
+            {
+              "en": "The client wears a mask or particulate air filter respirator if the pathogen is transmitted by the airborne or droplet route.",
+              "pron": "ذا كلاينت ويرز أ ماسك أور پارتیکیوليت إير فيلتر ريسپيراتور إف ذا باثوجن إز ترانسميتد باي ذا إيربورن أور دروپليت روت.",
+              "ar": "يرتدي المريض كمامة أو جهاز تنفس بفلتر هواء للجسيمات إذا كان العامل الممرض ينتقل عبر الهواء أو القطيرات."
+            },
+            {
+              "en": "Any hospital personnel having direct contact with the client use personal protective equipment similar to that used in client care.",
+              "pron": "أني هوسبيتال پرسونيل هافينغ دايريكت كونتاكت وِذ ذا كلاينت يوز پرسونال بروتيكتيڤ إكويبمنت سيميلار تو ذات يوزد إن كلاينت كير.",
+              "ar": "يستخدم أي من أفراد المستشفى الذين لديهم اتصال مباشر مع المريض معدات الوقاية الشخصية المشابهة لتلك المستخدمة في رعاية المريض."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "الآثار النفسية والتمريضية (Psychological & Nursing Implications)",
+      "sections": [
+        {
+          "type": "heading",
+          "text": "🧠 Psychological Implications — الآثار النفسية"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Although infection control measures are necessary, they often leave clients feeling shunned or abandoned.",
+              "pron": "ألذو إنفيكشن كونترول ميجردز آر نيسيسري، ذَي أوفن ليف كلاينتس فيلينغ شاند أور أباندد.",
+              "ar": "على الرغم من أن إجراءات مكافحة العدوى ضرورية، إلا أنها غالباً ما تجعل المرضى يشعرون بالتجنب أو الهجر."
+            },
+            {
+              "en": "Clients with infectious diseases continue to need human contact and interaction.",
+              "pron": "كلاينتس وِذ إنفيكشس ديزيزز كونتينيو تو نيد هيومن كونتاكت آند إنترأكشن.",
+              "ar": "يستمر مرضى الأمراض المعدية في الحاجة إلى التواصل والتفاعل البشري."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "👥 Promoting Social Interaction — تعزيز التفاعل الاجتماعي"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Nurses encourage visitors to come as often as the agency's policies and the client's condition permit.",
+              "pron": "نيرسز إنكوراج ڤيزيتورز تو كام آز أوفن آز ذا إيجنسيز پوليسيز آند ذا كلاينتس كونديشن پرميت.",
+              "ar": "تشجع الممرضات الزوار على القدوم بقدر ما تسمح به سياسات المؤسسة وحالة المريض."
+            },
+            {
+              "en": "They use every opportunity to emphasize that as long as visitors follow the infection control precautions, they are not likely to acquire the disease.",
+              "pron": "ذَي يوز إڤري أپورتيونيتي تو إمفاسايز ذات آز لونغ آز ڤيزيتورز فولو ذا إنفيكشن كونترول بريكوشنز، ذَي آر نوت لايكلي تو أكواير ذا ديزيز.",
+              "ar": "يستغلون كل فرصة للتأكيد على أنه طالما يتبع الزوار احتياطات مكافحة العدوى، فمن غير المحتمل أن يصابوا بالمرض."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "😴 Combating Sensory Deprivation — مكافحة الحرمان الحسي"
+        },
+        {
+          "type": "sentences",
+          "items": [
+            {
+              "en": "Sensory deprivation results when a person experiences insufficient sensory stimulation or is exposed to sensory stimulation that is continuous and monotonous.",
+              "pron": "سينسوري ديپريڤيشن ريزولتس وين أ پرسن إكسبيرينسز إنسفيشنت سينسوري ستيوليشن أور إز إكسبوزد تو سينسوري ستيوليشن ذات إز كونتينيووس آند مونوتونس.",
+              "ar": "يحدث الحرمان الحسي عندما يعاني الشخص من تحفيز حسي غير كافٍ أو يتعرض لتحفيز حسي مستمر ورتيب."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "📋 Nursing Implications — الآثار التمريضية"
+        },
+        {
+          "type": "terms",
+          "items": [
+            { "en": "Risk for Infection", "pron": "ريسك فور إنفِكشن", "ar": "خطر الإصابة بالعدوى" },
+            { "en": "Ineffective Protection", "pron": "إينإفِكتِف بروتيكشن", "ar": "حماية غير فعالة" },
+            { "en": "Risk for Infection Transmission", "pron": "ريسك فور إنفِكشن ترانسمِشن", "ar": "خطر انتقال العدوى" },
+            { "en": "Impaired Social Interaction", "pron": "إمپيرد سوشال إنترأكشن", "ar": "ضعف التفاعل الاجتماعي" },
+            { "en": "Social Isolation", "pron": "سوشال آيسوليشن", "ar": "العزلة الاجتماعية" },
+            { "en": "Risk for Loneliness", "pron": "ريسك فور لونلينس", "ar": "خطر الشعور بالوحدة" },
+            { "en": "Deficient Diversional Activity", "pron": "ديفيشنت دايفيرجونال أكتيڤيتي", "ar": "نقص النشاط الترفيهي" },
+            { "en": "Powerlessness", "pron": "پاورلسنيس", "ar": "العجز" },
+            { "en": "Fear", "pron": "فير", "ar": "الخوف" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "تمارين التفكير النقدي وأسئلة NCLEX (Critical Thinking & NCLEX Questions)",
+      "sections": [
+        {
+          "type": "heading",
+          "text": "🧠 Critical Thinking Exercises — تمارين التفكير النقدي"
+        },
+        {
+          "type": "info",
+          "style": "tip",
+          "label": "❓ السؤال الأول",
+          "text": "Give some reasons why controlling the spread of infectious diseases is difficult among children cared for in day-care centers.\n\nاذكر بعض الأسباب التي تجعل السيطرة على انتشار الأمراض المعدية صعبة بين الأطفال في مراكز الرعاية النهارية.\n\n📌 الإجابة المقترحة: قلة النظافة الشخصية لدى الأطفال، التلامس الوثيق المستمر، مشاركة الألعاب والأدوات، ضعف جهاز المناعة لدى الأطفال الصغار، وصعوبة تطبيق احتياطات مكافحة العدوى بشكل صارم."
+        },
+        {
+          "type": "info",
+          "style": "tip",
+          "label": "❓ السؤال الثاني",
+          "text": "What action(s) is/are appropriate to take if there are several residents in a long-term care facility who acquire an infection with a transmittable pathogen and there are not enough private rooms to relocate them?\n\nما الإجراءات المناسبة إذا كان هناك عدة نزلاء في منشأة رعاية طويلة الأجل أصيبوا بعدوى بمسبب مرض معدٍ ولا توجد غرف خاصة كافية لنقلهم؟\n\n📌 الإجابة المقترحة: تجميع المصابين بنفس العدوى في غرفة واحدة (Cohorting)، استخدام الستائر الفاصلة بين الأسرة، تعزيز احتياطات مكافحة العدوى، وزيادة وتيرة التنظيف والتطهير."
+        },
+        {
+          "type": "heading",
+          "text": "📝 NCLEX-Style Questions — أسئلة على غرار اختبار الترخيص"
+        },
+        {
+          "type": "info",
+          "style": "important",
+          "label": "❓ السؤال الأول",
+          "text": "When a nurse empties the secretions from a wound suction container, which of the following personal protective measures is most important at this time?\n\nعند قيام ممرضة بتفريغ إفرازات من حاوية شفط الجرح، أي من إجراءات الحماية الشخصية التالية هو الأكثر أهمية في هذا الوقت؟\n\nA) Wear a mask.\nB) Wear a gown.\nC) Wear goggles.\nD) Wear gloves. ✓\n\n📌 Test Taking Strategy: اختر الخيار الذي يحدد الحاجز الأساسي من سوائل الجسم التي قد تحتوي على مسببات الأمراض. القفازات هي الأكثر أهمية لأنها تمنع التلامس المباشر مع السوائل الملوثة."
+        },
+        {
+          "type": "info",
+          "style": "important",
+          "label": "❓ السؤال الثاني",
+          "text": "When a person comes to the emergency department with respiratory symptoms, which of the following infection control measures is appropriate to use initially?\n\nعندما يأتي شخص إلى قسم الطوارئ يعاني من أعراض تنفسية، أي من إجراءات مكافحة العدوى التالية مناسب للاستخدام أولاً؟\n\nA) Contact precautions\nB) Airborne precautions\nC) Respiratory hygiene/cough etiquette ✓\nD) Droplet precautions\n\n📌 Test Taking Strategy: اختر الخيار المناسب للاستخدام عند نقطة المواجهة الأولى مع مريض يعاني من حالة تنفسية معدية محتملة. نظافة الجهاز التنفسي هي الإجراء الأولي المناسب."
+        },
+        {
+          "type": "info",
+          "style": "important",
+          "label": "❓ السؤال الثالث (ترتيب الخطوات)",
+          "text": "When exiting the room of a client being cared for with contact precautions, arrange the steps in the order in which personal protection items are removed. Use all the options.\n\nعند الخروج من غرفة مريض يتم رعايته باحتياطات التلامس، رتب الخطوات حسب الترتيب الذي تُنزع به عناصر الحماية الشخصية. استخدم جميع الخيارات.\n\n✅ الترتيب الصحيح:\n1. Remove gloves one at a time. (خلع القفازات) — الأكثر تلوثاً\n2. Remove goggles, if worn. (خلع النظارات الواقية)\n3. Untie and remove the gown. (فك وخلع الرداء)\n4. Take off the mask or particulate air respirator. (خلع الكمامة) — الأقل تلوثاً\n\n📌 Test Taking Strategy: رتب عناصر الحماية الشخصية من الأكثر تلوثاً إلى الأقل تلوثاً."
+        },
+        {
+          "type": "info",
+          "style": "important",
+          "label": "❓ السؤال الرابع (حساسية اللاتكس)",
+          "text": "What is the best advice the nurse can give to someone who is allergic to latex, yet must wear gloves for standard precautions?\n\nما هي أفضل نصيحة يمكن للممرضة تقديمها لشخص يعاني من حساسية اللاتكس، ومع ذلك يجب عليه ارتداء قفازات للاحتياطات القياسية؟\n\nA) Rinse the latex gloves with running tap water before donning them.\nB) Apply a petroleum ointment to both hands before donning latex gloves.\nC) Eliminate wearing gloves, but wash both hands vigorously with alcohol afterward.\nD) Wear two pairs of vinyl gloves if there is a potential for contact with blood or body fluid. ✓\n\n📌 Test Taking Strategy: اختر الخيار الذي يوفر الحماية من التلامس مع مسببات الأمراض ومسببات الحساسية. القفازات الفينيلية هي بديل آمن للاتكس."
+        },
+        {
+          "type": "info",
+          "style": "important",
+          "label": "❓ السؤال الخامس (الوقاية من الإنفلونزا)",
+          "text": "Other than obtaining an immunization against influenza, what is the best advice the nurse can give to high-risk people to avoid acquiring this infection?\n\nبخلاف الحصول على تطعيم ضد الإنفلونزا، ما هي أفضل نصيحة يمكن للممرضة تقديمها للأشخاص المعرضين لخطر كبير لتجنب الإصابة بهذه العدوى؟\n\nA) Consume adequate vitamin C.\nB) Avoid going to crowded places. ✓\nC) Dress warmly in cold weather.\nD) Reduce daily stress and anxiety.\n\n📌 Test Taking Strategy: اختر الخيار الأفضل من بين الخيارات الأخرى للوقاية من احتمالية الإصابة بعدوى الجهاز التنفسي مثل الإنفلونزا. تجنب الأماكن المزدحمة يقلل من التعرض للعامل الممرض."
+        }
+      ]
+    }
+  ]
+}
