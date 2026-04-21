@@ -47,12 +47,11 @@ window.addEventListener('offline', updateOnlineStatus);
 function speakText(text, lang) {
   if (!text || text.trim() === '') return;
   
-  // Stop any ongoing speech
   window.speechSynthesis.cancel();
   
   const utterance = new SpeechSynthesisUtterance(text);
-  utterance.lang = lang; // 'en-US' for English, 'ar-SA' for Arabic
-  utterance.rate = 0.9; // Slightly slower for better clarity
+  utterance.lang = lang;
+  utterance.rate = 0.9;
   utterance.pitch = 1;
   utterance.volume = 1;
   
@@ -63,8 +62,7 @@ function speakText(text, lang) {
 function createAudioButton(text, lang) {
   if (!text || text.trim() === '') return '';
   const langCode = lang === 'en' ? 'en-US' : 'ar-SA';
-  const buttonLabel = lang === 'en' ? '🔊 استماع للإنجليزية' : '🔊 استماع للعربية';
-  return `<button class="audio-btn" onclick="speakText('${escapeText(text)}', '${langCode}')" title="${buttonLabel}">🔊</button>`;
+  return `<button class="audio-btn" onclick="speakText('${escapeText(text)}', '${langCode}')" title="🔊 استماع">🔊</button>`;
 }
 
 function escapeText(text) {
@@ -78,14 +76,13 @@ let coursesData = {};
 // ==================== LOAD DATA FROM JSON FILES ====================
 async function loadAllData() {
   try {
-    // Load courses list
     const coursesRes = await fetch('./data/courses.json');
     if (!coursesRes.ok) throw new Error('Failed to load courses.json');
     const coursesJson = await coursesRes.json();
     coursesList = coursesJson.courses;
     
-    // Load each course's chapters data
     for (const course of coursesList) {
+      // Special handling for nadhari (reads from folder)
       if (course.id === "nadhari") {
         try {
           const chapterFiles = ['chapter1.json', 'chapter2.json', 'chapter3.json'];
@@ -97,8 +94,6 @@ async function loadAllData() {
               if (chapterRes.ok) {
                 const chapterData = await chapterRes.json();
                 chapters.push(chapterData);
-              } else {
-                console.warn(`Could not load ${chapterFiles[i]}`);
               }
             } catch (err) {
               console.warn(`Error loading ${chapterFiles[i]}:`, err);
@@ -108,30 +103,60 @@ async function loadAllData() {
           if (chapters.length > 0) {
             coursesData[course.id] = { chapters: chapters };
           } else {
-            const courseRes = await fetch(`./data/${course.id}.json`);
-            if (courseRes.ok) {
-              const courseData = await courseRes.json();
-              coursesData[course.id] = courseData;
+            const fallbackRes = await fetch(`./data/${course.id}.json`);
+            if (fallbackRes.ok) {
+              coursesData[course.id] = await fallbackRes.json();
             } else {
               coursesData[course.id] = { chapters: [] };
             }
           }
         } catch (err) {
-          console.warn(`Error loading nadhari chapters:`, err);
-          const courseRes = await fetch(`./data/${course.id}.json`);
-          if (courseRes.ok) {
-            const courseData = await courseRes.json();
-            coursesData[course.id] = courseData;
-          } else {
-            coursesData[course.id] = { chapters: [] };
-          }
+          console.warn(`Error loading nadhari:`, err);
+          coursesData[course.id] = { chapters: [] };
         }
-      } else {
+      }
+      // ==================== NEW: Special handling for ahyaa (reads from folder) ====================
+      else if (course.id === "ahyaa") {
+        try {
+          const chapterFiles = ['chapter1.json', 'chapter2.json'];
+          const chapters = [];
+          
+          for (let i = 0; i < chapterFiles.length; i++) {
+            try {
+              const chapterRes = await fetch(`./data/ahyaa/${chapterFiles[i]}`);
+              if (chapterRes.ok) {
+                const chapterData = await chapterRes.json();
+                chapters.push(chapterData);
+                console.log(`Loaded ahyaa/${chapterFiles[i]}`);
+              } else {
+                console.warn(`Could not load ahyaa/${chapterFiles[i]}`);
+              }
+            } catch (err) {
+              console.warn(`Error loading ahyaa/${chapterFiles[i]}:`, err);
+            }
+          }
+          
+          if (chapters.length > 0) {
+            coursesData[course.id] = { chapters: chapters };
+          } else {
+            const fallbackRes = await fetch(`./data/${course.id}.json`);
+            if (fallbackRes.ok) {
+              coursesData[course.id] = await fallbackRes.json();
+            } else {
+              coursesData[course.id] = { chapters: [] };
+            }
+          }
+        } catch (err) {
+          console.warn(`Error loading ahyaa:`, err);
+          coursesData[course.id] = { chapters: [] };
+        }
+      }
+      // For other courses, load single JSON file
+      else {
         try {
           const courseRes = await fetch(`./data/${course.id}.json`);
           if (courseRes.ok) {
-            const courseData = await courseRes.json();
-            coursesData[course.id] = courseData;
+            coursesData[course.id] = await courseRes.json();
           } else {
             coursesData[course.id] = { chapters: [] };
           }
@@ -191,7 +216,10 @@ const quizData = {
   },
   ahyaa: {
     0: [
-      { question: "ما هي الوحدة الأساسية للحياة؟", options: ["النسيج", "العضو", "الخلية", "الجزيء"], correct: 2 }
+      { question: "ما هو علم الأحياء الدقيقة؟", options: ["علم النبات", "علم دراسة الكائنات الحية الدقيقة", "علم الحيوان", "علم الجيولوجيا"], correct: 1 },
+      { question: "من أول من لاحظ البكتيريا؟", options: ["لويس باستور", "روبرت كوخ", "أنطون فان ليوينهوك", "إدوارد جينر"], correct: 2 },
+      { question: "ما هي أصغر الكائنات الحية الدقيقة؟", options: ["البكتيريا", "الفطريات", "الفيروسات", "الأوليات"], correct: 2 },
+      { question: "ما هي البوغة (Spore)؟", options: ["نوع من الفيروسات", "شكل مقاوم من البكتيريا", "نوع من الفطريات", "خلية حيوانية"], correct: 1 }
     ]
   }
 };
@@ -488,7 +516,6 @@ function renderQuizzesList(course, courseId, courseData) {
   `;
 }
 
-// Attach chapter/quiz click events via event delegation
 document.addEventListener('click', (e) => {
   const chItem = e.target.closest('.chapter-item[data-ch]');
   if (chItem) {
@@ -825,5 +852,4 @@ window.addEventListener('load', () => {
   updateOnlineStatus();
 });
 
-// Make speakText available globally for onclick handlers
 window.speakText = speakText;
